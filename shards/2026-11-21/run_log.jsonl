@@ -161,3 +161,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795304010.1576004}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795304055.1837506}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795304095.208309}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 111, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 49} pools_total=2441","ts":1795304125.2849884}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-21T23:29:29Z)","ts":1795304135.3071818}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-21T23:31:55Z","ts":1795304135.3073716}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795304145.302104}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL FwHZsJKQGLGJFg89C761yRFYdZogi3Kig2fashoY2cVY age=0.54h mc=991986 ath=1717042 tx24=3011 src=trending_5m","ts":1795304185.3358557}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795304190.3163185}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795304235.3391206}
+{"level":"INFO","msg":"CANDIDATE GTAVI / SOL Gtkb4aMGV8WZNCRuMaothTAFYFZFSNW8bKLVG8GmjT3m age=1.39h mc=1614052 ath=1614052 tx24=8501 src=trending_5m","ts":1795304270.389184}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795304275.3596327}
