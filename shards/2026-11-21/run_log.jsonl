@@ -51,3 +51,12 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795300957.1043546}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795301002.1300635}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795301047.1514034}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 102, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 7} pools_total=917","ts":1795301077.2106757}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795301097.2317104}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-21T22:31:27Z)","ts":1795301142.255452}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-21T22:42:45Z","ts":1795301142.2556121}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795301147.2510374}
+{"level":"INFO","msg":"CANDIDATE Singularit / SOL AB9xTL2Le9pBf1eLXrueRtMVah8Pp3F8ra2wBXNGYJpJ age=2.11h mc=411222 ath=411222 tx24=8466 src=watch_refresh","ts":1795301182.4929402}
+{"level":"INFO","msg":"CANDIDATE Singularit / SOL J89p8wmo3rQBtDR2Y2jxi7LMkoRkoqFq3tcvGgsdFXuZ age=3.69h mc=19067558 ath=19067558 tx24=33745 src=watch_refresh","ts":1795301182.4933372}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795301197.2671053}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795301242.2839692}
