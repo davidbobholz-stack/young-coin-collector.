@@ -89,3 +89,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795301970.1762278}
 {"level":"INFO","msg":"CANDIDATE XBOX / SOL FV6bWkZiqcu43xTFYfwjHmu2CzJMX5hnzbUzsbn8KGa1 age=0.55h mc=1593662 ath=1593662 tx24=1816 src=watch_refresh","ts":1795302000.5605052}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302015.206752}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 96, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 76} pools_total=1405","ts":1795302045.297511}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302055.3171163}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-21T22:59:27Z","ts":1795302100.339159}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795302105.3384984}
+{"level":"INFO","msg":"CANDIDATE GTA6 / SOL GdVTvNJrh6z4nB1JmgSaGeMbGwtDm8cTycNKExC2cbUT age=0.53h mc=398275 ath=691949 tx24=4169 src=watch_refresh","ts":1795302140.676509}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302162.702288}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302207.7229679}
