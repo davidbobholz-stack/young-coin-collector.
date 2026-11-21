@@ -146,3 +146,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795303634.8336227}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795303679.8531415}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795303734.873736}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 135, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 41} pools_total=2263","ts":1795303764.9757981}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-21T23:24:12Z)","ts":1795303774.999029}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-21T23:27:33Z","ts":1795303774.999183}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795303784.9933655}
+{"level":"INFO","msg":"CANDIDATE ELON / SOL 7Ve3xwxemoJAWi77bGxrJgnMcAh1cYnPrx2xskw69LrF age=0.51h mc=1215749 ath=2110900 tx24=4262 src=watch_refresh","ts":1795303820.2160788}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795303830.0147636}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795303875.031015}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795303915.051505}
