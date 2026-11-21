@@ -24,3 +24,13 @@
 {"level":"WARN","msg":"trending /trending_pools?duration=5m&page=9 -> -2","ts":1795295264.0230174}
 {"level":"INFO","msg":"STOP clean","ts":1795295264.0232234}
 {"level":"INFO","msg":"START pid=2418 pending_followups=42 overdue=12 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795300301.6308615}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=540","ts":1795300301.6384504}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795300331.6633456}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795300376.6788657}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-21T21:04:52Z)","ts":1795300411.7138352}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-21T22:31:27Z","ts":1795300411.7140477}
+{"level":"INFO","msg":"CANDIDATE CHIHUAHUA / SOL Bm92msxAnLqGpbivHyohtmRKK1Us3aGgdb8kTtbyXbug age=0.65h mc=393506 ath=422211 tx24=24608 src=trending_5m","ts":1795300421.7399585}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795300426.695721}
+{"level":"INFO","msg":"CANDIDATE Singularit / SOL 2RH8UdCZMfoojvF9DN7q8LGB2LqWiCoAtWLn7bzE9JME age=1.03h mc=446035 ath=446035 tx24=11199 src=trending_5m","ts":1795300461.7158082}
+{"level":"INFO","msg":"CANDIDATE ANT / SOL 6yQ1sN55AWhqVvfSKxkpfqW2YQccvFuHwXH2YyG1MzAC age=2.87h mc=450266 ath=450266 tx24=17148 src=trending_5m","ts":1795300466.9026163}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795300476.7145119}
