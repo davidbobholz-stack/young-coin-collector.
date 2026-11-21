@@ -23,3 +23,4 @@
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 45, \"run_log\": 3, \"watch_closed\": 0, \"watch_snapshots\": 14} pools_total=525","ts":1795295239.1115394}
 {"level":"WARN","msg":"trending /trending_pools?duration=5m&page=9 -> -2","ts":1795295264.0230174}
 {"level":"INFO","msg":"STOP clean","ts":1795295264.0232234}
+{"level":"INFO","msg":"START pid=2418 pending_followups=42 overdue=12 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795300301.6308615}
