@@ -96,3 +96,9 @@
 {"level":"INFO","msg":"CANDIDATE GTA6 / SOL GdVTvNJrh6z4nB1JmgSaGeMbGwtDm8cTycNKExC2cbUT age=0.53h mc=398275 ath=691949 tx24=4169 src=watch_refresh","ts":1795302140.676509}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302162.702288}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302207.7229679}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 111, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 44} pools_total=1516","ts":1795302237.8121693}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302252.8305874}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-21T23:01:46Z","ts":1795302292.8563542}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795302297.846915}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302347.8697212}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795302397.8922389}
