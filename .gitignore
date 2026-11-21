@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.run/
+data/
+data-wt/
+collector.db
+collector.db-*
+collector.lock
+heartbeat.json
+logs/
+checkpoint.ready
+*.tmp

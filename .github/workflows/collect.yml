@@ -1,0 +1,50 @@
+name: Collect
+
+# Near-continuous collection on the free public-repo Linux runners.
+# The schedule is only a safety net. Each run queues the next workflow_dispatch
+# immediately, and the concurrency group holds that successor until this job
+# exits, so the idle gap is runner startup rather than the cron interval.
+# Cron is offset from :00 because scheduled workflows slip the most then.
+on:
+  schedule:
+    - cron: "8,38 * * * *"
+  workflow_dispatch:
+    inputs:
+      run_seconds:
+        description: "Seconds to collect this run (60-16200). Default 14400 (4h)."
+        required: false
+        default: "14400"
+        type: string
+
+# Never overlap. A second trigger waits. A third cancels the waiting one,
+# which leaves exactly one successor queued behind the running job.
+concurrency:
+  group: young-coin-collector
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      DATA_DIR: ${{ github.workspace }}/data-wt
+      RUN_SECONDS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_seconds || '14400' }}
+      CHECKPOINT_SECONDS: "180"
+      COLLECTOR_STOP: ${{ vars.COLLECTOR_STOP }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout collector
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Prepare data branch
+        run: bash scripts/prepare_data_worktree.sh
+
+      - name: Collect and publish
+        run: bash scripts/run_actions.sh
