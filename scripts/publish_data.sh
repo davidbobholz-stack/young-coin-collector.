@@ -31,7 +31,7 @@ fi
 
 msg="data: checkpoint $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 if [[ -f mutable/last_checkpoint.json ]]; then
-  extra="$(python3 -c 'import json; print(json.load(open("mutable/last_checkpoint.json")).get("counts", {}))' 2>/dev/null || true)"
+  extra="$(python3 -c 'import json; i=json.load(open("mutable/last_checkpoint.json")); print("new=%s pools=%s candidates=%s pending_followups=%s" % (i.get("counts"), i.get("pools_total"), i.get("candidates_total"), i.get("followups_pending")))' 2>/dev/null || true)"
   if [[ -n "$extra" ]]; then msg="$msg $extra"; fi
 fi
 
