@@ -11,7 +11,8 @@ GitHub will not run one job forever (the job cap is 6 hours) and cron is allowed
 1. **Each job collects for 4 hours** (`RUN_SECONDS=14400`), inside a job timeout of 6 hours. A manual run can pass a shorter `run_seconds` (60–16200).
 2. **As soon as a job starts it queues the next one** with `workflow_dispatch`. The concurrency group `young-coin-collector` allows one running job and one waiting job, and it never cancels the running job. When this job exits, the waiting job starts. The gap is runner startup, usually one to three minutes, not the cron interval.
 3. **Cron at :08 and :38** is only the spare. If the chain breaks (dispatch failed, queued run dropped), the next cron starts a new one. GitHub often delays cron, worst at the top of the hour, which is why these minutes are offset. A cron fire while a job is running just replaces the waiting successor; it does not start a second collector.
-4. **Every 3 minutes** the job appends new rows to the `data` branch and pushes. A kill loses at most that interval, plus a push that had not finished. On SIGTERM (cancel, timeout, watchdog) the process checkpoints once more before it exits.
+4. **A push to `main` that changes `.github/workflows/collect.yml` or `collector.py`** also starts a run. That is how the chain is kicked off when cron is late and nobody can press the button: merging that workflow change is itself the push. The same concurrency group applies, so the push waits behind a job that is already running instead of starting a second collector. Pushes to other branches, and pushes that do not touch those two paths (including the `data` branch checkpoints), do not start a run.
+5. **Every 3 minutes** the job appends new rows to the `data` branch and pushes. A kill loses at most that interval, plus a push that had not finished. On SIGTERM (cancel, timeout, watchdog) the process checkpoints once more before it exits.
 
 Overlapping runners are rejected twice: the concurrency group, and a lock file so a second local process exits.
 
@@ -143,9 +144,9 @@ Cohort membership is `persist.is_cohort_pool` in `persist.py`, which is what `st
 
 ## How to run it, and how to stop it
 
-The workflow is `.github/workflows/collect.yml`. It runs on the schedule only after it is on the default branch. After merging:
+The workflow is `.github/workflows/collect.yml`. Cron runs only after the file is on the default branch, and on a new repository it is often late. A push to `main` of this workflow file or of `collector.py` starts a run immediately, using the same 4-hour length as the schedule (manual `run_seconds` exists only on **Run workflow**). Merging such a change is the push.
 
-1. Actions → **Collect** → **Run workflow** (the first cron may be late).
+1. Merge a commit that touches `.github/workflows/collect.yml` or `collector.py`, or use Actions → **Collect** → **Run workflow**.
 2. Confirm a commit appears on the `data` branch within a few minutes.
 
 To stop:

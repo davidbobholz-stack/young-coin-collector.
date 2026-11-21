@@ -5,6 +5,9 @@ name: Collect
 # immediately, and the concurrency group holds that successor until this job
 # exits, so the idle gap is runner startup rather than the cron interval.
 # Cron is offset from :00 because scheduled workflows slip the most then.
+# A push to main of this file or collector.py starts a run too (so the merge
+# that adds this trigger starts the chain). It joins the same concurrency
+# group and does not cancel the running job.
 on:
   schedule:
     - cron: "8,38 * * * *"
@@ -15,6 +18,9 @@ on:
         required: false
         default: "14400"
         type: string
+  push:
+    branches: [main]
+    paths: ['.github/workflows/collect.yml', 'collector.py']
 
 # Never overlap. A second trigger waits. A third cancels the waiting one,
 # which leaves exactly one successor queued behind the running job.
@@ -32,6 +38,8 @@ jobs:
     timeout-minutes: 360
     env:
       DATA_DIR: ${{ github.workspace }}/data-wt
+      # Push and schedule have no inputs. Only a workflow_dispatch value is used;
+      # anything else (including a missing input) is the 4 hour default.
       RUN_SECONDS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_seconds || '14400' }}
       CHECKPOINT_SECONDS: "180"
       COLLECTOR_STOP: ${{ vars.COLLECTOR_STOP }}
