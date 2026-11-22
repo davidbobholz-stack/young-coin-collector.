@@ -1073,3 +1073,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345728.747427}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345778.7931938}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345823.8474696}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 40, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 253} pools_total=14869","ts":1795345853.9855752}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795345869.033704}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T11:10:01Z","ts":1795345909.083291}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345919.086855}
+{"level":"INFO","msg":"CANDIDATE BATMAN / SOL 9zbxrzDHDYD2ASKm5kdGgKY4rbuLJkfJg5eu7Qf6YURf age=0.57h mc=467661374 ath=467661374 tx24=1608 src=watch_refresh","ts":1795345949.5556169}
+{"level":"INFO","msg":"CANDIDATE HIPPO / SOL 82adJiYhAb4qDiFipm6mB9JmNTZTNbDWgWsqp6Y5QCgs age=0.86h mc=273409 ath=909000 tx24=4773 src=watch_refresh","ts":1795345959.329123}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345974.1358578}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795346024.1929147}
