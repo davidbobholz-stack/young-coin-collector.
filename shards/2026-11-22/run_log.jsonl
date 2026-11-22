@@ -1317,3 +1317,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795357919.1122155}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T14:30:49Z","ts":1795357969.1578026}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795357974.150252}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 154, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 46} pools_total=17436","ts":1795358004.3041632}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795358024.3400948}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358069.377343}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T14:33:13Z","ts":1795358104.42452}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795358114.4172661}
+{"level":"INFO","msg":"CANDIDATE \u5927\u80c6\u5e01 / SOL 5dr9CaFK9xGiK2X1KKTHoQ5M1ikVwywVEc9AP6cioR5s age=0.50h mc=387097 ath=414245 tx24=5408 src=trending_5m","ts":1795358144.8061604}
+{"level":"INFO","msg":"CANDIDATE FLOAT / SOL h7YUnTwLKFBCNW3FostqdrwgNwuEJ2B19S43h7buGQs age=0.54h mc=345278 ath=489857 tx24=2300 src=trending_5m","ts":1795358149.4606526}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795358159.453871}
