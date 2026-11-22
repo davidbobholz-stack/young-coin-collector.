@@ -2175,3 +2175,10 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T21:14:50Z)","ts":1795382422.0518243}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T21:18:08Z","ts":1795382422.0519786}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795382437.0467808}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 1458, \"pools_seen\": 130, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 12} pools_total=28180","ts":1795382467.8125608}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795382482.8282547}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795382527.8451009}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T21:20:29Z","ts":1795382567.8681233}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795382577.8624508}
+{"level":"INFO","msg":"CANDIDATE Huss / SOL GWRgDU6it9vfKrtvJEaLb7oozQ3DtNY6nRJu4Ex78D8E age=0.74h mc=1175457 ath=1175457 tx24=8966 src=trending_5m","ts":1795382612.8840551}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795382627.878031}
