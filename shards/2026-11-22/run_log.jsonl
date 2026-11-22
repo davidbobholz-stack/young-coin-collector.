@@ -1544,3 +1544,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795364388.9658368}
 {"level":"INFO","msg":"CANDIDATE \u5c0f\u72ec\u82d7 / SOL BFDEWrFKhUBKPnZCdoVcBq39CycUiGasauAmJa7GJMkv age=0.56h mc=2308597 ath=2308597 tx24=2317 src=trending_5m","ts":1795364434.0271654}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795364439.0058854}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 80, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 81} pools_total=20091","ts":1795364469.1574593}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL 5yFin9E5D1rBtNvMzDY2rt9tCPZz6EeHmFyobioAUm7s age=0.77h mc=312068 ath=894692 tx24=7396 src=trending_5m","ts":1795364474.5418243}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795364484.2016156}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795364529.2437534}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795364579.282983}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL FoeP3iLzs4Q8GAAWo5Pz3WToqeshHwQNMDHGvHBNHdeN age=0.53h mc=390290 ath=406067 tx24=7118 src=trending_1h","ts":1795364614.5201895}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795364634.3200758}
