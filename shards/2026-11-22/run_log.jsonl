@@ -1380,3 +1380,11 @@
 {"level":"INFO","msg":"CANDIDATE V15 / SOL 5SP2LTmaeSN8vVM5DiPjzRyjvQ3633a7Rd47mB6Tm4ts age=13.09h mc=2143821 ath=2143821 tx24=17873 src=watch_refresh","ts":1795359592.170904}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795359606.745747}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359656.7865098}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 88, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 127} pools_total=18165","ts":1795359686.9581594}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T14:59:02Z","ts":1795359692.0051386}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795359706.998213}
+{"level":"INFO","msg":"CANDIDATE USEF / SOL 2Roo8mFCPFqNvsNF7qobW62S83ASBEwN9pYofgcQo9bj age=14.25h mc=21065403 ath=21065403 tx24=1005 src=watch_refresh","ts":1795359752.505975}
+{"level":"INFO","msg":"CANDIDATE EXEN / SOL 2nDezuaquRRVFCaGt9QPFHApsG945PvVFxiK2QEpjLbA age=15.59h mc=3764125 ath=3764125 tx24=1422 src=watch_refresh","ts":1795359752.5063913}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795359757.0367324}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359802.0757468}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359847.1166873}
