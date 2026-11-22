@@ -436,3 +436,12 @@
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795319268.9222126}
 {"level":"INFO","msg":"CANDIDATE BPF / USDC AUqGAMZwoygpJx9FvtRY1i24VYwUkCxMwRQ3Zp9Symcd age=1.72h mc=10737623 ath=10737623 tx24=2699 src=watch_refresh","ts":1795319299.1016674}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795319318.9826221}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 108, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 102} pools_total=8111","ts":1795319349.1036263}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T03:47:14Z","ts":1795319359.1682622}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795319364.1401486}
+{"level":"INFO","msg":"CANDIDATE CATEMAS / SOL 9skxoZU1ksYuwng1topBgbaBn9fgSF6YWvFtuyEsava5 age=0.61h mc=326044 ath=596288 tx24=5895 src=trending_5m","ts":1795319394.1994433}
+{"level":"INFO","msg":"CANDIDATE SAKURA / SOL 644tv6RKk8MYQmYyTbm22YRTL25ZTMXJGVGA52GCsPp1 age=0.53h mc=549088 ath=549088 tx24=2080 src=trending_5m","ts":1795319394.199733}
+{"level":"INFO","msg":"CANDIDATE CATEMAS / SOL FLdnxLmdobEe72oe8AbneZ6v8Kb3eHpvCcojTn8zbKky age=0.52h mc=4177950515 ath=4177950515 tx24=3928 src=trending_5m","ts":1795319404.2011294}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795319409.1763499}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795319459.2096958}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795319514.2479815}
