@@ -747,3 +747,12 @@
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795328515.4393432}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795328565.4701712}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795328610.5020587}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 95, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 58} pools_total=11567","ts":1795328640.603022}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T06:21:54Z","ts":1795328650.6659472}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795328655.6371195}
+{"level":"INFO","msg":"CANDIDATE Snowball / SOL CuoYYThpmgtjX6AtCeBsKcMHr93ZFD3UbuFqL4JTjfRe age=1.13h mc=238346 ath=2723772 tx24=37607 src=trending_5m","ts":1795328690.9079115}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795328695.6656933}
+{"level":"INFO","msg":"CANDIDATE WINTERARC / SOL Eg2T7i1noAukEUqwHuz2NE2xTiqYFbKmhXXTgikPsvq9 age=0.75h mc=427778 ath=2271733 tx24=6152 src=trending_5m","ts":1795328730.7222192}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795328745.6978736}
+{"level":"INFO","msg":"CANDIDATE Green cat / SOL ekuAaqaAYc1WTiY7FNdqwLVUgTdHxew3zM5p9yJcBR2 age=0.88h mc=45847672 ath=45847672 tx24=3411 src=trending_1h","ts":1795328780.750278}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795328790.7265916}
