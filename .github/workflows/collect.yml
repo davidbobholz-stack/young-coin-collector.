@@ -8,6 +8,8 @@ name: Collect
 # A push to main of this file or collector.py starts a run too (so the merge
 # that adds this trigger starts the chain). It joins the same concurrency
 # group and does not cancel the running job.
+# The next run is queued at the end of the job, not the start, so a cron
+# tick during the 4 hours cannot replace it and then itself be dropped.
 on:
   schedule:
     - cron: "8,38 * * * *"
@@ -38,8 +40,13 @@ jobs:
     timeout-minutes: 360
     env:
       DATA_DIR: ${{ github.workspace }}/data-wt
+      # The runner does not put the job token in the environment. gh needs it
+      # explicitly. permissions.actions: write on this job is what lets that
+      # token create the next workflow_dispatch.
+      GH_TOKEN: ${{ github.token }}
       # Push and schedule have no inputs. Only a workflow_dispatch value is used;
       # anything else (including a missing input) is the 4 hour default.
+      # The successor is dispatched with no inputs, so it always collects for 4 hours.
       RUN_SECONDS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_seconds || '14400' }}
       CHECKPOINT_SECONDS: "180"
       COLLECTOR_STOP: ${{ vars.COLLECTOR_STOP }}
