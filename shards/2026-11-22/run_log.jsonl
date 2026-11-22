@@ -1330,3 +1330,12 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795358264.6608663}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358309.6997666}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358354.7379723}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 85, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 23} pools_total=17571","ts":1795358384.8597062}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358399.8950088}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T14:33:13Z)","ts":1795358434.9356403}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T14:37:52Z","ts":1795358434.9357967}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795358454.93354}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358504.970487}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T14:39:57Z","ts":1795358540.0197048}
+{"level":"INFO","msg":"CANDIDATE TTWO / USDC 6jR1kQ4VvSoiC1rmBSUwgHzqFRQtZAKAf1z966mqP67q age=11.74h mc=32323104 ath=32323104 tx24=1004 src=watch_refresh","ts":1795358545.420317}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358550.009681}
