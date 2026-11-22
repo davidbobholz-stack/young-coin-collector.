@@ -1067,3 +1067,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345583.504722}
 {"level":"INFO","msg":"CANDIDATE SpaceX / SOL 7MsdFPa9sLfWLuwgW4mLZFP8BY4rbZns3CXC4W78sJKC age=0.94h mc=158211083 ath=158211083 tx24=1113 src=watch_refresh","ts":1795345623.7615712}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345628.5576146}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 98, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 51} pools_total=14829","ts":1795345658.6500947}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795345678.7013566}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T11:07:45Z","ts":1795345718.7527354}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345728.747427}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345778.7931938}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345823.8474696}
