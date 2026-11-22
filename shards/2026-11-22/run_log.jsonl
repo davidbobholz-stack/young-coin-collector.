@@ -2025,3 +2025,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378146.3785646}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378196.398579}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378246.4152458}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 106, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 6} pools_total=26066","ts":1795378276.5723374}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T20:02:50Z)","ts":1795378281.5953858}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T20:09:08Z","ts":1795378281.5955348}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378296.5882924}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378341.6059563}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T20:10:26Z","ts":1795378371.626838}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795378386.6235595}
+{"level":"INFO","msg":"CANDIDATE KYC / SOL BW6jWsf9jChvP8KD3FremsgbXEM3jmLuT4ZDQkFSTBf5 age=4.16h mc=300097953 ath=300097953 tx24=6938 src=watch_refresh","ts":1795378422.0352364}
+{"level":"INFO","msg":"CANDIDATE Koop / SOL RuE1vdQYYnDWEgP32kW6MMxVsow6sJEh2EG2GydVYDS age=4.04h mc=117475658 ath=117475658 tx24=3400 src=watch_refresh","ts":1795378422.0356169}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795378436.6489394}
