@@ -1725,3 +1725,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795369702.4706311}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T17:46:15Z","ts":1795369737.528015}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795369747.5283928}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 109, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 61} pools_total=22333","ts":1795369777.6832273}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795369797.7230046}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795369847.7591786}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T17:48:57Z","ts":1795369892.8083484}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795369897.8034937}
+{"level":"INFO","msg":"CANDIDATE GIF / SOL 2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk age=2.01h mc=200244 ath=199042878 tx24=3935 src=watch_refresh","ts":1795369938.3205152}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795369942.8422358}
