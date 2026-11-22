@@ -873,3 +873,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339643.6400402}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339688.6862721}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339738.738816}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 43, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 22} pools_total=12760","ts":1795339768.8331175}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339788.8850708}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T09:28:36Z","ts":1795339823.938792}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795339838.9396706}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795339883.9879775}
+{"level":"INFO","msg":"CANDIDATE \u4e2d\u56fd\u4eba\u725b\u903c / SOL 7tpXydxPKFaNTUVLHnLdmzdBvjUkHaVC88Fevrrf75z6 age=0.88h mc=803209109 ath=803209109 tx24=3672 src=trending_1h","ts":1795339919.0940914}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795339929.0332334}
