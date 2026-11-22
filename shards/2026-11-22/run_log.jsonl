@@ -1081,3 +1081,13 @@
 {"level":"INFO","msg":"CANDIDATE HIPPO / SOL 82adJiYhAb4qDiFipm6mB9JmNTZTNbDWgWsqp6Y5QCgs age=0.86h mc=273409 ath=909000 tx24=4773 src=watch_refresh","ts":1795345959.329123}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795345974.1358578}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795346024.1929147}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 98, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 125} pools_total=14967","ts":1795346054.3142486}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T11:13:01Z","ts":1795346059.400592}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795346069.358689}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795346114.403841}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795346159.4556043}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL DCqEbpPuCyNxXkS61dGhqoBsht1tjqmuz9kSDd1G1Xyn age=0.68h mc=396484 ath=407862 tx24=7190 src=watch_refresh","ts":1795346189.601408}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-22T11:15:01Z","ts":1795346199.519914}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL 5gPPj3yjDxfXPj9b2uxMQBhDo53Fwx7JJ1hWU7dryeTr age=0.69h mc=433887537 ath=433887537 tx24=2030 src=watch_refresh","ts":1795346205.065138}
+{"level":"INFO","msg":"CANDIDATE GOAT / SOL GZrHSFZQLHQ4NeQoDB4zFKb76KqTwydj9nCZSTM91PGH age=1.85h mc=756409 ath=756409 tx24=7690 src=watch_refresh","ts":1795346209.9950333}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795346214.5562139}
