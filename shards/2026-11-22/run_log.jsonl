@@ -588,3 +588,9 @@
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T04:57:58Z","ts":1795323679.412002}
 {"level":"INFO","msg":"CANDIDATE Rockstar / SOL 3GigR5hajjQWVjTQ8WTmp82kPMdHNGpM5dTNftGq97Dn age=0.78h mc=603562 ath=603562 tx24=2138 src=watch_refresh","ts":1795323684.6784585}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795323689.316628}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 79, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 62} pools_total=9717","ts":1795323719.408777}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795323734.4448404}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795323779.4730716}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795323834.5058389}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T05:01:34Z","ts":1795323864.5730941}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795323884.5371451}
