@@ -1491,3 +1491,10 @@
 {"level":"INFO","msg":"CANDIDATE MCAT / SOL 6xpfUA8pG7rqGKApbRp9tqripvAVjU14wtjwCwyPnTHz age=0.53h mc=402521 ath=402521 tx24=7472 src=trending_1h","ts":1795362831.6762154}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795362846.6338055}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795362896.675872}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 1, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 21} pools_total=19366","ts":1795362926.7696404}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795362946.8076763}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795362996.8468661}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T15:49:24Z)","ts":1795363031.9666204}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T15:54:54Z","ts":1795363031.9667792}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795363041.88482}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795363086.927477}
