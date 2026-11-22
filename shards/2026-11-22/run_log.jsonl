@@ -276,3 +276,9 @@
 {"level":"INFO","msg":"CANDIDATE Rockstar / SOL 4iJDYmAgoTofXYyfk2CACVmMzVBSUgxF71C8xas5Evan age=0.54h mc=566862 ath=566862 tx24=1480 src=watch_refresh","ts":1795314035.1452684}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795314054.7827644}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795314104.8057976}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 115, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 154} pools_total=6394","ts":1795314134.9391394}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T02:21:13Z","ts":1795314134.961467}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795314149.9595022}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314194.9768999}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314239.9955254}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314295.0153959}
