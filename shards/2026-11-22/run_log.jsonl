@@ -228,3 +228,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312674.0680423}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795312724.0890021}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795312769.1123116}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 178, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 46} pools_total=5810","ts":1795312799.2291265}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T01:58:03Z","ts":1795312809.2548957}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795312814.2533665}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312859.2738302}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T02:00:55Z","ts":1795312909.3250809}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312914.2908268}
+{"level":"INFO","msg":"CANDIDATE Claude / SOL 6XZBKVukpf4X3h7QkVfcEu3YGdnVgxYFKwFQHwc4JhVR age=2.28h mc=350973244 ath=350973244 tx24=1450 src=watch_refresh","ts":1795312944.70462}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312964.3072698}
