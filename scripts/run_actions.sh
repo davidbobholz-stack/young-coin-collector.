@@ -111,6 +111,10 @@ cleanup() {
     echo "job cancelled; not chaining"
     exit "$rc"
   fi
+  if stopped; then
+    echo "not chaining; STOP set"
+    exit 0
+  fi
   if ! dispatch_successor; then
     echo "::error::collect finished but the next run was not queued"
     exit 1
