@@ -1815,3 +1815,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372103.8542366}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372148.8716888}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372198.890171}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=23229","ts":1795372228.9965203}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372254.0106194}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372304.027846}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T18:16:09Z)","ts":1795372334.0570138}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:28:49Z","ts":1795372334.0571728}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372349.0433886}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372394.0678406}
