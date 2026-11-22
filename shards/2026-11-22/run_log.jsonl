@@ -1517,3 +1517,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795363617.8310163}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T16:05:24Z","ts":1795363647.903998}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795363667.867052}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 68, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 18} pools_total=19771","ts":1795363697.9835472}
+{"level":"INFO","msg":"CANDIDATE CLAUDIA / SOL FfU7BAZbFR3F5hU9kqFTbWiB2TrPULWaKzpKMoWX4r4C age=0.91h mc=410054 ath=410054 tx24=12369 src=trending_5m","ts":1795363698.2304814}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795363718.0230982}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795363763.0622125}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795363808.1011882}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795363858.1399043}
