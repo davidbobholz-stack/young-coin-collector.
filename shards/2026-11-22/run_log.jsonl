@@ -1351,3 +1351,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358815.5564003}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358865.591875}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358910.6280782}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 90, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 45} pools_total=17828","ts":1795358940.762104}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T14:46:59Z","ts":1795358950.8839705}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358955.8009138}
+{"level":"INFO","msg":"CANDIDATE Rockstar / SOL 8KQjcvGayWhoCvQewtEAReaVqpK4ZM7u5K3UNfHSFxwX age=3.99h mc=1199515 ath=1199515 tx24=14132 src=watch_refresh","ts":1795358986.264061}
+{"level":"INFO","msg":"CANDIDATE SpaceX / SOL 9HEAQTHtQHZMreiGwWh3uZVdQMT7fZHZLNm8ZGeQTJkg age=4.16h mc=1255173 ath=1255173 tx24=15815 src=watch_refresh","ts":1795358986.2643766}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358995.841001}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359045.8817067}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T14:49:45Z","ts":1795359085.9296892}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795359090.9205613}
