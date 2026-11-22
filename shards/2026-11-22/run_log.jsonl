@@ -1401,3 +1401,11 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360137.651335}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360187.6899276}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795360237.7262566}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 62, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 26} pools_total=18398","ts":1795360267.8466113}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795360282.8829398}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T15:10:00Z","ts":1795360317.9285147}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795360327.92003}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-22T15:10:31Z","ts":1795360372.9622767}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795360377.9574}
+{"level":"INFO","msg":"CANDIDATE GIB / SOL 9LKyA1YEY7HYv6ztZFuvwbSJBJJXy8WGtt1tdN5pZ7WU age=2.66h mc=430254 ath=430254 tx24=1708 src=watch_refresh","ts":1795360423.3935888}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795360427.9924834}
