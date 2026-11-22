@@ -2296,3 +2296,4 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795385807.4328117}
 {"level":"INFO","msg":"CANDIDATE FSDV15 / SOL DXVpx5PnefCiLVMucmUxrX2x7MgSDMTggmQgiRA2zV6W age=0.54h mc=1321780 ath=1321780 tx24=13000 src=trending_5m","ts":1795385842.4544995}
 {"level":"INFO","msg":"STOP clean","ts":1795385853.5892088}
+{"level":"INFO","msg":"START pid=2390 pending_followups=763 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795385872.960889}
