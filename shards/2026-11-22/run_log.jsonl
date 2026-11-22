@@ -1705,3 +1705,9 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T17:36:06Z","ts":1795369156.571253}
 {"level":"INFO","msg":"CANDIDATE YzY\ud83c\udf32 / SOL CZ95orGb4LGCJs1J2JRmRpKJPTMbKazy6ShYDWkze5U1 age=0.63h mc=536021 ath=559148 tx24=10523 src=trending_5m","ts":1795369161.5703328}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795369176.5495946}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 134, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 38} pools_total=21984","ts":1795369206.7087414}
+{"level":"INFO","msg":"CANDIDATE MSFT Ai / SOL 74x43mqJXcCXtAR3JYGumoXcakAFYPzywFu2onyTzx4a age=1.34h mc=2037632 ath=2037632 tx24=4706 src=trending_1h","ts":1795369216.8428905}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795369221.7512476}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795369266.8010035}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795369316.8402095}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795369366.8804786}
