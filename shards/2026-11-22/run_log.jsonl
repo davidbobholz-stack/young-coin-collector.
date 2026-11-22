@@ -999,3 +999,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795343455.0714579}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795343505.1203918}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795343550.1668572}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 89, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 175} pools_total=14090","ts":1795343580.2949805}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T10:31:02Z","ts":1795343585.3589747}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795343595.3465564}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795343635.3971753}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795343685.4426975}
+{"level":"INFO","msg":"CANDIDATE STREETS / SOL AVVZNkcZ9RTzbcvJuEBL3HSNknBE8NRD6PcBAMun9cUB age=0.52h mc=404654 ath=1268322 tx24=5607 src=trending_1h","ts":1795343715.5555258}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795343730.4950833}
