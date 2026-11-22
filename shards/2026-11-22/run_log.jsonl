@@ -2297,3 +2297,10 @@
 {"level":"INFO","msg":"CANDIDATE FSDV15 / SOL DXVpx5PnefCiLVMucmUxrX2x7MgSDMTggmQgiRA2zV6W age=0.54h mc=1321780 ath=1321780 tx24=13000 src=trending_5m","ts":1795385842.4544995}
 {"level":"INFO","msg":"STOP clean","ts":1795385853.5892088}
 {"level":"INFO","msg":"START pid=2390 pending_followups=763 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795385872.960889}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=29725","ts":1795385873.0543578}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795385903.08212}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795385938.1099877}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-22T22:17:21Z","ts":1795385978.1643229}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795385988.1435049}
+{"level":"INFO","msg":"CANDIDATE ZCAT / SOL DGP7FzD3AnRNRr3u1XRDN6eHgrnBW7HPyQoRyQq5N9bD age=0.55h mc=303937 ath=1585050 tx24=7019 src=trending_5m","ts":1795386028.5432472}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795386038.1726532}
