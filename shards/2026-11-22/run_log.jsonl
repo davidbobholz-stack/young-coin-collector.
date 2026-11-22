@@ -1210,3 +1210,9 @@
 {"level":"INFO","msg":"CANDIDATE BATMAN / SOL 2uJk5iH8W51nixT63a4xTy7BwacA9aeYSoE5yk3UBS1P age=1.09h mc=341790297 ath=341790297 tx24=2141 src=watch_refresh","ts":1795349770.768814}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795349775.3305972}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795349815.376691}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 60, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 79} pools_total=16182","ts":1795349845.4727268}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T12:16:20Z","ts":1795349860.5233042}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795349865.5225008}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795349910.574706}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795349955.620796}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795349995.669015}
