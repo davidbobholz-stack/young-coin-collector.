@@ -867,3 +867,9 @@
 {"level":"INFO","msg":"CANDIDATE UranusCoin / SOL 8fu27dFLM3u3h9mSeEWa2g4AdBaMd3SoZMHDLfTCdHtt age=2.96h mc=419661 ath=419661 tx24=11042 src=watch_refresh","ts":1795339528.8873265}
 {"level":"INFO","msg":"CANDIDATE \u8138\u8138 / SOL CXGyDEnk4QGUcWVUbjfciEaHEpSfpKwePU83WdHCRFYR age=5.17h mc=315940681 ath=315940681 tx24=2628 src=watch_refresh","ts":1795339533.970082}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795339548.421709}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 5, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 61, \"run_log\": 11, \"watch_closed\": 0, \"watch_snapshots\": 104} pools_total=12717","ts":1795339578.5374053}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339598.582592}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T09:25:06Z","ts":1795339633.6374152}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339643.6400402}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339688.6862721}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339738.738816}
