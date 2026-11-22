@@ -7,3 +7,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795305856.9771216}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795305896.9904945}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T00:03:36Z","ts":1795305932.0168853}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 103, \"run_log\": 4, \"watch_closed\": 0, \"watch_snapshots\": 83} pools_total=3098","ts":1795305956.3336885}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-22T00:05:32Z","ts":1795305994.5043554}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795306004.4978256}
+{"level":"INFO","msg":"CANDIDATE Singularity / SOL CwbmqPKDrA4UsqNKpzp8uftgsK63AZ5rEMVXV8NTSH3D age=0.57h mc=352264 ath=502305 tx24=10789 src=watch_refresh","ts":1795306044.8666313}
+{"level":"INFO","msg":"CANDIDATE GARY / SOL GMyEw6Tp1uUt56tkWd8J23jt3UkEqoyH3zySFnXTt8Si age=0.54h mc=1124890642 ath=33490050715 tx24=3023 src=watch_refresh","ts":1795306044.8669899}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795306049.5130038}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795306094.5296934}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795306139.5471356}
