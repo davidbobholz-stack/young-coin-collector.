@@ -573,3 +573,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T04:50:01Z","ts":1795323243.8260248}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795323248.8008926}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795323298.8268478}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 126, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 9} pools_total=9518","ts":1795323328.9132807}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795323348.9498224}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T04:53:40Z","ts":1795323384.0111585}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795323398.9996445}
+{"level":"INFO","msg":"CANDIDATE MANEKI / SOL 2L7EnVzNEJaoRB98vpfA4Td7hcPxFdBkUTtWTDdqkdnf age=2.55h mc=913526 ath=913526 tx24=3329 src=watch_refresh","ts":1795323429.141049}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-22T04:55:10Z","ts":1795323439.0375946}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795323444.0370111}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795323489.0647495}
