@@ -1154,3 +1154,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T11:45:33Z","ts":1795348042.6080177}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348057.6032088}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348102.6532738}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 81, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 77} pools_total=15646","ts":1795348132.7579575}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348147.8074274}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348197.8600307}
+{"level":"INFO","msg":"CANDIDATE UCASH / SOL 4h7R5JzaQ6PgNjFuD12AeUQJRQYgwz2YhPSrA6sh1Rxt age=0.59h mc=528578 ath=528578 tx24=6861 src=trending_1h","ts":1795348238.0123348}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348247.908297}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795348297.9597776}
