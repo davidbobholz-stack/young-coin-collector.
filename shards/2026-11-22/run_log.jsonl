@@ -2289,3 +2289,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795385617.1880398}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-22T22:11:03Z","ts":1795385647.2092981}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795385662.203286}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 105, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 32} pools_total=29644","ts":1795385692.3787186}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795385707.4013932}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795385757.4184587}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T22:13:06Z","ts":1795385802.4414313}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795385807.4328117}
+{"level":"INFO","msg":"CANDIDATE FSDV15 / SOL DXVpx5PnefCiLVMucmUxrX2x7MgSDMTggmQgiRA2zV6W age=0.54h mc=1321780 ath=1321780 tx24=13000 src=trending_5m","ts":1795385842.4544995}
+{"level":"INFO","msg":"STOP clean","ts":1795385853.5892088}
