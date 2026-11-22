@@ -620,3 +620,9 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795324590.4643815}
 {"level":"INFO","msg":"CANDIDATE MASCOIN / SOL 98KsYt4V7qH4xznH41Fxwy9YXko8QmSHqEehsfHUf9Zo age=2.39h mc=366950573 ath=366950573 tx24=2247 src=watch_refresh","ts":1795324625.9553561}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795324635.5018618}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 65, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 101} pools_total=10124","ts":1795324665.6007636}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795324675.6350307}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795324725.6637611}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T05:17:23Z","ts":1795324765.7233303}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795324770.6963952}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795324815.7250485}
