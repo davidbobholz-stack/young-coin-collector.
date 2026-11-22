@@ -243,3 +243,8 @@
 {"level":"INFO","msg":"CANDIDATE DCTY / SOL 5954LeNmrwmZ7dFG44KQtCMLwrNcT6AsB2Lr4gxB8Tzm age=0.59h mc=599510 ath=758153 tx24=5365 src=watch_refresh","ts":1795313084.9722085}
 {"level":"INFO","msg":"CANDIDATE SGREM / SOL ALTyYzyT3ra6uCbzen1MasgpvR6Bk1GvQXHZdJ3mtNM1 age=1.86h mc=584598 ath=584598 tx24=5329 src=watch_refresh","ts":1795313094.9289536}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795313099.4839048}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 19, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 157} pools_total=5908","ts":1795313175.2940412}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T02:05:22Z","ts":1795313221.3389776}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795313226.3311207}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795313276.347786}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795313326.3667285}
