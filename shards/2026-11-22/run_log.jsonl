@@ -2375,3 +2375,10 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T22:50:01Z)","ts":1795388255.8964186}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T22:54:33Z","ts":1795388255.896501}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795388265.8930433}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 0, \"pools_seen\": 117, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 8} pools_total=30729","ts":1795388266.0143328}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795388316.0442288}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-22T22:57:30Z","ts":1795388356.0809913}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795388361.0730395}
+{"level":"INFO","msg":"CANDIDATE chego / SOL DAFdkZDWht9t1Y52fcwwxYKyBTTpWp8M3H5Qz5EVprfg age=0.58h mc=1329231 ath=1329231 tx24=6080 src=trending_5m","ts":1795388391.1054554}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795388406.1031122}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795388446.1312327}
