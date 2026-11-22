@@ -312,3 +312,7 @@
 {"level":"INFO","msg":"CANDIDATE RIZZMAS3 / SOL CfM8PfAJjNTvphCvauc8CL2ay9YcZuGqbQwci6adbjK5 age=0.63h mc=635416 ath=5211066 tx24=4628 src=trending_5m","ts":1795314960.0161648}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314989.6116297}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795315019.685214}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 11, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=6643","ts":1795315079.7265155}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795315109.770909}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795315139.8041406}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795315229.8412209}
