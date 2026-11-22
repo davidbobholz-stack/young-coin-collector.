@@ -1091,3 +1091,8 @@
 {"level":"INFO","msg":"CANDIDATE snowball / SOL 5gPPj3yjDxfXPj9b2uxMQBhDo53Fwx7JJ1hWU7dryeTr age=0.69h mc=433887537 ath=433887537 tx24=2030 src=watch_refresh","ts":1795346205.065138}
 {"level":"INFO","msg":"CANDIDATE GOAT / SOL GZrHSFZQLHQ4NeQoDB4zFKb76KqTwydj9nCZSTM91PGH age=1.85h mc=756409 ath=756409 tx24=7690 src=watch_refresh","ts":1795346209.9950333}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795346214.5562139}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 3, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 48, \"run_log\": 10, \"watch_closed\": 0, \"watch_snapshots\": 152} pools_total=15015","ts":1795346244.665643}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795346264.715255}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795346309.7685046}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795346354.8245175}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795346399.8753166}
