@@ -1805,3 +1805,8 @@
 {"level":"INFO","msg":"CANDIDATE MCAT / SOL 9HwTivEadoaNNi2n3WuCxVu1FG4JnNHo86pxEE2WtA9J age=0.53h mc=990141 ath=990141 tx24=3652 src=trending_1h","ts":1795371808.533894}
 {"level":"INFO","msg":"CANDIDATE METAMASK / SOL Dv5XL1eAgbxS84zoD3XdP1SWsiAscnoSZqmNdSGn22oD age=0.87h mc=775547 ath=775547 tx24=5829 src=trending_1h","ts":1795371808.5342915}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795371818.5019555}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 21, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 46} pools_total=23225","ts":1795371848.6334445}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371863.6505024}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371908.6685877}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371958.6890838}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372008.7040887}
