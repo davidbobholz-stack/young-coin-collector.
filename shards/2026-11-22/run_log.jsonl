@@ -529,3 +529,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795321907.2485893}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-22T04:29:02Z","ts":1795321937.308355}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795321957.282045}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 107, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 126} pools_total=9086","ts":1795321987.4070778}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795322002.4398606}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T04:32:40Z","ts":1795322042.5007105}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795322047.4838536}
+{"level":"INFO","msg":"CANDIDATE JOLLYGUY / SOL 4cMoDjBCejgHM3knD2v9VZ2Z25v1mFgLQXCnZiBujqFY age=0.58h mc=813317 ath=813317 tx24=1991 src=trending_5m","ts":1795322082.5441895}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795322097.5197976}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795322147.5516937}
