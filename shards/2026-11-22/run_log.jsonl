@@ -1647,3 +1647,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795367438.8662245}
 {"level":"INFO","msg":"CANDIDATE snowball / SOL EWdkBoxYpvhi8tmixGiXofDAtFTRCcohE3EwU7QZSmhr age=0.55h mc=681485 ath=681485 tx24=4224 src=trending_5m","ts":1795367468.9086466}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795367483.903226}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 107, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 23} pools_total=21390","ts":1795367514.045178}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795367529.084124}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795367579.1208603}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795367634.1615806}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795367684.202614}
