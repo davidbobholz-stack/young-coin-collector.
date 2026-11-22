@@ -1775,3 +1775,9 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T18:04:59Z)","ts":1795371084.8046062}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:08:24Z","ts":1795371084.8047526}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371104.8074987}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 113, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 36} pools_total=22960","ts":1795371134.9625285}
+{"level":"INFO","msg":"CANDIDATE SI / SOL 3RocFgV4W5tZzpZ9kBLvSeguiwbx1k5yUcQxqYamzKbZ age=0.67h mc=338327 ath=550660 tx24=9019 src=trending_5m","ts":1795371135.0593874}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371150.0009758}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371195.0399828}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371235.081393}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795371285.1211555}
