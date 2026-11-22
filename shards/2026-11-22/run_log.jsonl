@@ -116,3 +116,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795309267.7200496}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T00:59:03Z","ts":1795309307.7504032}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795309317.7434487}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 99, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 54} pools_total=4377","ts":1795309347.8245234}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795309367.847455}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T01:01:06Z","ts":1795309397.871026}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795309417.86788}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795309462.8891935}
+{"level":"INFO","msg":"CANDIDATE RIZZMAS3 / SOL 6ZupZ88kKBbLos7SHfeehBrNQogyV5Zj1Pzh9DTP5NDa age=0.96h mc=359469 ath=423351 tx24=19437 src=watch_refresh","ts":1795309493.0551288}
+{"level":"INFO","msg":"CANDIDATE STREETS / SOL 6qCGSihSVm4aHn4i7F2fbgUYDPnqdRBHiXVsfNQXWArL age=0.61h mc=756086 ath=1447049 tx24=11592 src=watch_refresh","ts":1795309493.0556433}
+{"level":"INFO","msg":"CANDIDATE clown / SOL 62noeZxYiTNvAbePQarqdcHrfPL5nZbqp5uwginMLYzU age=1.10h mc=505823384 ath=505823384 tx24=3269 src=watch_refresh","ts":1795309498.386135}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795309507.906426}
