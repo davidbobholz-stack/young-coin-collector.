@@ -200,3 +200,12 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311898.4231536}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795311948.4396758}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795311998.4557643}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 57, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 4} pools_total=5353","ts":1795312028.511432}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795312043.5304615}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T01:31:49Z)","ts":1795312083.551783}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T01:45:11Z","ts":1795312083.5519423}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312088.5583026}
+{"level":"INFO","msg":"CANDIDATE RIZZMAS3 / SOL BDV8nLKzrK6NGgmRixdCavNvHLnchEeMpvAHZrhDaLFz age=0.69h mc=842939 ath=842939 tx24=1178 src=watch_refresh","ts":1795312118.9620128}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795312138.5763967}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T01:47:24Z","ts":1795312183.6256409}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795312188.601163}
