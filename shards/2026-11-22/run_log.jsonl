@@ -1822,3 +1822,12 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:28:49Z","ts":1795372334.0571728}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372349.0433886}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372394.0678406}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 148, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 70} pools_total=23377","ts":1795372424.3055964}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795372439.3260286}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T18:28:49Z)","ts":1795372484.3463926}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:32:33Z","ts":1795372484.3465452}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372494.3493347}
+{"level":"INFO","msg":"CANDIDATE KYC / SOL CVGrtkUBcGA7uFULkmPDyWA8YuWWgCt66WkeGqFufFTq age=0.57h mc=438912 ath=438912 tx24=6390 src=trending_5m","ts":1795372524.3695908}
+{"level":"INFO","msg":"CANDIDATE Rockstar / SOL CxRZXwQx5kGJfaEGPCJrgCLdT3MH2GLvAUR87m6yD19k age=0.60h mc=859100 ath=859100 tx24=4306 src=trending_5m","ts":1795372524.3703258}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372544.3693967}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795372589.3857994}
