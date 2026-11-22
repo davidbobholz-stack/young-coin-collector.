@@ -1421,3 +1421,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795360763.5526958}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T15:18:01Z","ts":1795360793.5936344}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360808.5930166}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 123, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 23} pools_total=18675","ts":1795360838.7302792}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360858.7663472}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360908.8070953}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL 3oWbxt5CcEKe9y2o7DmQUYeSKkXL5A53uT8CfVtKXPr2 age=1.87h mc=661543416 ath=661543416 tx24=5856 src=trending_5m","ts":1795360944.0407672}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795360958.8439295}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795361003.8872132}
