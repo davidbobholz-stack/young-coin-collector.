@@ -1339,3 +1339,8 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T14:39:57Z","ts":1795358540.0197048}
 {"level":"INFO","msg":"CANDIDATE TTWO / USDC 6jR1kQ4VvSoiC1rmBSUwgHzqFRQtZAKAf1z966mqP67q age=11.74h mc=32323104 ath=32323104 tx24=1004 src=watch_refresh","ts":1795358545.420317}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358550.009681}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 106, \"run_log\": 9, \"watch_closed\": 0, \"watch_snapshots\": 77} pools_total=17677","ts":1795358580.1700165}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358595.2091038}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358635.2478716}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358685.2857218}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358730.3254588}
