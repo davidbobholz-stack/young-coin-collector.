@@ -1925,3 +1925,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795375177.7522619}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T19:18:39Z","ts":1795375212.7774138}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795375222.7704117}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 105, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 18} pools_total=24751","ts":1795375252.930937}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795375267.9463344}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795375317.9623945}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795375367.978597}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL 2SUcgMQQruxnZboQ9TwQsNFtP8QqBc7X8LbxYopxdizF age=0.69h mc=280402 ath=490155 tx24=7814 src=trending_1h","ts":1795375413.1702967}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795375417.9946756}
