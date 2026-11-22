@@ -944,3 +944,9 @@
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T10:00:42Z","ts":1795341762.2201257}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795341767.2139387}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795341817.2585745}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 44, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 66} pools_total=13472","ts":1795341847.3497593}
+{"level":"INFO","msg":"CANDIDATE cateball / SOL EkEXwkZqweA8rbv31KwjbYzSE3SoSgez1VrYkvu6uY2w age=0.96h mc=420846 ath=420846 tx24=4394 src=trending_1h","ts":1795341847.462748}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795341862.3949585}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795341907.4451272}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795341957.4993312}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795342007.546498}
