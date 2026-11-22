@@ -1293,3 +1293,9 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T14:15:58Z","ts":1795357143.0493722}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357153.0468464}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357198.0852206}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 145, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 44} pools_total=17172","ts":1795357228.234968}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357248.275395}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357298.3109717}
+{"level":"INFO","msg":"CANDIDATE SI / SOL Bh8a7sLwQUmuw6TKeSemBmtbd4krQY4DmiJEFh6kX14Q age=0.50h mc=317192 ath=487392 tx24=14707 src=trending_1h","ts":1795357333.5518465}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357343.3489423}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795357388.3884006}
