@@ -1863,3 +1863,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795373475.5908592}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T18:48:41Z","ts":1795373505.6150942}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795373515.6053941}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 100, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 44} pools_total=23921","ts":1795373545.77314}
+{"level":"INFO","msg":"CANDIDATE OpenIndex / SOL 4X1SAtTgzqfyRDu237HxJLtSfTosMHe9EuXNPvRfFbjc age=1.38h mc=436466 ath=436466 tx24=9261 src=trending_5m","ts":1795373545.7915924}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL 6aMCDg5fP4Q2VkqkNpTqzgoJmzd7pAqxRqkzTygBPXpF age=0.73h mc=402787 ath=402787 tx24=11813 src=trending_5m","ts":1795373550.9659998}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL 4sP2Ed9ZXuituWXVfEVM2qxtKKunRTGm8fyDGKZRup2r age=0.77h mc=1312812 ath=1312812 tx24=9787 src=trending_5m","ts":1795373550.9663615}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795373565.7958467}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL BtmKQWD3W54Aw7Ych88AXhMkMVijn5uYsmES6jo7NDqY age=1.11h mc=1028471 ath=1028471 tx24=12630 src=trending_1h","ts":1795373605.818704}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795373610.8104424}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795373655.8272562}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795373695.843617}
