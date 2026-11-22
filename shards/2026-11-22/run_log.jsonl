@@ -373,3 +373,7 @@
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795317176.7328384}
 {"level":"INFO","msg":"CANDIDATE SANTA / SOL HwF7kaghKmmZvMuwqiLGAiXrjYcBBoX7dEv6z7zL7yXe age=0.70h mc=332209 ath=504162 tx24=3118 src=trending_5m","ts":1795317236.7956665}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795317266.775579}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 50, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 20} pools_total=7315","ts":1795317296.840041}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795317296.8707907}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795317386.9043179}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795317416.9467351}
