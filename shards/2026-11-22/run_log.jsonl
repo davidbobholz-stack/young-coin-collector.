@@ -1274,3 +1274,4 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795356673.222978}
 {"level":"WARN","msg":"trending /trending_pools?duration=5m&page=5 -> 429","ts":1795356688.2253208}
 {"level":"INFO","msg":"STOP clean","ts":1795356688.2254686}
+{"level":"INFO","msg":"START pid=2691 pending_followups=473 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795356703.673705}
