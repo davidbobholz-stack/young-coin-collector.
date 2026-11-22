@@ -1605,3 +1605,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795366281.9416177}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-22T16:49:18Z","ts":1795366322.0054674}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795366326.981343}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 125, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 92} pools_total=20788","ts":1795366357.157415}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795366377.197396}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-22T16:52:21Z","ts":1795366422.2455215}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795366427.2347095}
+{"level":"INFO","msg":"CANDIDATE MengLan / SOL FPzzRpSVTtqQTL2K79cf8CCfZZYu7eZAgfrCo1N7xgZK age=0.54h mc=1629485 ath=1629485 tx24=10057 src=trending_5m","ts":1795366462.2824607}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795366477.2775815}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795366522.319056}
