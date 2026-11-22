@@ -336,3 +336,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T02:49:56Z","ts":1795315930.4670393}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795315945.4271271}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 60s","ts":1795315975.508872}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 38, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 4} pools_total=6843","ts":1795316035.5572562}
+{"level":"INFO","msg":"CANDIDATE CATEMAS / CATE DjPQsLsXyseQnRV5veXGcM4NbHUR4D6THBybMa1uXtqc age=0.67h mc=255984 ath=422846 tx24=4317 src=trending_5m","ts":1795316035.7139359}
+{"level":"INFO","msg":"CANDIDATE Huss / SOL 87aXwczNvDKZkCGJ9pGsR3WLKaS5hFJ2PgYs5GHAG8dQ age=0.51h mc=461393 ath=774447 tx24=3608 src=trending_5m","ts":1795316051.0798316}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795316065.590469}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795316095.6211853}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795316185.655329}
