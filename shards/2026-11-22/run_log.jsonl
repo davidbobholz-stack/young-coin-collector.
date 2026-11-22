@@ -3,3 +3,7 @@
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795305656.359471}
 {"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-21T23:58:57Z","ts":1795305691.3813994}
 {"level":"INFO","msg":"CANDIDATE Mfer / SOL CuWHKSiNbpvsWwKFKAwtLxhtb4iQ7uBfoaqm5UkTnN9r age=1.94h mc=8765731 ath=8765731 tx24=20149 src=watch_refresh","ts":1795305701.8518324}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 22, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 112} pools_total=2995","ts":1795305773.3384635}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795305856.9771216}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795305896.9904945}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T00:03:36Z","ts":1795305932.0168853}
