@@ -2437,3 +2437,8 @@
 {"level":"INFO","msg":"CANDIDATE COPIUM / SOL 8rJw3DbbzfzKYF5tiNEsjqPyJtEPZg8dZ7dNb2SEbuPP age=1.71h mc=671849 ath=671849 tx24=3611 src=trending_5m","ts":1795389903.5989733}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389907.78174}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389957.811697}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 34, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 25} pools_total=31482","ts":1795389987.918338}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795390007.9479272}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795390057.9747918}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795390103.0046535}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795390148.0324671}
