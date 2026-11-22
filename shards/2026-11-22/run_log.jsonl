@@ -856,3 +856,14 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339308.0873628}
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-22T09:20:29Z","ts":1795339348.1492248}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339358.134875}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 82, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 79} pools_total=12656","ts":1795339388.2282872}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339403.2751188}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795339448.3265185}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T09:23:07Z","ts":1795339483.383051}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795339498.3716528}
+{"level":"INFO","msg":"CANDIDATE FSD v15 / SOL 5wN5QjeXwhNGuEYLwDkFxgLBC6B1pQBC9Kj8qkdTU3QV age=3.75h mc=26672741 ath=26672741 tx24=11046 src=watch_refresh","ts":1795339528.8861103}
+{"level":"INFO","msg":"CANDIDATE BABYDOG / SOL HTRjDyLNfeJ2LU7ncFYYz3yyMrfyF1VgKKrQpRBLmPKC age=4.54h mc=1147452 ath=1147452 tx24=14147 src=watch_refresh","ts":1795339528.886484}
+{"level":"INFO","msg":"CANDIDATE FSD v15 / SOL 5A7mKu7ST8HQhKhruj2e1pQ3VmyG2L9maXkg4h7g1ydG age=5.48h mc=52130229 ath=52130229 tx24=29776 src=watch_refresh","ts":1795339528.8867588}
+{"level":"INFO","msg":"CANDIDATE UranusCoin / SOL 8fu27dFLM3u3h9mSeEWa2g4AdBaMd3SoZMHDLfTCdHtt age=2.96h mc=419661 ath=419661 tx24=11042 src=watch_refresh","ts":1795339528.8873265}
+{"level":"INFO","msg":"CANDIDATE \u8138\u8138 / SOL CXGyDEnk4QGUcWVUbjfciEaHEpSfpKwePU83WdHCRFYR age=5.17h mc=315940681 ath=315940681 tx24=2628 src=watch_refresh","ts":1795339533.970082}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795339548.421709}
