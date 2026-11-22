@@ -1739,3 +1739,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795370038.0823073}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795370088.1205842}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795370138.163543}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 78, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 58} pools_total=22497","ts":1795370168.3098388}
+{"level":"INFO","msg":"CANDIDATE mimi / SOL vgcGvLmy9WRf66ETRtbdahHKpbe6KRMqjnnyFaatRVE age=0.82h mc=845277148 ath=845277148 tx24=7122 src=trending_1h","ts":1795370173.463065}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795370183.3496385}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795370228.3878362}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795370278.4263206}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795370328.462637}
