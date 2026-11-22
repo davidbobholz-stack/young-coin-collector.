@@ -1631,3 +1631,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795367048.2283595}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T17:02:07Z","ts":1795367088.2755833}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795367098.2657602}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 100, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 75} pools_total=21197","ts":1795367128.4187546}
+{"level":"INFO","msg":"CANDIDATE GTA6 / SOL 8h4qebmKggL8r4vRwk7cimXULGJg8BvoQmFKkFWR6cjs age=2.04h mc=613476 ath=613478 tx24=2456 src=watch_refresh","ts":1795367128.931172}
+{"level":"INFO","msg":"CANDIDATE GTACAT / SOL CErTov2L7qpTHQaFUuK8DNgnhZ7znQEiHAzLbUVPAPJH age=2.42h mc=1891271 ath=1891271 tx24=2468 src=watch_refresh","ts":1795367128.931613}
+{"level":"INFO","msg":"CANDIDATE PEPE / SOL 8mj5hwaDnV5RDhYQfbDi7cx5SMNRrd3iyE8dQYziD1sZ age=2.29h mc=1101495 ath=1101495 tx24=1575 src=watch_refresh","ts":1795367128.9320858}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795367148.4592438}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T17:04:50Z","ts":1795367193.5027921}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795367198.5039217}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795367243.5423856}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795367288.5791342}
