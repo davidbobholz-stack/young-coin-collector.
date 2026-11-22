@@ -1372,3 +1372,11 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T14:49:45Z)","ts":1795359446.497879}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T14:54:23Z","ts":1795359446.4980395}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359466.4780843}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 140, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 45} pools_total=18077","ts":1795359496.635601}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T14:56:37Z","ts":1795359511.6837316}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795359516.6727827}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795359561.709793}
+{"level":"INFO","msg":"CANDIDATE FSD v15 / SOL 33nt3UW2UW8YdVEiPpxM9sutpGzeKo8Cn6gFteB6Nmq9 age=12.39h mc=18635983628 ath=18635983628 tx24=14561 src=watch_refresh","ts":1795359592.1705117}
+{"level":"INFO","msg":"CANDIDATE V15 / SOL 5SP2LTmaeSN8vVM5DiPjzRyjvQ3633a7Rd47mB6Tm4ts age=13.09h mc=2143821 ath=2143821 tx24=17873 src=watch_refresh","ts":1795359592.170904}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795359606.745747}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795359656.7865098}
