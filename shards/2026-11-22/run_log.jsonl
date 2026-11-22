@@ -805,3 +805,12 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T08:41:46Z)","ts":1795337855.964054}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T08:54:22Z","ts":1795337855.9641535}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795337865.9103694}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 148, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 13} pools_total=12141","ts":1795337866.044912}
+{"level":"INFO","msg":"CANDIDATE Rings / SOL 2F6TsbqrikXHL14Si8eutghPGYqW2XBmZ3rs7wes8iUe age=5.70h mc=3088947 ath=3088947 tx24=1182 src=watch_refresh","ts":1795337896.5660157}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795337916.0946686}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795337961.1500463}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T08:57:19Z","ts":1795337991.2067223}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL 4j5ouhYqrkWLL94nE8i8rYS9bLKgDtwAtcu8a4bRwDxZ age=0.72h mc=5858095605 ath=5858095605 tx24=9889 src=trending_5m","ts":1795338001.2097497}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795338006.2016428}
+{"level":"INFO","msg":"CANDIDATE gift / SOL BnRMC5gZsZaPA6E2Fs8pXmive5rjLF18yS8Y11xi7XiN age=0.62h mc=547421 ath=938826 tx24=2979 src=trending_5m","ts":1795338036.308872}
+{"level":"INFO","msg":"CANDIDATE MWG / SOL CKVFpnTxvPq1oXmmk99Ka6Ac91XcXnqAKzNhVZY7ai8P age=1.50h mc=6048300841 ath=6048300841 tx24=10984 src=trending_5m","ts":1795338036.3092809}
