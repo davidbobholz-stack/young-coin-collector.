@@ -1789,3 +1789,12 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:13:49Z","ts":1795371438.3617473}
 {"level":"INFO","msg":"STOP clean","ts":1795371438.361901}
 {"level":"INFO","msg":"START pid=2415 pending_followups=671 overdue=1 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795371453.0927813}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=23107","ts":1795371453.1959722}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795371478.214832}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795371528.2289581}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T18:08:24Z)","ts":1795371563.252785}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T18:16:09Z","ts":1795371563.25298}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL 9pqo6WVjKvYNnRgvPVaoTe1zZvnhtB248ChKnUmKfHH4 age=1.04h mc=434751 ath=434751 tx24=10821 src=trending_5m","ts":1795371573.2509332}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795371578.2514138}
+{"level":"INFO","msg":"CANDIDATE TROLL / SOL EeT2a7xCEX2Gi2kfGfXXJe7YCggPyo8APsz3LPHJbJXb age=0.56h mc=434657 ath=434657 tx24=5021 src=trending_5m","ts":1795371608.3176868}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795371623.2728937}
