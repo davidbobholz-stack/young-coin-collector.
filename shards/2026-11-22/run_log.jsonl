@@ -1123,3 +1123,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795347096.0438712}
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T11:31:08Z","ts":1795347131.2224362}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795347141.0932033}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 55, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 124} pools_total=15336","ts":1795347171.218085}
+{"level":"INFO","msg":"CANDIDATE UODF / SOL 42iqkt6Krepz45oMn6gn3KfqczvATpFgXwVxjJ4Dk4hs age=9.70h mc=1462679443 ath=1462679443 tx24=1117 src=watch_refresh","ts":1795347171.885819}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795347186.2593327}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795347236.3109312}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795347286.3871732}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795347336.4334128}
