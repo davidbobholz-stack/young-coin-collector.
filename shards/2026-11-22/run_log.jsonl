@@ -169,3 +169,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795310814.0158334}
 {"level":"INFO","msg":"CANDIDATE RIZZMAS3 / SOL 3DkNZU6fPiRMHdN57n8Rw2D8Ux7oxw3JaVcqDWRkXTES age=0.52h mc=203491 ath=417081 tx24=1516 src=watch_refresh","ts":1795310849.3113215}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795310864.03366}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 157, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 42} pools_total=5131","ts":1795310894.1329691}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T01:26:57Z","ts":1795310899.1544087}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795310909.1504152}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795310954.1830592}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795311000.5462286}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T01:29:45Z","ts":1795311040.5694926}
