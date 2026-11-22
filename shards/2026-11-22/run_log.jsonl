@@ -2253,3 +2253,12 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T21:54:58Z","ts":1795384661.274702}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795384665.977159}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384710.9917147}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 108, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 9} pools_total=29148","ts":1795384741.1558201}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384756.174371}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384796.1919463}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T21:54:58Z)","ts":1795384836.2138593}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T21:58:00Z","ts":1795384836.2140188}
+{"level":"INFO","msg":"CANDIDATE MINELIUS / SOL 7yJDP2VmgazVEa6usbXM61uSk5AT3J4dZFaJQvq2LnfZ age=0.51h mc=3334379 ath=3334379 tx24=7969 src=trending_5m","ts":1795384841.2117124}
+{"level":"INFO","msg":"CANDIDATE Rockstar / SOL 3TZk2Xv7ASyuxtspum1Ft7F3nHYPdRJSuYSgRHUe3PB8 age=0.75h mc=2135929 ath=3661997 tx24=12420 src=trending_5m","ts":1795384841.2122822}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795384846.2102556}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795384896.228288}
