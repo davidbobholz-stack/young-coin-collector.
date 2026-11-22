@@ -770,3 +770,13 @@
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=0 newest=2026-11-22T06:30:14Z","ts":1795329120.1014402}
 {"level":"INFO","msg":"STOP clean","ts":1795329120.1015158}
 {"level":"INFO","msg":"START pid=2217 pending_followups=335 overdue=26 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795336959.7421572}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=11748","ts":1795336959.7837133}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795336989.8703218}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795337039.917037}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T06:27:27Z)","ts":1795337069.976392}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T08:41:46Z","ts":1795337069.9765644}
+{"level":"INFO","msg":"CANDIDATE drillcat / SOL 9H1esRCuYY3o7hKpB6UDkCAwZwEXkwka7LnXDwxFVHjK age=0.74h mc=496249 ath=496249 tx24=18734 src=trending_5m","ts":1795337074.9815269}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL 72VfUyM9ChPNJmnZ6xkj5A9QtDzurWZQ2VNQD7RZKeDm age=0.52h mc=284277 ath=1813174 tx24=7756 src=trending_5m","ts":1795337080.0034356}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795337094.9689791}
+{"level":"INFO","msg":"CANDIDATE Early / SOL HJKGYLCep4Kyp9WoLzDTBhxzDc4q4g82paMaTTewa7Xq age=0.63h mc=509505 ath=509505 tx24=4187 src=trending_5m","ts":1795337135.0485334}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL Fmi8JioeVCMQrBU9nUXpxxUHPBMJTrXWJyY9WvjgB6Nz age=0.83h mc=392183 ath=409012 tx24=7171 src=trending_5m","ts":1795337140.194476}
