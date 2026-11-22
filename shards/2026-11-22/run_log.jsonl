@@ -19,3 +19,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795306194.6182299}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795306244.632629}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795306289.6529918}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 66, \"run_log\": 4, \"watch_closed\": 0, \"watch_snapshots\": 9} pools_total=3197","ts":1795306319.701565}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-22T00:09:04Z","ts":1795306324.7249336}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795306334.7229764}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795306386.142898}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-22T00:11:21Z","ts":1795306416.1640851}
+{"level":"INFO","msg":"CANDIDATE SIDOOR / SOL CmtjoZnzLbF2MDWvMC6R4mFqu8oidt2s6UDXcHdVQvNG age=2.48h mc=396502 ath=410553 tx24=19112 src=watch_refresh","ts":1795306432.571751}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795306437.5322895}
