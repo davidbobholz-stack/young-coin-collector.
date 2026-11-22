@@ -1242,3 +1242,10 @@
 {"level":"INFO","msg":"CANDIDATE snowball / SOL 4m2f9xrFSpTVKWwKUaHQcHX4D1PwwuDt2ajmA1ktfda1 age=3.19h mc=332723 ath=446290 tx24=1186 src=watch_refresh","ts":1795350737.3714304}
 {"level":"INFO","msg":"CANDIDATE UODF / SOL FvHoJaU8zfaBSwbY239ZUkGpHEe6Y2E9dNK1MGQcT4wX age=2.80h mc=1620596 ath=1620596 tx24=3799 src=watch_refresh","ts":1795350747.352764}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795350756.8549192}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 97, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 94} pools_total=16527","ts":1795350786.9700408}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-22T12:31:22Z","ts":1795350797.0270944}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795350802.0215685}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795350847.0774474}
+{"level":"INFO","msg":"CANDIDATE snowball / SOL dWevKkmpvZgBuTZkkFM64scdxQMoHpr59eq1bHQKuWF age=0.59h mc=577464 ath=577464 tx24=10126 src=trending_5m","ts":1795350882.1768181}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795350897.1239734}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795350947.172106}
