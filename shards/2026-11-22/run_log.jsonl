@@ -1962,3 +1962,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376279.0400717}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376334.057319}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376384.074588}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 123, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 15} pools_total=25128","ts":1795376414.2489514}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T19:32:25Z)","ts":1795376414.2700384}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T19:37:47Z","ts":1795376414.2701972}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376429.2646828}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376474.282145}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795376519.299065}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-22T19:40:40Z","ts":1795376559.3207724}
+{"level":"INFO","msg":"CANDIDATE CYBERLEEK / SOL GVZ1A1ePZDurqojupoMWFYBVgXpKMRdcjnq7UXCHD48w age=2.74h mc=102247204 ath=102247204 tx24=6180 src=watch_refresh","ts":1795376564.8394582}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795376574.3171551}
