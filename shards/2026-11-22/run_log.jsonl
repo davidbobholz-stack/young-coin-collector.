@@ -1344,3 +1344,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358635.2478716}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358685.2857218}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358730.3254588}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 61, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 120} pools_total=17738","ts":1795358760.4822779}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-22T14:43:03Z","ts":1795358770.543992}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358775.51966}
+{"level":"INFO","msg":"CANDIDATE AIRBALL / SOL BgRBc6KNjyVj7tNJgCoEEw1aNUywztNknRzwCAvUveKd age=2.81h mc=261738 ath=418624 tx24=2183 src=watch_refresh","ts":1795358810.7519348}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795358815.5564003}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358865.591875}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795358910.6280782}
