@@ -2234,3 +2234,9 @@
 {"level":"INFO","msg":"CANDIDATE FIONA / MM AnZQ2WkdREg5v1cLT96mnt63wYysRXPtfnkU8JVFDN2f age=19.94h mc=1273894 ath=2209727 tx24=1053 src=watch_refresh","ts":1795384120.4990664}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795384125.195083}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384170.2109244}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 121, \"pools_seen\": 106, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 47} pools_total=28834","ts":1795384200.4359243}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384215.4532065}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384255.471331}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384305.4866314}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-22T21:48:58Z","ts":1795384335.509383}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795384350.505787}
