@@ -184,3 +184,9 @@
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795311378.1638832}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311418.1894386}
 {"level":"INFO","msg":"CANDIDATE SIDOOR / SOL E5i19jnTJzerEtUKdGG1LS7KwWKQj6XH2JnT1UHHRE4g age=0.56h mc=282169 ath=1036948 tx24=4232 src=trending_5m","ts":1795311458.3621871}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 31, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 109} pools_total=5271","ts":1795311463.333222}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311468.2107556}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311518.2328742}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311563.2488081}
+{"level":"INFO","msg":"CANDIDATE RIZZMAS3 / SOL 25jCbJQ7qivg1Q2ndATD3Bfn5QyngSdQcf5MeqPmvR5v age=0.57h mc=408399 ath=408399 tx24=6122 src=trending_1h","ts":1795311593.2688358}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795311608.264975}
