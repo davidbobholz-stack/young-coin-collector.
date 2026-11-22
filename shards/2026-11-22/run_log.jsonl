@@ -2429,3 +2429,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T23:19:33Z","ts":1795389712.625321}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795389717.5378625}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795389767.5654771}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 167, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 16} pools_total=31448","ts":1795389797.694224}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T23:21:19Z","ts":1795389802.727853}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389817.7226655}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389862.752781}
+{"level":"INFO","msg":"CANDIDATE hSOL / ZCAT 2wY1XYrykyMVaBWKnHspAFHVPEqZEzG73tpomLz1wTZF age=0.56h mc=67801275 ath=68989027 tx24=1532 src=trending_5m","ts":1795389892.8614218}
+{"level":"INFO","msg":"CANDIDATE COPIUM / SOL 8rJw3DbbzfzKYF5tiNEsjqPyJtEPZg8dZ7dNb2SEbuPP age=1.71h mc=671849 ath=671849 tx24=3611 src=trending_5m","ts":1795389903.5989733}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389907.78174}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795389957.811697}
