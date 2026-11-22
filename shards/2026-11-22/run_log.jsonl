@@ -1264,3 +1264,4 @@
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 68, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 108} pools_total=16763","ts":1795351357.9433365}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=0 newest=2026-11-22T12:41:32Z","ts":1795351359.9929547}
 {"level":"INFO","msg":"STOP clean","ts":1795351359.9931276}
+{"level":"INFO","msg":"START pid=2406 pending_followups=504 overdue=31 run_seconds=180.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795356508.0604074}
