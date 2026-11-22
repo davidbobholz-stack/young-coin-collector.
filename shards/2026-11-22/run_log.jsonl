@@ -928,3 +928,13 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795341336.5558696}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795341381.596595}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795341426.6865945}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 57, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 7} pools_total=13288","ts":1795341456.7520223}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795341476.8023386}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T09:43:33Z)","ts":1795341511.863275}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T09:54:58Z","ts":1795341511.8633878}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795341526.8480725}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-22T09:57:34Z","ts":1795341566.909698}
+{"level":"INFO","msg":"CANDIDATE Green cat / SOL AM6RRuGUkhzTWVnt5WAH4pSxCkWyfuoWGH1o5Yuiyv6x age=3.78h mc=357644142 ath=357644142 tx24=5376 src=watch_refresh","ts":1795341572.3685727}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795341576.8988118}
+{"level":"INFO","msg":"CANDIDATE GOAT / SOL FQfaM1gvEPmWifsfPTDYqHKeboS2pEnrhYGLt6K7Brs6 age=1.52h mc=5820602009 ath=5820602009 tx24=1403 src=watch_refresh","ts":1795341617.378512}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795341621.9409418}
