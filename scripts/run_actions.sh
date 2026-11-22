@@ -38,38 +38,62 @@ if stopped; then
   exit 0
 fi
 
+# Queue the next run only after this one has published. No run_seconds input:
+# the successor uses the workflow default (4 hours), even if this run was short.
+# A missing token or a non-204 from the API fails the job. Cancelling the job
+# does not chain (that is how a run is stopped).
 dispatch_successor() {
   if stopped; then
     echo "not chaining; STOP set"
     return 0
   fi
-  if [[ -z "${GITHUB_REPOSITORY:-}" || -z "${GITHUB_TOKEN:-}${GH_TOKEN:-}" ]]; then
-    echo "no GitHub token; skip successor dispatch"
-    return 0
-  fi
-  # Push and schedule have no inputs; the ref is the branch the event ran on
-  # (main for both of those). A manual run continues on the ref it was started from.
   local ref="${GITHUB_REF_NAME:-main}"
-  echo "queue next collect run (event=${GITHUB_EVENT_NAME:-local} ref=$ref)"
-  # workflow_dispatch is allowed from GITHUB_TOKEN; a queued run waits on the concurrency group.
-  gh workflow run collect.yml --repo "$GITHUB_REPOSITORY" --ref "$ref" \
-    || echo "dispatch failed (the workflow must exist on the default branch)"
+  local token_present=no
+  if [[ -n "${GH_TOKEN:-}${GITHUB_TOKEN:-}" ]]; then token_present=yes; fi
+  echo "dispatch successor event=${GITHUB_EVENT_NAME:-local} ref=$ref repo=${GITHUB_REPOSITORY:-} token_present=$token_present"
+  if [[ -z "${GITHUB_REPOSITORY:-}" ]]; then
+    echo "::error::GITHUB_REPOSITORY is empty; cannot queue the next run"
+    return 1
+  fi
+  if [[ "$token_present" != yes ]]; then
+    echo "::error::GH_TOKEN is empty. The workflow must pass github.token (the runner does not export it)."
+    return 1
+  fi
+  export GH_TOKEN="${GH_TOKEN:-$GITHUB_TOKEN}"
+  local out rc
+  set +e
+  out=$(gh api --method POST \
+    -H "Accept: application/vnd.github+json" \
+    "repos/${GITHUB_REPOSITORY}/actions/workflows/collect.yml/dispatches" \
+    -f "ref=${ref}" 2>&1)
+  rc=$?
+  set -e
+  if [[ "$rc" -ne 0 ]]; then
+    echo "::error::workflow_dispatch failed (exit ${rc}): ${out}"
+    return "$rc"
+  fi
+  echo "workflow_dispatch accepted for ref=${ref} (no inputs; successor collects for 4h)"
+  return 0
 }
 
-echo "collector run_seconds=$RUN_SECONDS checkpoint_seconds=$CHECKPOINT_SECONDS data=$DATA_DIR"
+echo "collector run_seconds=$RUN_SECONDS checkpoint_seconds=$CHECKPOINT_SECONDS data=$DATA_DIR event=${GITHUB_EVENT_NAME:-local}"
 python3 "$ROOT/collector.py" &
 CPID=$!
-
-dispatch_successor || true
-next_dispatch=$(( $(date +%s) + 900 ))
 rc=0
+CANCELLED=0
 
 publish() {
   bash "$ROOT/scripts/publish_data.sh" "$DATA_DIR" || echo "publish failed"
 }
 
+on_term() {
+  CANCELLED=1
+  echo "SIGTERM; will not queue a successor"
+  kill -TERM "$CPID" 2>/dev/null || true
+}
 cleanup() {
   set +e
+  trap - TERM
   if kill -0 "$CPID" 2>/dev/null; then
     kill -TERM "$CPID" 2>/dev/null || true
     for _ in $(seq 1 45); do
@@ -83,8 +107,17 @@ cleanup() {
   wait "$CPID"
   rc=$?
   publish
+  if [[ "$CANCELLED" -eq 1 ]]; then
+    echo "job cancelled; not chaining"
+    exit "$rc"
+  fi
+  if ! dispatch_successor; then
+    echo "::error::collect finished but the next run was not queued"
+    exit 1
+  fi
   exit "$rc"
 }
+trap on_term TERM
 trap cleanup EXIT
 
 last_ready=0
@@ -110,10 +143,5 @@ while kill -0 "$CPID" 2>/dev/null; do
       echo "watchdog: heartbeat ${age}s stale; killing collector"
       kill -TERM "$CPID" 2>/dev/null || true
     fi
-  fi
-  now_s="$(date +%s)"
-  if [[ "$now_s" -ge "$next_dispatch" ]]; then
-    dispatch_successor || true
-    next_dispatch=$((now_s + 900))
   fi
 done
