@@ -656,3 +656,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T05:33:55Z","ts":1795325696.9900956}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795325706.9709997}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795325757.0058312}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 63, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 111} pools_total=10523","ts":1795325787.1127322}
+{"level":"INFO","msg":"CANDIDATE Snowball / SOL 8TistanoaRBUA4enQgT4ECTjKoHf2yryqUtGqmcJ92so age=0.51h mc=477332 ath=477332 tx24=4878 src=trending_5m","ts":1795325787.2286384}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795325807.1488936}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795325857.2144732}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795325902.2483852}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795325947.2803807}
