@@ -1275,3 +1275,13 @@
 {"level":"WARN","msg":"trending /trending_pools?duration=5m&page=5 -> 429","ts":1795356688.2253208}
 {"level":"INFO","msg":"STOP clean","ts":1795356688.2254686}
 {"level":"INFO","msg":"START pid=2691 pending_followups=473 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795356703.673705}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=16936","ts":1795356703.7196062}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-22T14:11:11Z","ts":1795356718.8316705}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795356733.7588582}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795356778.7852352}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795356828.81668}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795356878.8457687}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 86, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 47} pools_total=17022","ts":1795356908.9423773}
+{"level":"INFO","msg":"CANDIDATE Grokia / SOL 3tGoXHdjTkGRby745FMjVHXWBsCGUkHy9QAMSkcvwifS age=0.55h mc=1635904 ath=1635904 tx24=5775 src=trending_1h","ts":1795356914.0483708}
+{"level":"INFO","msg":"signal 15, stopping after this iteration","ts":1795356918.5032663}
+{"level":"WARN","msg":"STOP interrupted","ts":1795356918.942905}
