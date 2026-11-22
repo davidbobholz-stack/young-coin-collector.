@@ -288,3 +288,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795314390.1205595}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795314435.1420739}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795314475.1653972}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 48, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 84} pools_total=6466","ts":1795314505.2471244}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL GBLQq1jburXNDJdq1vYJZvmb3tQFqXmataAiTCvraP3r age=2.19h mc=253241 ath=11163146 tx24=2349 src=watch_refresh","ts":1795314505.3909068}
+{"level":"INFO","msg":"CANDIDATE Tom Cat / SOL 4z3yEshKeExeScGMDxaWgZvTedmSxfpKEKxtuCJESiAR age=1.47h mc=1098068 ath=1098068 tx24=3600 src=watch_refresh","ts":1795314505.3920443}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795314525.2676892}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-22T02:27:49Z","ts":1795314565.2899659}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795314570.287451}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795314615.3134332}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795314655.3373582}
