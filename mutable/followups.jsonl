@@ -69,7 +69,7 @@
 {"attempts":0,"done_ts":null,"due_ts":1795436465.527247,"kind":"ohlcv","label":"ohlcv24","next_try":1795436465.527247,"pool":"2uJk5iH8W51nixT63a4xTy7BwacA9aeYSoE5yk3UBS1P","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795522865.527247,"kind":"ohlcv","label":"ohlcv48","next_try":1795522865.527247,"pool":"2uJk5iH8W51nixT63a4xTy7BwacA9aeYSoE5yk3UBS1P","state":"pending"}
 {"attempts":1,"done_ts":1795370844.8838372,"due_ts":1795370828.3728824,"kind":"snapshot","label":"15m","next_try":1795370828.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"done"}
-{"attempts":0,"done_ts":null,"due_ts":1795373528.3728824,"kind":"snapshot","label":"1h","next_try":1795373528.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"pending"}
+{"attempts":1,"done_ts":1795373725.9935799,"due_ts":1795373528.3728824,"kind":"snapshot","label":"1h","next_try":1795373528.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"done"}
 {"attempts":0,"done_ts":null,"due_ts":1795456328.3728824,"kind":"snapshot","label":"24h","next_try":1795456328.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795542728.3728824,"kind":"snapshot","label":"48h","next_try":1795542728.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795384328.3728824,"kind":"snapshot","label":"4h","next_try":1795384328.3728824,"pool":"2ucsQhezt345QHDoFtxMJ8HRm1HTgSxwqdVYRWkAaBbk","state":"pending"}
@@ -405,7 +405,7 @@
 {"attempts":0,"done_ts":null,"due_ts":1795413263.1886775,"kind":"ohlcv","label":"ohlcv24","next_try":1795413263.1886775,"pool":"7dtCcYsmSVkG8wZHv5yfQ4nMiZGDSvT1sfapWy2AVfjo","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795499663.1886775,"kind":"ohlcv","label":"ohlcv48","next_try":1795499663.1886775,"pool":"7dtCcYsmSVkG8wZHv5yfQ4nMiZGDSvT1sfapWy2AVfjo","state":"pending"}
 {"attempts":1,"done_ts":1795370844.8838372,"due_ts":1795370828.3728824,"kind":"snapshot","label":"15m","next_try":1795370828.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"done"}
-{"attempts":0,"done_ts":null,"due_ts":1795373528.3728824,"kind":"snapshot","label":"1h","next_try":1795373528.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"pending"}
+{"attempts":1,"done_ts":1795373725.9935799,"due_ts":1795373528.3728824,"kind":"snapshot","label":"1h","next_try":1795373528.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"done"}
 {"attempts":0,"done_ts":null,"due_ts":1795456328.3728824,"kind":"snapshot","label":"24h","next_try":1795456328.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795542728.3728824,"kind":"snapshot","label":"48h","next_try":1795542728.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"pending"}
 {"attempts":0,"done_ts":null,"due_ts":1795384328.3728824,"kind":"snapshot","label":"4h","next_try":1795384328.3728824,"pool":"7fK86u1mPRm4AZ6JPLH6CsLeiJUtFuhatehNDHGk3wkG","state":"pending"}
