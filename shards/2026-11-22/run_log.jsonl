@@ -1612,3 +1612,8 @@
 {"level":"INFO","msg":"CANDIDATE MengLan / SOL FPzzRpSVTtqQTL2K79cf8CCfZZYu7eZAgfrCo1N7xgZK age=0.54h mc=1629485 ath=1629485 tx24=10057 src=trending_5m","ts":1795366462.2824607}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795366477.2775815}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795366522.319056}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 112, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 30} pools_total=20900","ts":1795366552.464645}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795366567.5018816}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795366617.5425177}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795366667.5824497}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795366717.622873}
