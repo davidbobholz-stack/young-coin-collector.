@@ -429,3 +429,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T03:41:48Z","ts":1795319073.704832}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795319078.6663308}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795319123.7005038}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 8, \"ohlcv\": 0, \"pools_seen\": 156, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 32} pools_total=8003","ts":1795319153.8162475}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795319168.8465006}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-22T03:45:03Z","ts":1795319208.9207094}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795319218.8841627}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795319268.9222126}
+{"level":"INFO","msg":"CANDIDATE BPF / USDC AUqGAMZwoygpJx9FvtRY1i24VYwUkCxMwRQ3Zp9Symcd age=1.72h mc=10737623 ath=10737623 tx24=2699 src=watch_refresh","ts":1795319299.1016674}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795319318.9826221}
