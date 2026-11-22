@@ -300,3 +300,10 @@
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=0 newest=2026-11-22T02:31:20Z","ts":1795314702.4859686}
 {"level":"INFO","msg":"STOP clean","ts":1795314702.486153}
 {"level":"INFO","msg":"START pid=2192 pending_followups=249 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795314719.3357022}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=6602","ts":1795314719.3611376}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-22T02:31:20Z","ts":1795314739.4242167}
+{"level":"INFO","msg":"CANDIDATE PushCoin / SOL GZ6zUqpbwrCdFbL9asPyaHdmYk3fNpv1aM719rYLMYZF age=0.62h mc=1134026 ath=1134026 tx24=11691 src=trending_5m","ts":1795314744.4279594}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314749.401311}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795314779.4330533}
+{"level":"INFO","msg":"CANDIDATE PUSHCOIN / SOL H2NBxWQhTcSRmHKZsVkiJ64K4kUBBS9SnNGQnJC7CvkG age=0.51h mc=490303 ath=1609013 tx24=5569 src=trending_5m","ts":1795314844.6535854}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795314869.4664338}
