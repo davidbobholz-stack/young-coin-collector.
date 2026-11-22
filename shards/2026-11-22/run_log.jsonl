@@ -2048,3 +2048,12 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795378727.0894818}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378777.105474}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378822.1235337}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 138, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 11} pools_total=26436","ts":1795378852.2993388}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795378867.3173954}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-22T20:16:00Z)","ts":1795378907.3408074}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-22T20:18:57Z","ts":1795378907.3409612}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795378917.3342245}
+{"level":"INFO","msg":"CANDIDATE Rings / SOL Ggj2MQtFvX3bvxxYJG3sJqtVWa7PVQZ4kqahb4SNZqyx age=3.02h mc=425158 ath=425158 tx24=41766 src=trending_5m","ts":1795378947.356892}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795378967.349173}
+{"level":"INFO","msg":"CANDIDATE Monkey / SOL 4NRnNwmeFbQivrj1h6vvE2jjYUh5sqBW5y7CRwPb8yYm age=0.60h mc=205463 ath=454241 tx24=8601 src=trending_5m","ts":1795379002.7325118}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795379017.368905}
