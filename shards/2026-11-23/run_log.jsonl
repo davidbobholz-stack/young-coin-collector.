@@ -712,3 +712,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795412386.4008589}
 {"level":"INFO","msg":"CANDIDATE CYBERLEEK / SOL 2Spstxsg8nsTHmAZz1chWLg7CRntTXKwn1JvstYMMnk6 age=0.61h mc=683696 ath=683696 tx24=3584 src=trending_5m","ts":1795412416.4183235}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795412436.423208}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 13, \"pools_seen\": 77, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 31} pools_total=40219","ts":1795412466.6332278}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795412481.6521451}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795412526.6655765}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795412576.684526}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795412626.7045662}
