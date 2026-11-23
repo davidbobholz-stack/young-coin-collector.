@@ -599,3 +599,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409156.5111556}
 {"level":"INFO","msg":"CANDIDATE NICKEH30 / SOL 37Nurg3vkJ2awocs9C2GT6AfuM5RJcoG1TfivdD8sP5D age=5.24h mc=1199272 ath=1199277 tx24=1776 src=watch_refresh","ts":1795409187.0634665}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409206.524616}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 138, \"pools_seen\": 58, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 25} pools_total=39108","ts":1795409236.7682347}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409256.788529}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T04:46:41Z","ts":1795409286.811689}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409301.8076847}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409346.8689623}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409396.8816562}
