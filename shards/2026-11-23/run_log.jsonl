@@ -2596,3 +2596,8 @@
 {"level":"INFO","msg":"CANDIDATE Rockstar / SOL HdBvrhJawyZSuJUVFppUtYHSxaNCQWWVJ8cFB7QtGuXv age=0.56h mc=2663792 ath=2663792 tx24=7332 src=trending_5m","ts":1795467556.2110124}
 {"level":"INFO","msg":"CANDIDATE JENSEN / SOL 95FqFRj71mJfs5hm9L67GdDuX32wjmFopXK9RiGbbn4q age=0.82h mc=570312 ath=570312 tx24=4419 src=trending_5m","ts":1795467561.193467}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795467576.1811733}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 4, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 81, \"run_log\": 12, \"watch_closed\": 21, \"watch_snapshots\": 24} pools_total=62030","ts":1795467606.4549239}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795467621.4803855}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795467666.500548}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467716.5200512}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467766.53731}
