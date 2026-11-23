@@ -72,3 +72,12 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T00:22:27Z)","ts":1795394149.2323232}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T00:33:39Z","ts":1795394149.232398}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795394154.2134213}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 159, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 13} pools_total=33143","ts":1795394184.3461473}
+{"level":"INFO","msg":"CANDIDATE U0DF / SOL 2cup5nAWsfoJa1YCn9st68GNwEBa5sVYyuxVA7MvTrEM age=18.25h mc=107623341 ath=107623341 tx24=3385 src=watch_refresh","ts":1795394189.8608427}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795394204.3738222}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795394249.4029894}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T00:35:45Z","ts":1795394279.447986}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795394294.4372}
+{"level":"INFO","msg":"CANDIDATE Car / SOL BnoXXJtDdZRLRyXaCjZzf1ctqKE7NEC1rSpPp6tyB6H8 age=6.19h mc=517807 ath=517807 tx24=2085 src=watch_refresh","ts":1795394324.8702917}
+{"level":"INFO","msg":"CANDIDATE FOAM / SOL 44XXZ9hS6Cx1Dwq2Cw8RSAzQ64cF2ikXLUjFT3NbMzK8 age=5.98h mc=456875 ath=456875 tx24=3007 src=watch_refresh","ts":1795394334.892874}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795394339.4681568}
