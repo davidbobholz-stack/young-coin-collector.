@@ -1992,3 +1992,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-23T16:04:42Z","ts":1795450131.4275525}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795450136.421762}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795450186.4686513}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 152, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 12} pools_total=54447","ts":1795450216.6492982}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795450236.695109}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T16:04:42Z)","ts":1795450276.7614484}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T16:08:42Z","ts":1795450276.7615373}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795450281.741107}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795450326.8021646}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL FgYQHoYUbZteHvZN4jfa7Dehm2uyyCHVqNCLzKvSxbjb age=2.15h mc=445803 ath=445803 tx24=23545 src=trending_5m","ts":1795450356.9357216}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795450376.8452334}
