@@ -2520,3 +2520,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795465447.1732}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-23T20:21:29Z","ts":1795465487.1948078}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795465497.1898084}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 15, \"pools_seen\": 97, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 5} pools_total=61105","ts":1795465527.4613912}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL 3RhxPwwXfjTrcck3Dvi47MEcYaVvhaDJAqdVqKzbVzwK age=0.57h mc=1668394 ath=1668394 tx24=2839 src=trending_5m","ts":1795465537.4843917}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795465547.4765632}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795465597.4952579}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795465642.5151145}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795465687.533767}
