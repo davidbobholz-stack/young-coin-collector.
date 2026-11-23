@@ -1519,3 +1519,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T12:19:53Z","ts":1795436494.037632}
 {"level":"INFO","msg":"CANDIDATE DCTY / SOL FBcMQZohbFJ9EzEfax6e59AqFLRpVAk1n3Wvu1Juip5X age=0.58h mc=1370582 ath=1370582 tx24=4626 src=trending_5m","ts":1795436499.0397646}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436514.0355802}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 86, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 27} pools_total=48410","ts":1795436544.2823906}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436564.2969813}
+{"level":"INFO","msg":"CANDIDATE SI / SOL 2MgWEjmynhMpW2JGYJZE3EFwRqMu9g3vYffHEs7Tpx6w age=11.97h mc=433693 ath=433693 tx24=3234 src=trending_5m","ts":1795436594.360053}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436609.3538687}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436654.3733575}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436699.3925645}
