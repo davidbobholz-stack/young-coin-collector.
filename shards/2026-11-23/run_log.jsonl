@@ -231,3 +231,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795398645.7578118}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T01:49:00Z","ts":1795398685.797769}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795398690.7923884}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 109, \"pools_seen\": 48, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 2} pools_total=35030","ts":1795398720.9294965}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795398735.9597306}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL LgKPrkZyeCAQyJDr8KKN5YRZnaQH8EWpnacq7KFVpcW age=5.64h mc=125960356655 ath=125960356655 tx24=1426 src=watch_refresh","ts":1795398771.3837533}
+{"level":"INFO","msg":"CANDIDATE XVIDIA / SOL DBzjipnF6NSskA5TqwnSUC9VkPtxtuHDMZhJp6djymgw age=6.96h mc=22360418 ath=22360418 tx24=23090 src=watch_refresh","ts":1795398771.3840845}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795398775.993262}
+{"level":"INFO","msg":"CANDIDATE NFL / SOL BdJWCWf53EtS9ejLvKSSMVCXNTpM9nbuezBCZ2C2DRmn age=6.81h mc=18628938 ath=18628938 tx24=21331 src=watch_refresh","ts":1795398806.2190068}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795398826.0287807}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-23T01:51:26Z","ts":1795398866.0662642}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795398876.0612712}
