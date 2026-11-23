@@ -791,3 +791,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795414649.9993515}
 {"level":"INFO","msg":"STOP clean","ts":1795414685.3895743}
 {"level":"INFO","msg":"START pid=2217 pending_followups=979 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795414700.355266}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=40960","ts":1795414700.4991102}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T06:17:44Z","ts":1795414720.6250482}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795414725.5430834}
+{"level":"INFO","msg":"CANDIDATE BOT / SOL CskcqWs1ebkxEEY7okK1NMaa8ypvEoWpEkq3wsxEwMxK age=0.63h mc=372056194 ath=372056194 tx24=5300 src=trending_5m","ts":1795414755.5952585}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795414770.5920916}
+{"level":"INFO","msg":"CANDIDATE Claude / SOL ANQmniK6UzJoLTMPtUHZzdTa98oCoXBiLeQ25ygtVZpF age=1.47h mc=1442416 ath=1442416 tx24=4724 src=trending_5m","ts":1795414801.1785715}
+{"level":"INFO","msg":"CANDIDATE HlGHCAP / SOL HvRjjt4QQuDHQsxBcBsHEthcMW2qiTzx3FZBVeznkkda age=0.77h mc=656627 ath=656627 tx24=1671 src=trending_5m","ts":1795414806.1488934}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795414815.6359708}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795414855.6809995}
