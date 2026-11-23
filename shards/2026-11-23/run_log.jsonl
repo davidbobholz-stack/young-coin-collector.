@@ -568,3 +568,15 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T04:19:53Z)","ts":1795408460.445043}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T04:31:39Z","ts":1795408460.4452207}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795408470.4455695}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 10, \"ohlcv\": 0, \"pools_seen\": 133, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 24} pools_total=38869","ts":1795408500.669739}
+{"level":"INFO","msg":"CANDIDATE ZOL / SOL 5NKwZv54t5Vj2T4CAykzQaDFpQhRAKpQBwrnpbkVz1gp age=5.56h mc=579331451 ath=579331451 tx24=2091 src=watch_refresh","ts":1795408501.1262841}
+{"level":"INFO","msg":"CANDIDATE hSOL / ZOL AiacSNZQAdcWDhjGENhAPFaYUtipNXgkhCwJrAnvdq12 age=5.27h mc=69502891 ath=69502891 tx24=3595 src=watch_refresh","ts":1795408501.12757}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795408515.6851811}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795408555.7044575}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T04:34:14Z","ts":1795408590.725895}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795408605.7206037}
+{"level":"INFO","msg":"CANDIDATE hSOL / ZOL CjCs87gNKQYPdzEyE99RfZ6jeJ6py7oQpCyhSJzis8y5 age=5.63h mc=69793125 ath=69793125 tx24=1446 src=watch_refresh","ts":1795408636.1355302}
+{"level":"INFO","msg":"CANDIDATE cCAT / SOL DWRhVzT1fdpN2D9JqvZxEshCg2qADkFmf8mF3DK8pYYZ age=5.29h mc=6027417340 ath=6027417340 tx24=1063 src=watch_refresh","ts":1795408641.1668365}
+{"level":"INFO","msg":"CANDIDATE USOI / SOL 2yAemqj1Sg8PCyUSBHet8rTCjXMkZSPeieLGeKwvUT8c age=6.86h mc=115730808 ath=115730808 tx24=5519 src=watch_refresh","ts":1795408641.1675365}
+{"level":"INFO","msg":"CANDIDATE Anthropic / SOL 4iUA5tjNnFNCXGZoSKbt8FZDnJSKzozceHvqjd1nARz2 age=5.86h mc=1244735 ath=1244735 tx24=4807 src=watch_refresh","ts":1795408646.1756594}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795408650.739258}
