@@ -705,3 +705,10 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T05:34:45Z","ts":1795412191.1409981}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795412196.1169355}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795412241.1306546}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 5, \"pools_seen\": 118, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=40142","ts":1795412271.347661}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795412286.3612242}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795412336.3791578}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T05:37:33Z","ts":1795412371.426818}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795412386.4008589}
+{"level":"INFO","msg":"CANDIDATE CYBERLEEK / SOL 2Spstxsg8nsTHmAZz1chWLg7CRntTXKwn1JvstYMMnk6 age=0.61h mc=683696 ath=683696 tx24=3584 src=trending_5m","ts":1795412416.4183235}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795412436.423208}
