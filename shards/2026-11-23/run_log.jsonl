@@ -724,3 +724,12 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T05:44:35Z","ts":1795412761.9574196}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795412766.9498212}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795412816.966843}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 54, \"pools_seen\": 71, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 55} pools_total=40371","ts":1795412847.2069192}
+{"level":"INFO","msg":"CANDIDATE TRUMPLESS / SOL EBSWwThYYx91jhXgeTJgbig7tEzqHSohntKGHhDXXyt3 age=3.69h mc=329902 ath=404247 tx24=3010 src=watch_refresh","ts":1795412847.502182}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795412867.2221715}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T05:46:40Z","ts":1795412902.2418072}
+{"level":"INFO","msg":"CANDIDATE ADYTUM / SOL 2yRsXDssyRihnP4P3bJUaXBh5xRFnApFjqrMKdrVQnZs age=4.51h mc=1487088 ath=1487088 tx24=2640 src=watch_refresh","ts":1795412907.6678593}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795412917.237155}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795412962.2551868}
+{"level":"INFO","msg":"CANDIDATE cCAT / SOL B46uWdzNN5znVQRyPLfDCygiGHbLoyHBRMAi8UFGn9JV age=3.52h mc=775473 ath=775473 tx24=3447 src=watch_refresh","ts":1795412992.4842277}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795413007.2744987}
