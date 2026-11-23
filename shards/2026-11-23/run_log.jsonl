@@ -2578,3 +2578,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467165.419976}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-23T20:50:16Z","ts":1795467205.4423106}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795467210.4436867}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 135, \"run_log\": 6, \"watch_closed\": 9, \"watch_snapshots\": 12} pools_total=61830","ts":1795467240.724899}
+{"level":"INFO","msg":"CANDIDATE SAFU / SOL GVtnaywhpDNwr3UEXfAMXzQo4KBqWnaxueRPXf73a3HN age=8.87h mc=397036 ath=2553605 tx24=3378 src=watch_refresh","ts":1795467245.8590186}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467255.7436872}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467295.7644067}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467345.7951224}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467390.8160157}
