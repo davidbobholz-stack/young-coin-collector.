@@ -520,3 +520,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795406888.233743}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T04:06:37Z","ts":1795406933.2564228}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795406938.2507827}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 129, \"pools_seen\": 80, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 9} pools_total=38379","ts":1795406968.4913952}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795406988.5099335}
+{"level":"INFO","msg":"CANDIDATE lilguy / SOL 2Bg25T2hUPnaxUW6Q4WkF1jbPg8BqQrjY29xS3AJFpyJ age=0.99h mc=772800 ath=772800 tx24=4811 src=trending_5m","ts":1795407018.5343163}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795407038.5236003}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795407083.541822}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795407128.5584855}
