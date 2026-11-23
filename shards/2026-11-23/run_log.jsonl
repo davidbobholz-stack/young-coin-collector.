@@ -2117,3 +2117,11 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T17:00:42Z)","ts":1795453603.3789744}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T17:03:38Z","ts":1795453603.3790617}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795453618.3738716}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 106, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 19} pools_total=55983","ts":1795453648.5504487}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795453668.6084192}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795453718.6586924}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T17:03:38Z)","ts":1795453753.722717}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T17:06:42Z","ts":1795453753.7227955}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795453763.7014756}
+{"level":"INFO","msg":"CANDIDATE HUANG / NVDAx EdyrmGZp5TQHpErcziAFEhU7NZbi5oFBheS4deQ5vUDj age=0.59h mc=384662 ath=474179 tx24=27467 src=trending_5m","ts":1795453798.839265}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795453808.7404406}
