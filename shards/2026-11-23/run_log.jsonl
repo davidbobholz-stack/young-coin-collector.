@@ -863,3 +863,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795416719.8142037}
 {"level":"INFO","msg":"CANDIDATE CATME / SOL Dj9U3KXqhAQhsRfktKBE2VAUFvXzctgUz9oCD1NBigjQ age=1.41h mc=963990 ath=963990 tx24=15415 src=trending_1h","ts":1795416754.9435058}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795416774.8583052}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 11, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 36} pools_total=41688","ts":1795416805.0383468}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795416825.0833528}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795416870.2042637}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-23T06:53:02Z","ts":1795416910.2590733}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795416915.2533152}
+{"level":"INFO","msg":"CANDIDATE FLOAT / SOL 2ghE3NNs1JvA52XsXwnkhesM7L4rKV7GDvau1hNUVnD4 age=6.64h mc=469343 ath=469343 tx24=1397 src=watch_refresh","ts":1795416950.7941036}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795416955.3050797}
