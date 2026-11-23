@@ -297,3 +297,13 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T02:17:07Z","ts":1795400401.500497}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795400406.488393}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795400456.50562}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 65, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 37} pools_total=35827","ts":1795400486.7198765}
+{"level":"INFO","msg":"CANDIDATE Claude AI / SOL 31Spxd5Zf1B3V4VAkUzhoHnkwi7uAvzvCGg6zp3dWzcj age=0.54h mc=440206688 ath=440206688 tx24=2768 src=trending_5m","ts":1795400491.7433617}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795400506.737337}
+{"level":"INFO","msg":"CANDIDATE cCAT / SOL FTAYKMfiug11f6Adogu9bYPxPfYhdCSGTxy6D91AXZTa age=1.89h mc=489847 ath=489847 tx24=3055 src=trending_5m","ts":1795400542.1556637}
+{"level":"INFO","msg":"CANDIDATE coal / SOL Bd2Wbua9VqjjRHJp9ooFVr7Nnnx6CeAs8J4rGy3B5eXs age=1.15h mc=367698 ath=3846214155 tx24=3721 src=trending_5m","ts":1795400547.0433402}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795400556.7554839}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795400601.7747173}
+{"level":"INFO","msg":"CANDIDATE CUNTS / SOL 3akgA8ZB62fatr4Xq1iTiGDB5LEu4s3QCqdDEoNcfpxd age=0.50h mc=996496 ath=1432132 tx24=5719 src=trending_1h","ts":1795400631.7957942}
+{"level":"INFO","msg":"CANDIDATE CLAUDIA / SOL EtZ1bsq5ySGRC52xCX7yVmmNZJcRtDzwDLpHdUXPVz52 age=0.55h mc=730012 ath=861879 tx24=3397 src=trending_1h","ts":1795400631.7966309}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795400646.7933748}
