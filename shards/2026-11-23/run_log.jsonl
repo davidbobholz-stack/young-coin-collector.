@@ -2289,3 +2289,7 @@
 {"level":"INFO","msg":"CANDIDATE CEO / SOL Ar78yVvWZ2X54vPSsrn6zNfkmQVQeJnJED2EyqErviRc age=1.10h mc=48500797 ath=48500797 tx24=3761 src=trending_1h","ts":1795458428.3734045}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795458447.6932998}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795458477.7123563}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 10, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=58070","ts":1795458537.9408395}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795458567.956979}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 60s","ts":1795458598.0121942}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795458688.0461593}
