@@ -2864,3 +2864,11 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795475258.0152783}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795475303.0682378}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795475348.1141164}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 118, \"pools_seen\": 103, \"run_log\": 6, \"watch_closed\": 12, \"watch_snapshots\": 9} pools_total=65505","ts":1795475378.4241579}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-23T23:07:48Z","ts":1795475388.5388465}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL EC3QiS91SN583od8rfoRDcmAfkQTQiXZZTPJDsATGyDL age=0.57h mc=6203394 ath=6203394 tx24=4503 src=trending_5m","ts":1795475393.480829}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795475398.463854}
+{"level":"INFO","msg":"CANDIDATE SGI / SOL Adjo2ucEbkEGB9EPQazcbrB9Xgy5UwL78WY9axJMiNWP age=0.51h mc=355250 ath=413575 tx24=19578 src=trending_1h","ts":1795475443.711135}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795475448.5022602}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795475498.555177}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795475543.6118047}
