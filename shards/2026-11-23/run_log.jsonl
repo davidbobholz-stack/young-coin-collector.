@@ -2622,3 +2622,11 @@
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-23T21:09:29Z","ts":1795468282.6350384}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795468297.6284547}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795468342.647598}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 7, \"ohlcv\": 669, \"pools_seen\": 137, \"run_log\": 8, \"watch_closed\": 1, \"watch_snapshots\": 7} pools_total=62494","ts":1795468373.1874664}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795468388.204881}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795468438.2235248}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-23T21:12:25Z","ts":1795468473.2570164}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795468488.2418745}
+{"level":"INFO","msg":"CANDIDATE sexcoin / SOL 9cCy2KH1kJDByjnv7JfNWRsajt1GJwsS3CmtyeQB3cRr age=0.51h mc=1754300 ath=1754300 tx24=6848 src=trending_5m","ts":1795468523.2665808}
+{"level":"INFO","msg":"CANDIDATE JENSENBACK / SOL Gz3xJWdWvs5dEXBHXppFWmuyDahS9vnS2C2PXoPHvD9N age=0.75h mc=1996808 ath=1996808 tx24=5793 src=trending_5m","ts":1795468528.3012755}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795468538.2571776}
