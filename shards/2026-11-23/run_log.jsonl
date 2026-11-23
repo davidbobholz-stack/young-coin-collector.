@@ -999,3 +999,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795420678.08422}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795420728.1340835}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795420778.1910677}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 56, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 81} pools_total=43028","ts":1795420808.4077318}
+{"level":"INFO","msg":"CANDIDATE VTC / SOL JBrxcQNTQGk1bLYzu5q1dgV3qNa64jJqfmtqhFW1mzCJ age=13.55h mc=32920038 ath=32920038 tx24=1005 src=watch_refresh","ts":1795420809.3771343}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795420823.4616697}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-23T07:58:48Z","ts":1795420853.51295}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795420868.5129387}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795420918.5632215}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795420968.6141841}
