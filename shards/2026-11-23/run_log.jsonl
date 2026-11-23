@@ -2723,3 +2723,8 @@
 {"level":"INFO","msg":"CANDIDATE ChristmASS / SOL 6v1Y1tbBXZ7kNAqsN3qhLsiZuaGWBN1xhVsmVZavk3SZ age=1.60h mc=224458 ath=498743 tx24=15655 src=trending_5m","ts":1795471143.6447127}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471148.6087651}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471198.6250193}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 57, \"run_log\": 9, \"watch_closed\": 0, \"watch_snapshots\": 34} pools_total=63703","ts":1795471228.8877614}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471248.9049141}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471298.9682734}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471343.9840078}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471389.0059767}
