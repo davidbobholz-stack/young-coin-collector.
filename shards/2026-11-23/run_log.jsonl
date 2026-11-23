@@ -2458,3 +2458,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T19:52:47Z","ts":1795463723.3612635}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795463728.3589675}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795463768.3816566}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 142, \"pools_seen\": 120, \"run_log\": 7, \"watch_closed\": 2, \"watch_snapshots\": 17} pools_total=60142","ts":1795463798.7070136}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795463818.7255487}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T19:55:10Z","ts":1795463863.7612672}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795463868.7455528}
+{"level":"INFO","msg":"CANDIDATE Chip / SOL GKFLnS4YcFyezzuX6eR6vVHkT29bPPSb8p7A6RVFh4yE age=0.70h mc=407866 ath=407866 tx24=11040 src=trending_5m","ts":1795463898.7812243}
+{"level":"INFO","msg":"CANDIDATE TTWO / SOL 9cmyeYHiGs2GVN4Q66ZV6hW24Hh8PyizfwAHBrzWm4mc age=0.67h mc=637417 ath=637417 tx24=3655 src=trending_5m","ts":1795463908.7694445}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795463918.767543}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795463963.7899826}
