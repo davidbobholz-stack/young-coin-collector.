@@ -1398,3 +1398,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795432830.743115}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-23T11:18:24Z","ts":1795432865.7616336}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795432875.75943}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 8, \"pools_seen\": 81, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 4} pools_total=47156","ts":1795432905.9966452}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL 6xSyspqjgt6cCeTqGmNLxhELqLCeJtJj6w8ij8NXqNWt age=0.64h mc=366874 ath=1154189 tx24=12745 src=trending_5m","ts":1795432906.0191789}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795432916.0134866}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795432966.0296788}
+{"level":"INFO","msg":"CANDIDATE Cypurr / SOL 4ZniioYGm3aJuCvRo78h2xwk1h8P4NraGYxAUY9Yn7SW age=1.30h mc=290448 ath=284758755 tx24=4256 src=trending_5m","ts":1795432996.425277}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433016.044926}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795433061.062907}
