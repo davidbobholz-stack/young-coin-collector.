@@ -1237,3 +1237,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795428098.410236}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795428143.460315}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795428188.5108}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 108, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 46} pools_total=45418","ts":1795428218.7401257}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T10:01:32Z","ts":1795428223.7916386}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795428238.7862368}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795428288.8331485}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T10:03:19Z","ts":1795428333.8895183}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795428338.880966}
+{"level":"INFO","msg":"CANDIDATE SIDOOR / SOL Fwu3uFffetDtkJct7DaXomuV726UZTeajw3dhpDg1fLw age=0.67h mc=1500218 ath=3860581 tx24=5122 src=trending_5m","ts":1795428373.987166}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795428383.9271176}
