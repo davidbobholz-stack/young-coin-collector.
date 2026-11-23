@@ -2952,3 +2952,13 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795477795.9547749}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T23:49:55Z","ts":1795477841.016275}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795477845.992855}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 7, \"ohlcv\": 1061, \"pools_seen\": 83, \"run_log\": 7, \"watch_closed\": 14, \"watch_snapshots\": 4} pools_total=66496","ts":1795477876.6087892}
+{"level":"INFO","msg":"CANDIDATE USOI / SOL 3hSTnwgrJaMcM12ABE2HwABLDvmtjtRhSLXAFm981eHC age=11.00h mc=256421394 ath=256421394 tx24=5237 src=watch_refresh","ts":1795477892.1905243}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL E3Jxa5zRmvh5zZnZD6Ce2kfJhLytgaocdPcbxjqDmf1o age=10.32h mc=884941 ath=3455909 tx24=2264 src=watch_refresh","ts":1795477892.1909153}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795477896.6586747}
+{"level":"INFO","msg":"CANDIDATE GTA / SOL 4pdz3CaXeMLiue6xin1imxyrfzUSNmwyQXTuhsiKjTRH age=18.30h mc=32774868 ath=32774868 tx24=1007 src=watch_refresh","ts":1795477937.2011287}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795477941.6955507}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL C9nwHVHsLUbaNpRKDMJSKWTYdkrSmfC6t1wFsES6bQ1H age=16.49h mc=9744402 ath=9744402 tx24=1772 src=watch_refresh","ts":1795477971.9773996}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795477986.736998}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T23:52:14Z","ts":1795478021.7831633}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795478036.7797334}
