@@ -1885,3 +1885,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795447050.1474261}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795447095.1933637}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795447135.2327843}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 990, \"pools_seen\": 112, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 7} pools_total=52991","ts":1795447165.675407}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T15:12:46Z)","ts":1795447180.732014}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T15:16:09Z","ts":1795447180.732102}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795447185.728148}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL 5VcdWGpkqLjVaoMaAqvtFMJdzW9wgfBqNyAJMLre4uv3 age=0.53h mc=843981 ath=843981 tx24=3781 src=trending_5m","ts":1795447225.8005145}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795447230.77236}
+{"level":"INFO","msg":"CANDIDATE Rings / SOL KRZ1Wgbn1da83tUX1pGnmESAJo6u78RBPWTxBsVNJpm age=0.53h mc=775569 ath=775569 tx24=1459 src=trending_5m","ts":1795447273.6286619}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795447275.8155742}
+{"level":"INFO","msg":"CANDIDATE cCAT / SOL Bv7bomLkpfGPnGx9QbmsZ3EbLDugPhsnVuvbSVnuV1Cy age=0.70h mc=320220932 ath=320220932 tx24=2833 src=trending_5m","ts":1795447307.5595446}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795447315.853494}
