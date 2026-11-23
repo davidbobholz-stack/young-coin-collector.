@@ -1758,3 +1758,10 @@
 {"level":"WARN","msg":"multi_followup -> 429","ts":1795443509.737999}
 {"level":"INFO","msg":"STOP clean","ts":1795443509.738177}
 {"level":"INFO","msg":"START pid=2205 pending_followups=1084 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795443529.2324073}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=51298","ts":1795443529.3722816}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T14:16:01Z","ts":1795443539.4201915}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443559.4234014}
+{"level":"INFO","msg":"CANDIDATE TREMP / SOL 8ar46uq7QongRMDuuHQYaZ35bkcihFYvhgEjVNJwdMYC age=0.51h mc=1300243 ath=1300243 tx24=2309 src=trending_5m","ts":1795443594.5345743}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443599.4734275}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443657.939024}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443707.9896142}
