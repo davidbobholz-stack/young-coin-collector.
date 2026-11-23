@@ -2307,3 +2307,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T18:34:29Z","ts":1795459138.9197798}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795459168.9099307}
 {"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795459198.936012}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 0, \"pools_seen\": 51, \"run_log\": 6, \"watch_closed\": 1, \"watch_snapshots\": 4} pools_total=58241","ts":1795459259.181306}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T18:34:29Z)","ts":1795459284.2330527}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T18:38:18Z","ts":1795459284.2332094}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795459289.2034862}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795459319.2227325}
+{"level":"INFO","msg":"CANDIDATE sexcoin / SOL 8j6DZ4nCj6kj4haVBhftHKCvw5X3Y75Sc6dHL8163gUF age=0.71h mc=447924 ath=447924 tx24=11727 src=trending_1h","ts":1795459404.2497957}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795459409.2440624}
