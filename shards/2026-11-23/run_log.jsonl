@@ -648,3 +648,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795410503.6123042}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T05:07:29Z","ts":1795410538.639289}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795410548.627674}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 143, \"pools_seen\": 105, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 19} pools_total=39637","ts":1795410578.8928893}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL DB7iXnCocE7iw4CUuVSd7f2kD56wZSbkVwKXGZoSasT7 age=0.71h mc=4697949 ath=4697949 tx24=6598 src=trending_5m","ts":1795410588.9105902}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795410598.912165}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795410648.9318204}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795410698.947537}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795410743.96171}
