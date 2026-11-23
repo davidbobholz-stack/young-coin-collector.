@@ -361,3 +361,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795402290.2108002}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795402335.2244325}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795402375.2428584}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 77, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 78} pools_total=36564","ts":1795402405.460994}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-23T02:51:42Z","ts":1795402420.4818726}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795402425.4792438}
+{"level":"INFO","msg":"CANDIDATE XMAS / SOL 7RNL4gpJtvjd7jbu9R98togQkrSSoruxV4YU91VgyPfv age=0.68h mc=6216874 ath=6216874 tx24=6259 src=trending_5m","ts":1795402465.5035052}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795402470.4968112}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795402515.5166178}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795402555.5358837}
