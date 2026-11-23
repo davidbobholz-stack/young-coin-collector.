@@ -2584,3 +2584,15 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467295.7644067}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467345.7951224}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467390.8160157}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 119, \"run_log\": 6, \"watch_closed\": 12, \"watch_snapshots\": 22} pools_total=61949","ts":1795467421.1025896}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T20:50:16Z)","ts":1795467421.183135}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T20:53:54Z","ts":1795467421.1832952}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467436.121462}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795467476.1395433}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-23T20:56:10Z","ts":1795467516.1605783}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795467526.162324}
+{"level":"INFO","msg":"CANDIDATE pepe / PEPE 2NwapNEas23Z69ug6k7qmaA2KnnLDty2EB9ui8h99nR7 age=0.75h mc=337902 ath=491016 tx24=34209 src=trending_5m","ts":1795467556.2098238}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL GyZQgjcNhUqcabdJ6H5fH1PB6F3bgMstfpFNdX1ZfWfT age=0.60h mc=420052 ath=420052 tx24=9933 src=trending_5m","ts":1795467556.2105887}
+{"level":"INFO","msg":"CANDIDATE Rockstar / SOL HdBvrhJawyZSuJUVFppUtYHSxaNCQWWVJ8cFB7QtGuXv age=0.56h mc=2663792 ath=2663792 tx24=7332 src=trending_5m","ts":1795467556.2110124}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL 95FqFRj71mJfs5hm9L67GdDuX32wjmFopXK9RiGbbn4q age=0.82h mc=570312 ath=570312 tx24=4419 src=trending_5m","ts":1795467561.193467}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795467576.1811733}
