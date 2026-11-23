@@ -2714,3 +2714,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795470907.7740767}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795470957.7910528}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471007.8093836}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 1274, \"pools_seen\": 128, \"run_log\": 5, \"watch_closed\": 3, \"watch_snapshots\": 11} pools_total=63646","ts":1795471038.5437984}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-23T21:54:12Z","ts":1795471038.564295}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL 7TAgJ6pZBeqn75nQZjcpDwxbPDA2h1oQ37gJfecNc3m3 age=8.95h mc=956205 ath=1496289 tx24=2311 src=watch_refresh","ts":1795471049.0243876}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471058.5737643}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T21:56:27Z","ts":1795471093.5946815}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471103.5896544}
+{"level":"INFO","msg":"CANDIDATE ChristmASS / SOL 6v1Y1tbBXZ7kNAqsN3qhLsiZuaGWBN1xhVsmVZavk3SZ age=1.60h mc=224458 ath=498743 tx24=15655 src=trending_5m","ts":1795471143.6447127}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471148.6087651}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795471198.6250193}
