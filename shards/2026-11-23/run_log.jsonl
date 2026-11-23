@@ -580,3 +580,8 @@
 {"level":"INFO","msg":"CANDIDATE USOI / SOL 2yAemqj1Sg8PCyUSBHet8rTCjXMkZSPeieLGeKwvUT8c age=6.86h mc=115730808 ath=115730808 tx24=5519 src=watch_refresh","ts":1795408641.1675365}
 {"level":"INFO","msg":"CANDIDATE Anthropic / SOL 4iUA5tjNnFNCXGZoSKbt8FZDnJSKzozceHvqjd1nARz2 age=5.86h mc=1244735 ath=1244735 tx24=4807 src=watch_refresh","ts":1795408646.1756594}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795408650.739258}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 6, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 75, \"run_log\": 12, \"watch_closed\": 0, \"watch_snapshots\": 32} pools_total=38944","ts":1795408680.9420917}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795408695.9591613}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795408735.9740458}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795408785.990339}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795408831.0072176}
