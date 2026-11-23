@@ -407,3 +407,10 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T03:05:39Z)","ts":1795403682.967062}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T03:11:40Z","ts":1795403682.9672546}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795403697.770633}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 109, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 28} pools_total=37043","ts":1795403727.9762642}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795403747.9980257}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T03:14:13Z","ts":1795403783.02301}
+{"level":"INFO","msg":"CANDIDATE Singularit / SOL FQ93w4gbF9FM9NNrFkMre8gEjnPrvVcNP2eARpUmdb5u age=5.58h mc=7560630 ath=7560630 tx24=8916 src=watch_refresh","ts":1795403788.3760455}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795403798.0122714}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795403843.0309188}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795403888.0458453}
