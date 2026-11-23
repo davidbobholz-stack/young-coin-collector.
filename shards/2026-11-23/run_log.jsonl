@@ -667,3 +667,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795411079.5564024}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T05:16:49Z","ts":1795411124.5776942}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795411134.5780838}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 51, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 60} pools_total=39842","ts":1795411164.7809932}
+{"level":"INFO","msg":"CANDIDATE Green cat / SOL 5ShdR16FQ7eBKubrVPL6VEzdkb17hNDpvpLrq7VWxm1j age=5.04h mc=1606209 ath=1606209 tx24=5000 src=watch_refresh","ts":1795411165.1201673}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795411184.7976563}
+{"level":"INFO","msg":"CANDIDATE XMAS / SOL HX5J5twvTzn8mfv8Dwhg21BtEtskLH3NDMHXAbRpBWkk age=3.50h mc=1292095 ath=1655486 tx24=3087 src=watch_refresh","ts":1795411219.9463708}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795411229.8116596}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795411274.8287997}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T05:19:34Z","ts":1795411309.854582}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795411319.844816}
