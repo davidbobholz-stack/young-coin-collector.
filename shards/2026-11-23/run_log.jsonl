@@ -1013,3 +1013,9 @@
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795421108.9767404}
 {"level":"INFO","msg":"CANDIDATE OpenIndex / SOL 8LRYntsKXecS6uVqCGprrCs9MozsCHQYZJUpbR2aDZq9 age=0.68h mc=2161574 ath=2161574 tx24=3273 src=trending_5m","ts":1795421144.0842657}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795421159.0325637}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 77, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 74} pools_total=43135","ts":1795421189.2386627}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795421214.336105}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795421264.3805065}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795421309.4261127}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-23T08:07:18Z","ts":1795421349.5168123}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795421354.48233}
