@@ -1479,3 +1479,10 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T12:00:07Z","ts":1795435296.2450082}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795435306.2425508}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795435356.266121}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 65, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 34} pools_total=47956","ts":1795435386.5016928}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795435401.5173278}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-23T12:01:37Z","ts":1795435441.540351}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795435446.5368438}
+{"level":"INFO","msg":"CANDIDATE Milo / SOL 7dbJxTErYYxg283CdjHoj2ZnLKwSZ1GvbSRKpB7XemnN age=5.46h mc=239916 ath=6132885020 tx24=12407 src=watch_refresh","ts":1795435486.6770153}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795435496.5547378}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795435546.5717008}
