@@ -2251,3 +2251,9 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795457370.8262331}
 {"level":"INFO","msg":"CANDIDATE TTWO / SOL GfXi3qkMSj5YKMy248e9qb9AoCXV6Sq7EjEMjL77oZMC age=0.57h mc=1130039 ath=1130039 tx24=4224 src=trending_5m","ts":1795457405.8948803}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795457415.8692644}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 95, \"run_log\": 9, \"watch_closed\": 0, \"watch_snapshots\": 16} pools_total=57739","ts":1795457446.042985}
+{"level":"INFO","msg":"CANDIDATE sexcoin / SOL 3q4RV4d9wL5mGm3nWuVg8HCSZcFx85iJp33nDvQMCNeu age=0.55h mc=1431117 ath=1431117 tx24=3485 src=trending_5m","ts":1795457451.1086729}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795457456.0934024}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795457506.13572}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795457556.1935859}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795457601.2559671}
