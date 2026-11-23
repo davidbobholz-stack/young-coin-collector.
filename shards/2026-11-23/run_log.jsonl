@@ -739,3 +739,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795413107.5000527}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795413157.5194316}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795413202.5367734}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 0, \"pools_seen\": 77, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 27} pools_total=40484","ts":1795413232.749552}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795413247.7667525}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T05:52:35Z","ts":1795413282.797569}
+{"level":"INFO","msg":"CANDIDATE PumpMeme / SOL 6dbFy11iEz64Hg8G67e1CodqYtEZRPLLNCameicuD2Qq age=0.51h mc=858835 ath=1315486 tx24=10326 src=trending_5m","ts":1795413292.8254943}
+{"level":"INFO","msg":"CANDIDATE BELLA / SOL 38f5V9gSn4S6vPPQx9cF79nB1RH6cGLHwXhfY3KWowJ3 age=0.52h mc=2994988 ath=2994988 tx24=2069 src=trending_5m","ts":1795413292.826159}
+{"level":"INFO","msg":"CANDIDATE MCAT / SOL 4y9LEMoNhuQQUvjbNztarnt2saVdSvq4gmikCzTaRMc1 age=0.66h mc=4461192 ath=4461192 tx24=6164 src=trending_5m","ts":1795413292.826494}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795413297.7850535}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795413347.8021615}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795413397.8180952}
