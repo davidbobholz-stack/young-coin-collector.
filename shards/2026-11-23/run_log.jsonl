@@ -2173,3 +2173,11 @@
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795455226.4816334}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795455276.5280225}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795455321.5752854}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 22, \"pools_seen\": 137, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 15} pools_total=56657","ts":1795455351.7597342}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795455366.8045857}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T17:30:11Z)","ts":1795455401.8821893}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T17:32:24Z","ts":1795455401.8822725}
+{"level":"INFO","msg":"CANDIDATE HUANG / SOL B9dGJhPqPZhDfmtUScv8noW7SeG2kbVNoJXHGf6kydMt age=0.68h mc=463652 ath=463652 tx24=10022 src=trending_5m","ts":1795455406.863682}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795455416.8515077}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795455466.891827}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795455516.9436607}
