@@ -45,3 +45,11 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T00:19:28Z","ts":1795393313.1353226}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795393328.1284618}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795393378.157847}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 322, \"pools_seen\": 62, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=32885","ts":1795393408.3232026}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795393428.3518193}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T00:22:27Z","ts":1795393473.3847833}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795393478.3815966}
+{"level":"INFO","msg":"CANDIDATE ZOL / SOL 9VevrFNdhyvhATK6LqwjCKmDgQdQKcN4S9fBRYduk9PY age=0.69h mc=479343 ath=665043 tx24=12757 src=trending_5m","ts":1795393513.455257}
+{"level":"INFO","msg":"CANDIDATE ZOL / SOL H9braykr5Qk96yDe7xGRPupZyyFWeNtyC8zybmPEtsYh age=1.31h mc=412485 ath=412485 tx24=20530 src=trending_5m","ts":1795393513.4558835}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795393523.4094589}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795393568.4396758}
