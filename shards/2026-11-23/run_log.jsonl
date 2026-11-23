@@ -1105,3 +1105,8 @@
 {"level":"INFO","msg":"CANDIDATE LLCat / SOL 7VBz3vhvJUqowtmL55jLCdjBFqZi7wXccejUHg6NH13X age=0.90h mc=619633444 ath=619633444 tx24=3766 src=trending_5m","ts":1795423950.370969}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795423965.327095}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795424010.3730006}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 59, \"pools_seen\": 5, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 26} pools_total=43908","ts":1795424040.5929897}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795424055.643793}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795424095.6971908}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795424145.7480001}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795424190.7945275}
