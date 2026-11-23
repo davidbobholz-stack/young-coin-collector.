@@ -2270,3 +2270,4 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T18:12:19Z)","ts":1795457921.9816875}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T18:16:01Z","ts":1795457921.9817708}
 {"level":"INFO","msg":"STOP clean","ts":1795457921.9829187}
+{"level":"INFO","msg":"START pid=2422 pending_followups=1102 overdue=4 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795457941.7946067}
