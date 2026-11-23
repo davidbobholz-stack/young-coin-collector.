@@ -2077,3 +2077,16 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T16:46:01Z","ts":1795452601.3499253}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795452606.3161204}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795452656.3633242}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 156, \"pools_seen\": 52, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 23} pools_total=55460","ts":1795452686.5740979}
+{"level":"INFO","msg":"CANDIDATE UDTF / SOL 8TDdSH7UTThrEsu8SMuSFiqCV2JRF8hmzeZ6mraw5hGv age=13.04h mc=112045111 ath=112045111 tx24=6559 src=watch_refresh","ts":1795452687.2891579}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795452706.6188025}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795452756.6782331}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T16:46:01Z)","ts":1795452796.8146577}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T16:50:13Z","ts":1795452796.8147404}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795452801.724254}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL DW7pDaNsCPqzMne34ZFovrDEwvmNzoUPYVASZ9oWhYcm age=0.84h mc=462544 ath=462544 tx24=11323 src=trending_5m","ts":1795452831.7777596}
+{"level":"INFO","msg":"CANDIDATE Jacket / SOL DKR1ygTN3bVFYeztmP8Qbk4Zormfb3pW8ndha4rmDyAK age=0.81h mc=440269 ath=440269 tx24=11500 src=trending_5m","ts":1795452836.7958171}
+{"level":"INFO","msg":"CANDIDATE TTWO / SOL CmNvXiNpkjcXh1NFNnQyk4vq7qoUWPR97CPgxtrjNjis age=0.53h mc=2273561 ath=2273561 tx24=3528 src=trending_5m","ts":1795452836.7961726}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL EJ9yiBWmZnCqiMH19tY6yboMPqss3FY7VPax1XnqGiQb age=0.63h mc=808440 ath=808440 tx24=4343 src=trending_5m","ts":1795452836.7964745}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL HZq1DFvpb5g4Sc8Ck77NeLcvjg7UkfKZNZfb5nUvUNup age=0.58h mc=524399 ath=524399 tx24=3867 src=trending_5m","ts":1795452841.799978}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795452846.8403516}
