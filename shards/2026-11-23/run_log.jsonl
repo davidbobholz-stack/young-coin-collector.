@@ -2279,3 +2279,7 @@
 {"level":"INFO","msg":"CANDIDATE HUANG / SOL Bz7ary9PV4Ki888pUj1N7qpiVjLMmzfbUkWAb1hCM8YU age=0.65h mc=282789 ath=702951 tx24=13699 src=trending_5m","ts":1795458067.0777028}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795458087.0654283}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795458117.0819306}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 82, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 37} pools_total=58042","ts":1795458177.3608768}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795458207.3775563}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795458237.3939166}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795458327.4112697}
