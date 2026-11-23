@@ -1595,3 +1595,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T12:56:58Z","ts":1795438763.486554}
 {"level":"INFO","msg":"CANDIDATE FLY / SOL 7m5p76Ws9e5Q2obeeZ1X2GuE7zbUXomWfttvFR4cJsgJ age=5.06h mc=548225 ath=548225 tx24=4086 src=watch_refresh","ts":1795438773.9228077}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795438778.479613}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 92, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 88} pools_total=49173","ts":1795438808.7585232}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795438823.7784557}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795438868.793643}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795438918.8138487}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-23T13:00:35Z","ts":1795438958.8451612}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795438968.8331423}
