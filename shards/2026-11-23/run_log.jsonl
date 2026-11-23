@@ -151,3 +151,9 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795396367.6566348}
 {"level":"INFO","msg":"CANDIDATE cCAT / hSOL 39JthKyGRUWvpHcD5Q9ebtXnzd4QXsT7uiKgPGLzAcDF age=2.13h mc=400569 ath=400569 tx24=25543 src=trending_1h","ts":1795396412.691863}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795396417.6857648}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 87, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 31} pools_total=34061","ts":1795396447.813974}
+{"level":"INFO","msg":"CANDIDATE hSOL / HI 5P2XqEqh44VaKeCuavbu8JMTgVtivBt5FcFPqZhfcKV4 age=0.51h mc=67908882 ath=67908882 tx24=1943 src=trending_1h","ts":1795396447.858786}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795396462.8466024}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795396507.8997138}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795396557.929662}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795396607.9610424}
