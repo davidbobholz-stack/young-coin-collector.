@@ -2750,3 +2750,10 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T22:06:38Z)","ts":1795471950.8107815}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T22:08:51Z","ts":1795471950.8109388}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795471965.8078103}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 112, \"run_log\": 7, \"watch_closed\": 3, \"watch_snapshots\": 14} pools_total=64158","ts":1795471996.1035163}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795472016.11939}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795472061.1392927}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-23T22:12:01Z","ts":1795472096.1625397}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472106.155352}
+{"level":"INFO","msg":"CANDIDATE pepe / SOL BY6KcoyKcoVc5M78Re93waNYH2ya26eXranbiTVSLykd age=0.66h mc=308754 ath=1050423 tx24=3174 src=trending_5m","ts":1795472151.340281}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472156.1710794}
