@@ -1581,3 +1581,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T12:51:18Z","ts":1795438337.8416154}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795438342.8353171}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795438387.85015}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 77, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 58} pools_total=49031","ts":1795438418.1030416}
+{"level":"INFO","msg":"CANDIDATE IPO / SOL 6icRq1guwadNJ7R4bxoF2hfCmM2RQnjLb3DTNz6txvG7 age=1.15h mc=7183678 ath=7183678 tx24=13727 src=trending_1h","ts":1795438433.1275566}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795438438.1217494}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795438488.140579}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795438538.1624842}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795438583.175713}
