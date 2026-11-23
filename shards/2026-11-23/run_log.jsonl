@@ -2764,3 +2764,11 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=0 newest=2026-11-23T22:17:49Z","ts":1795472342.5229707}
 {"level":"INFO","msg":"STOP clean","ts":1795472342.5231764}
 {"level":"INFO","msg":"START pid=2216 pending_followups=1157 overdue=2 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795472364.3493607}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 2, \"watch_snapshots\": 0} pools_total=64295","ts":1795472364.574898}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795472389.6150231}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795472434.6622748}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T22:12:01Z)","ts":1795472474.7250898}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T22:18:42Z","ts":1795472474.725242}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795472479.7066839}
+{"level":"INFO","msg":"CANDIDATE NVINU / SOL 8jauNLnYq8KMDqTxb7uhqNKfiMpG8EqhWPqPHApvvaDD age=0.57h mc=269058 ath=426746 tx24=12914 src=trending_5m","ts":1795472514.757801}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472519.7450318}
