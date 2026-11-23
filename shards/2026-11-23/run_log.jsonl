@@ -2216,3 +2216,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456428.9191663}
 {"level":"INFO","msg":"CANDIDATE pillar / SOL BmfNHehLvP6GgrVshs4AEUDqSxt9fsrAzL97uJDgdqb8 age=0.55h mc=462828 ath=462828 tx24=9861 src=trending_5m","ts":1795456464.0071836}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456478.9723184}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 128, \"run_log\": 8, \"watch_closed\": 1, \"watch_snapshots\": 30} pools_total=57267","ts":1795456509.160832}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456524.2051868}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456569.2549562}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795456619.3018713}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795456674.3520772}
