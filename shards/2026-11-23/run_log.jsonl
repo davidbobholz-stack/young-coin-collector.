@@ -1295,3 +1295,9 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T10:27:00Z","ts":1795429815.3911011}
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-23T10:28:19Z","ts":1795429825.3874288}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795429830.3843546}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 196, \"run_log\": 8, \"watch_closed\": 0, \"watch_snapshots\": 9} pools_total=46011","ts":1795429860.6834261}
+{"level":"INFO","msg":"CANDIDATE CATME / SOL CB645GHavwYv9zDZAUN6BXh4bDCS1abBp6zrHfo1R6AE age=6.04h mc=477567 ath=477567 tx24=22518 src=watch_refresh","ts":1795429866.1140785}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795429875.6980345}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795429915.7134905}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795429965.7329412}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795430010.7476823}
