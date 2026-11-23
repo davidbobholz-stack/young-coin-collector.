@@ -1765,3 +1765,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443599.4734275}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443657.939024}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443707.9896142}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 55, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 15} pools_total=51353","ts":1795443738.1521611}
+{"level":"INFO","msg":"CANDIDATE TTWO / SOL 8qqTz3QX2HpjwU9SGpJ1R6YWX6RswpMiQdje6LiCD9xz age=0.59h mc=1074641 ath=1471211 tx24=4651 src=trending_1h","ts":1795443743.9540935}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443758.1934304}
+{"level":"INFO","msg":"CANDIDATE HOGE / SOL 9owwWuijhg4rqQqM4yqA28mXLeii18SjFfeC6NeypR9X age=0.70h mc=528483 ath=528483 tx24=2231 src=trending_1h","ts":1795443793.6890202}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443803.2440836}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443848.2836833}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795443898.3315427}
