@@ -2208,3 +2208,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T17:47:11Z","ts":1795456223.4856558}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795456238.5148165}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795456283.5762093}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 97, \"pools_seen\": 135, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 8} pools_total=57139","ts":1795456313.7900755}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795456328.830226}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795456378.8772662}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T17:47:11Z)","ts":1795456414.013951}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T17:50:10Z","ts":1795456414.014037}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456428.9191663}
+{"level":"INFO","msg":"CANDIDATE pillar / SOL BmfNHehLvP6GgrVshs4AEUDqSxt9fsrAzL97uJDgdqb8 age=0.55h mc=462828 ath=462828 tx24=9861 src=trending_5m","ts":1795456464.0071836}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795456478.9723184}
