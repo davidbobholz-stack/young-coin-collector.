@@ -245,3 +245,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795398966.2546515}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795399016.2876887}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795399066.3181329}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 53, \"pools_seen\": 95, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 30} pools_total=35194","ts":1795399096.4592168}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-23T01:54:59Z","ts":1795399096.499089}
+{"level":"INFO","msg":"CANDIDATE TERKY / SOL Cbt89mpxFQpU5Syic9CmKZzp5GMmPsLLvs4p2MGaDgdA age=0.67h mc=419181 ath=705613 tx24=9092 src=trending_5m","ts":1795399111.5213106}
+{"level":"INFO","msg":"CANDIDATE receipts / SOL BsDykc5eepXaAdi5Z44CP3bFuGpGYqfFpLi3ykYnhi4b age=0.60h mc=1021529 ath=1021529 tx24=6063 src=trending_5m","ts":1795399111.521813}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795399116.4876404}
+{"level":"INFO","msg":"CANDIDATE Hedge / SOL 8rPnefYoxiTCW9x9vseZuBrApENJghNRsozEubgqTzVM age=0.61h mc=279604 ath=1115639 tx24=2343 src=trending_5m","ts":1795399146.9370177}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795399161.5210629}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795399206.554289}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795399256.5849667}
