@@ -946,3 +946,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795419209.9079943}
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-23T07:32:12Z","ts":1795419244.959969}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795419254.957214}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 58, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 56} pools_total=42572","ts":1795419285.1388686}
+{"level":"INFO","msg":"CANDIDATE NEX Ai / SOL EdhrrDhEViKAHeJA9omi3gR9rZRyYZ3VtjV5KTannxvd age=0.55h mc=2786050 ath=2786050 tx24=3332 src=trending_5m","ts":1795419290.2487657}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795419300.192033}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795419355.2395241}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795419405.2866087}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-23T07:35:01Z","ts":1795419445.3505807}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795419450.3334193}
