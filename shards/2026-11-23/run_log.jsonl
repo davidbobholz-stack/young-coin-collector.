@@ -605,3 +605,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409301.8076847}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409346.8689623}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409396.8816562}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 95, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 27} pools_total=39203","ts":1795409427.091388}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T04:48:41Z","ts":1795409437.1107242}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409447.1079206}
+{"level":"INFO","msg":"CANDIDATE Rings / SOL D4X5nqhoDsZVV5wzFPtxxWfLJrHja5ZZQ9LPnXgFgCqy age=4.50h mc=424665 ath=433379 tx24=1024 src=watch_refresh","ts":1795409482.6032765}
+{"level":"INFO","msg":"CANDIDATE RECEIPTS / SOL FiBwoSdcq6s3651QYJZ1ZDTViVHpQutkexc8Js52ynE8 age=4.76h mc=1127728 ath=1127728 tx24=2679 src=watch_refresh","ts":1795409487.5389223}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795409497.123115}
+{"level":"INFO","msg":"CANDIDATE CATE / SOL D2rp3QkDY9ypwe3zYzX7mAheQzk92Y4SyukXhPjKCWPX age=4.33h mc=416408 ath=423465 tx24=1033 src=watch_refresh","ts":1795409532.296811}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409542.1412265}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795409587.159986}
