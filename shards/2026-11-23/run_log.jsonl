@@ -1511,3 +1511,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795436217.7558742}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795436267.768123}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795436317.787514}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 88, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 37} pools_total=48324","ts":1795436348.0393825}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T12:17:09Z","ts":1795436353.0583148}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795436363.056548}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795436408.9997187}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795436459.0161326}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T12:19:53Z","ts":1795436494.037632}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL FBcMQZohbFJ9EzEfax6e59AqFLRpVAk1n3Wvu1Juip5X age=0.58h mc=1370582 ath=1370582 tx24=4626 src=trending_5m","ts":1795436499.0397646}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795436514.0355802}
