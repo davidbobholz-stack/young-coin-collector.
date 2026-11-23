@@ -166,3 +166,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795396748.1928742}
 {"level":"INFO","msg":"CANDIDATE MONKEY / SOL 725vCXzMcPckr4NzTeT8MroYqjmi1WqgNf32FY1PsJz6 age=5.72h mc=91335171 ath=91335171 tx24=3036 src=watch_refresh","ts":1795396778.6459384}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795396798.221949}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 70, \"pools_seen\": 70, \"run_log\": 9, \"watch_closed\": 0, \"watch_snapshots\": 56} pools_total=34259","ts":1795396828.361752}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795396848.391186}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795396898.4211247}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795396943.449616}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T01:15:06Z)","ts":1795396983.4874945}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T01:20:55Z","ts":1795396983.4875746}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795396988.477896}
