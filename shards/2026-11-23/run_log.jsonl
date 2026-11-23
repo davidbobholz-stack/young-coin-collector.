@@ -1757,3 +1757,4 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795443502.7366931}
 {"level":"WARN","msg":"multi_followup -> 429","ts":1795443509.737999}
 {"level":"INFO","msg":"STOP clean","ts":1795443509.738177}
+{"level":"INFO","msg":"START pid=2205 pending_followups=1084 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795443529.2324073}
