@@ -1,16 +1,16 @@
 {
-  "candidates_total": 292,
+  "candidates_total": 294,
   "checkpoint": true,
-  "clean_shutdown": false,
+  "clean_shutdown": true,
   "coverage_origin_ts": 1795294909.824083,
-  "followups_pending": 1005,
-  "iso": "2026-11-23T10:16:26Z",
-  "last_alive_ts": 1795428986.1664875,
-  "pools_total": 45726,
+  "followups_pending": 1017,
+  "iso": "2026-11-23T10:18:12Z",
+  "last_alive_ts": 1795429092.01152,
+  "pools_total": 45793,
   "runs": 12,
   "state": {
-    "backlog_watch": 3848,
-    "np_newest": 1795428824.0
+    "backlog_watch": 3706,
+    "np_newest": 1795429001.0
   },
-  "ts": 1795428986.1664875
+  "ts": 1795429092.01152
 }
