@@ -2772,3 +2772,8 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795472479.7066839}
 {"level":"INFO","msg":"CANDIDATE NVINU / SOL 8jauNLnYq8KMDqTxb7uhqNKfiMpG8EqhWPqPHApvvaDD age=0.57h mc=269058 ath=426746 tx24=12914 src=trending_5m","ts":1795472514.757801}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472519.7450318}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 72, \"run_log\": 8, \"watch_closed\": 7, \"watch_snapshots\": 9} pools_total=64367","ts":1795472549.982885}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472575.027202}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472625.0792253}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472670.1180089}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795472715.165567}
