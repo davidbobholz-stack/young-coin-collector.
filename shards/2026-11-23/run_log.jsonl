@@ -1301,3 +1301,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795429915.7134905}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795429965.7329412}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795430010.7476823}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 40, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 89} pools_total=46051","ts":1795430041.0063207}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795430056.0191858}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795430096.0368276}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-23T10:32:41Z","ts":1795430131.0556748}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795430146.0529168}
+{"level":"INFO","msg":"CANDIDATE DCTY / SOL CxTA3ZPrhoZZjowrwE9TFmgH74zwyPkmBTtFrAsT3PvP age=0.60h mc=1306440 ath=1857161 tx24=5282 src=trending_5m","ts":1795430181.104331}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795430196.0679505}
