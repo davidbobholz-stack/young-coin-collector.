@@ -2499,3 +2499,7 @@
 {"level":"INFO","msg":"CANDIDATE hSOL / CCAT 4Xma6ktxTmJDtskRwSxEsEAK9uJKd1tFTvRY4hk4mJmx age=0.76h mc=69461787 ath=69461787 tx24=2427 src=trending_1h","ts":1795391810.5859945}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795391815.5073495}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795391865.5354054}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 4, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 29} pools_total=32209","ts":1795391895.638151}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795391910.667207}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795391955.6959236}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795391995.7263823}
