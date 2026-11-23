@@ -842,3 +842,10 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-23T06:40:39Z","ts":1795416138.5643427}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795416143.5595784}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795416188.616408}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 76, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 58} pools_total=41517","ts":1795416218.834849}
+{"level":"INFO","msg":"CANDIDATE NIAN / SOL 385qh9hDNTsDUDj69YkG4CavvupiDMd8noQj1GGaaDVA age=5.66h mc=23303114 ath=23303114 tx24=25596 src=watch_refresh","ts":1795416229.3338091}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795416238.8880718}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T06:42:59Z","ts":1795416283.9444563}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795416288.9344008}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795416338.9792724}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795416384.0246248}
