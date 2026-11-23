@@ -2090,3 +2090,8 @@
 {"level":"INFO","msg":"CANDIDATE DCTY / SOL EJ9yiBWmZnCqiMH19tY6yboMPqss3FY7VPax1XnqGiQb age=0.63h mc=808440 ath=808440 tx24=4343 src=trending_5m","ts":1795452836.7964745}
 {"level":"INFO","msg":"CANDIDATE JENSEN / SOL HZq1DFvpb5g4Sc8Ck77NeLcvjg7UkfKZNZfb5nUvUNup age=0.58h mc=524399 ath=524399 tx24=3867 src=trending_5m","ts":1795452841.799978}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795452846.8403516}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 6, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 122, \"run_log\": 13, \"watch_closed\": 0, \"watch_snapshots\": 56} pools_total=55582","ts":1795452877.0522873}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795452897.091662}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795452947.1461108}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795452997.204787}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795453042.2570238}
