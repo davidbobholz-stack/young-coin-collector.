@@ -2423,3 +2423,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795462725.802301}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795462770.8225057}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795462815.8427582}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 86, \"pools_seen\": 77, \"run_log\": 5, \"watch_closed\": 0, \"watch_snapshots\": 8} pools_total=59721","ts":1795462846.1230283}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T19:34:03Z)","ts":1795462846.1511176}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T19:37:21Z","ts":1795462846.1512764}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795462856.141031}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL H5mdUyzK1jsBFASjc4MG9y4bMvYYsZWRWLS4QwyjS147 age=0.60h mc=434973 ath=434973 tx24=9702 src=trending_5m","ts":1795462886.1728404}
+{"level":"INFO","msg":"CANDIDATE sexcoin / SOL EXB8J75HBG6fZmM1J1L3y4Y7gWqp6FQMccN9k7rXxmjd age=0.62h mc=226080 ath=924832 tx24=4016 src=trending_5m","ts":1795462901.4282558}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795462906.1641138}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795462956.1809433}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795463001.203799}
