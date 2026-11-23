@@ -2342,3 +2342,9 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T18:51:19Z)","ts":1795460335.575574}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T18:54:57Z","ts":1795460335.575754}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795460365.567231}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 172, \"run_log\": 6, \"watch_closed\": 1, \"watch_snapshots\": 7} pools_total=58743","ts":1795460395.8630288}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795460395.8847253}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-23T18:54:57Z)","ts":1795460480.907255}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-23T18:58:47Z","ts":1795460480.9074018}
+{"level":"INFO","msg":"CANDIDATE sexcoin / SOL 9UGgjWtJXi1WWQgB19yFKmzxUQufNbQLvqJufs6nMzAR age=0.86h mc=475854 ath=475854 tx24=12939 src=trending_5m","ts":1795460500.9098225}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795460510.9097009}
