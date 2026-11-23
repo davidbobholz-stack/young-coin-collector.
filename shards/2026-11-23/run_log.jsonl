@@ -2893,3 +2893,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795476074.9493842}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-23T23:19:32Z","ts":1795476115.0107172}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795476120.0019605}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 64, \"run_log\": 8, \"watch_closed\": 7, \"watch_snapshots\": 58} pools_total=65861","ts":1795476150.604137}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795476175.6542192}
+{"level":"INFO","msg":"CANDIDATE ChristmASS / SOL 5DDrBo8mg9rpWZjsozFoW8ZhLZj1YnV2P8xTJ5THDgDb age=1.15h mc=330888 ath=1073039 tx24=9334 src=trending_5m","ts":1795476205.8685687}
+{"level":"INFO","msg":"CANDIDATE CEO / SOL 2hgR9HfwRYgrd6RVMz3qWcw196VEJhd31wCSswuFjcbU age=1.00h mc=861313851 ath=861313851 tx24=4045 src=trending_5m","ts":1795476216.3335593}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795476225.7100756}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795476270.7629216}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795476315.8176117}
