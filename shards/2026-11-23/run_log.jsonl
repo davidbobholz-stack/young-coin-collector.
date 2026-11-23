@@ -1214,3 +1214,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795427394.9025533}
 {"level":"INFO","msg":"CANDIDATE JENSEN / SOL GrWy9f9J1eCjbrGiNbioEjWYHs9nFifgLcEX4Zo4K1y8 age=0.67h mc=5556149 ath=5556149 tx24=6255 src=trending_5m","ts":1795427435.0323696}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795427444.9497123}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 62, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 39} pools_total=45102","ts":1795427475.1520607}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795427490.2031147}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795427535.2519183}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795427575.3061695}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795427625.3570342}
