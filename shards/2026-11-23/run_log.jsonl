@@ -1405,3 +1405,10 @@
 {"level":"INFO","msg":"CANDIDATE Cypurr / SOL 4ZniioYGm3aJuCvRo78h2xwk1h8P4NraGYxAUY9Yn7SW age=1.30h mc=290448 ath=284758755 tx24=4256 src=trending_5m","ts":1795432996.425277}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433016.044926}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795433061.062907}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 20, \"run_log\": 7, \"watch_closed\": 0, \"watch_snapshots\": 40} pools_total=47176","ts":1795433091.2800987}
+{"level":"INFO","msg":"CANDIDATE MINELIUS / SOL BV48vrd8T89g6gFcBppUFWEZe1WBPaWhektyEqVF5KQR age=0.50h mc=374638 ath=902215 tx24=5914 src=trending_1h","ts":1795433091.4351344}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL 8WBM99d85tdX557GPG7xhFLKjoY3BJBdHHz61jau8GMK age=0.55h mc=3877812 ath=3877812 tx24=5388 src=trending_1h","ts":1795433101.9820797}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433106.2984955}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433156.316542}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433206.3332982}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795433256.3464632}
