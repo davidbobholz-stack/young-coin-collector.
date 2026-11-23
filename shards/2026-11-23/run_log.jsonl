@@ -420,3 +420,12 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795403988.2804728}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795404038.298244}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795404083.3183982}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 73, \"pools_seen\": 121, \"run_log\": 6, \"watch_closed\": 0, \"watch_snapshots\": 59} pools_total=37231","ts":1795404113.5617757}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-23T03:20:07Z","ts":1795404113.5875752}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795404128.5752258}
+{"level":"INFO","msg":"CANDIDATE Hedge / SOL 3Yr86ZUfxy65Euk3ESax9XApVhEwtBR71AYG98kmdX5C age=0.56h mc=2704559 ath=2704559 tx24=2366 src=trending_5m","ts":1795404158.5964134}
+{"level":"INFO","msg":"CANDIDATE hSOL / hCAT J57k53g3MhHn9kcT6ZTn7UbGbLDDwGwB29N3h5Qd7uwm age=0.50h mc=70995343 ath=70995343 tx24=6142 src=trending_5m","ts":1795404168.6215599}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795404178.5895607}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795404228.609517}
+{"level":"INFO","msg":"CANDIDATE PEACH / SOL 6LLzUrmZEHdgHPhTeFvgwSd7qFHdtNfxQoV5hvQi4Vaq age=0.53h mc=523204 ath=523204 tx24=10137 src=trending_1h","ts":1795404273.6324077}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795404278.6278613}
