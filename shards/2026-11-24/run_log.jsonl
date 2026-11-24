@@ -1705,3 +1705,8 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T14:55:00Z","ts":1795532360.810307}
 {"level":"INFO","msg":"CANDIDATE FIONA / SOL E1XxmMfJ5vGB67wJwPG9EJADLode9W3SXuXdLQz8BmgM age=0.75h mc=3794532 ath=3794532 tx24=2141 src=trending_5m","ts":1795532370.7733166}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795532380.7681124}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 25, \"run_log\": 7, \"watch_closed\": 17, \"watch_snapshots\": 17} pools_total=85252","ts":1795532421.1885562}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795532430.7970245}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795532480.8249326}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795532540.8559377}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795532590.8858511}
