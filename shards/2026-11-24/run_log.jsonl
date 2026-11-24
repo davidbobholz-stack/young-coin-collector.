@@ -1860,3 +1860,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537154.3238668}
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T16:15:36Z","ts":1795537184.3572671}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795537199.356329}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 33, \"pools_seen\": 52, \"run_log\": 6, \"watch_closed\": 11, \"watch_snapshots\": 9} pools_total=87173","ts":1795537229.5749533}
+{"level":"INFO","msg":"CANDIDATE USOI / SOL DHRFUs29odXPhtM6YNfwB3sn6Li5CyuQngdFCKe9ssrL age=17.73h mc=3635351 ath=3698427 tx24=1105 src=watch_refresh","ts":1795537249.7618945}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795537254.6087744}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537304.654089}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537359.6856933}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T16:15:36Z)","ts":1795537399.722321}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T16:20:23Z","ts":1795537399.7224088}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795537404.7173874}
