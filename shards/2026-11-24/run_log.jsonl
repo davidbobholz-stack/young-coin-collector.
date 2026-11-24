@@ -839,3 +839,10 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795506286.7893822}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795506336.8208883}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795506381.8544178}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 1332, \"pools_seen\": 59, \"run_log\": 5, \"watch_closed\": 1, \"watch_snapshots\": 0} pools_total=75458","ts":1795506412.596991}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T07:44:47Z","ts":1795506417.6331735}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795506427.6249907}
+{"level":"INFO","msg":"CANDIDATE SuperJense / SOL 232SzSTnnAnGjJUKmpCMhrcEfFsEX3YSBF4V4syun8er age=2.24h mc=22609839 ath=22609839 tx24=23734 src=trending_5m","ts":1795506467.6599097}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795506477.65284}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795506527.681336}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795506577.7100644}
