@@ -2494,3 +2494,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795557547.2457364}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T21:56:58Z","ts":1795557592.3090158}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795557597.2802105}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 76, \"pools_seen\": 109, \"run_log\": 8, \"watch_closed\": 8, \"watch_snapshots\": 6} pools_total=94544","ts":1795557627.592545}
+{"level":"INFO","msg":"CANDIDATE ADYTUM / SOL 78b5RR7idWeoViEKSzDF2xnQRWofmDogwzd9vgYQZ4ma age=1.03h mc=465109 ath=465109 tx24=21221 src=trending_5m","ts":1795557632.6669412}
+{"level":"INFO","msg":"CANDIDATE DONJENSEN / SOL C7G2Zw1V4EzLVqwu8h7Ey2DBrBqbNwz6u2bahthXCHZt age=0.74h mc=3471680 ath=3471680 tx24=4903 src=trending_5m","ts":1795557642.9273176}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557647.6434724}
+{"level":"INFO","msg":"CANDIDATE NEX Ai / SOL 3ArTZgmWkeGAVRn1MgFjHEcQGi2MCdm7SMjA4TT17BEU age=0.61h mc=629042214 ath=629042214 tx24=3256 src=trending_5m","ts":1795557683.2942498}
+{"level":"INFO","msg":"CANDIDATE \u73b0\u91d1\u732b / SOL 7XUqjn8bub18tXqNKLTcFv1DHhUxP8tsq1Ufjx8HQpLf age=0.81h mc=333697 ath=472343 tx24=3587 src=trending_5m","ts":1795557692.801167}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557697.6839132}
+{"level":"INFO","msg":"CANDIDATE Huang / SOL 6NtAQWanjUrg6Yop4mRLA91HjbQfQ5oCk5aU347C1wLk age=1.07h mc=642292 ath=642292 tx24=3530 src=trending_5m","ts":1795557732.7770164}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557742.7234688}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795557787.7613711}
