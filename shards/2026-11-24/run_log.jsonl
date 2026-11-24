@@ -2001,3 +2001,10 @@
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T17:24:09Z","ts":1795541178.7036362}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795541183.671766}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795541228.7014194}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 1136, \"pools_seen\": 109, \"run_log\": 6, \"watch_closed\": 6, \"watch_snapshots\": 2} pools_total=88972","ts":1795541259.534897}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795541264.5662246}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795541304.5959172}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795541349.6267254}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T17:25:24Z","ts":1795541389.6624591}
+{"level":"INFO","msg":"CANDIDATE CROWD / SOL DZVg2rNEkv9ERYF8rCNDmFuFdkJp3RuQ5nZP5NaTgxXk age=1.03h mc=1171897 ath=1171897 tx24=2121 src=trending_5m","ts":1795541399.662219}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795541409.6643295}
