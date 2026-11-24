@@ -1243,3 +1243,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517828.6437383}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795517878.7077575}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795517928.774587}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 30, \"run_log\": 6, \"watch_closed\": 8, \"watch_snapshots\": 36} pools_total=79511","ts":1795517959.0494657}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL DUAmyUvTBk8Pywt6xNdDrGg8QjofcCWZqfFa95mPdc7a age=2.03h mc=307503219 ath=307503219 tx24=3403 src=trending_5m","ts":1795517969.273996}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795517979.112301}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795518024.1738782}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL 7FgYCBfFomT5SvURbSRLK5nJVu3FN67RqGk3ZsBWeVVw age=0.92h mc=847097 ath=847097 tx24=6218 src=trending_1h","ts":1795518054.2772937}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795518069.2382514}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795518119.3046248}
