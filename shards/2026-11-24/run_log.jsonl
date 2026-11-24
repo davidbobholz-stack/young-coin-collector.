@@ -1548,3 +1548,9 @@
 {"level":"INFO","msg":"CANDIDATE DUVAL / SOL CddNQNwvpC7gbSYF5C3S32E5Jd7qXJXKZ4GfLeghooUo age=3.00h mc=363572 ath=407558 tx24=9713 src=watch_refresh","ts":1795527261.2776425}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795527276.0856807}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795527331.5600407}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 84, \"pools_seen\": 78, \"run_log\": 6, \"watch_closed\": 2, \"watch_snapshots\": 69} pools_total=83004","ts":1795527366.9077296}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795527371.5895398}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T13:34:53Z","ts":1795527411.625534}
+{"level":"INFO","msg":"CANDIDATE JIMMY / SOL CDFnyUqJ1kxGDB7erwyxBR1KgL33qHXKuVptZ1e54AiJ age=6.27h mc=4949916 ath=4949916 tx24=3694 src=watch_refresh","ts":1795527437.3673556}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795527446.9014897}
+{"level":"WARN","msg":"429 on multi_watch; backoff 60s","ts":1795527477.0800538}
