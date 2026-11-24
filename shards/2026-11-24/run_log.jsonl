@@ -1487,3 +1487,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795525136.4016204}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525226.5402703}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795525256.5799496}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 4, \"run_log\": 4, \"watch_closed\": 2, \"watch_snapshots\": 13} pools_total=82088","ts":1795525316.7684057}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525331.843143}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795525362.0565028}
+{"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL 2G1RNHrea6qVrhnuUfdfAfHedz9uKNKtxooV7t7RVjJ6 age=1.53h mc=307231583 ath=307231583 tx24=4199 src=trending_1h","ts":1795525427.903038}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525432.2059267}
+{"level":"INFO","msg":"CANDIDATE DUVAL / SOL AEc7h6CwECwCf2qecB9NUwTvEwQrLbj4LNwgo5fNQr9B age=2.55h mc=312335 ath=458861 tx24=2943 src=trending_1h","ts":1795525467.775387}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525482.2358148}
