@@ -1118,3 +1118,11 @@
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795514196.5114167}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514241.5760272}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514286.6414607}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 78, \"pools_seen\": 100, \"run_log\": 6, \"watch_closed\": 15, \"watch_snapshots\": 27} pools_total=78197","ts":1795514316.967403}
+{"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL G9vyvsB8wqqaE4Gs9Px2a2v2jKYGVxHhKKJS48tJaLgo age=0.52h mc=530460 ath=530460 tx24=2975 src=trending_5m","ts":1795514322.1391313}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514337.0307672}
+{"level":"INFO","msg":"CANDIDATE scamsem / SOL FEpPN2RpJt73DFPfjS2eFzcXxi3yBtV1xTHtuBmXgV7w age=0.75h mc=610880 ath=610880 tx24=10424 src=trending_1h","ts":1795514382.1511927}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514387.097231}
+{"level":"INFO","msg":"CANDIDATE ANSEM / SOL DvGuk8anKso7mKxfUun6oGKZP8VW84hLPUTn56mhinUX age=0.77h mc=430273 ath=430273 tx24=2266 src=trending_1h","ts":1795514432.2377074}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514437.1628885}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795514482.2277637}
