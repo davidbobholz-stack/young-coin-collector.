@@ -2441,3 +2441,8 @@
 {"level":"INFO","msg":"CANDIDATE Cudie / SOL DLo1jw52Aww2SUmWf3n83SkUnDbdPWaKsa8kWBnhaJVh age=0.59h mc=786761 ath=786761 tx24=17056 src=trending_5m","ts":1795556013.5314965}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795556028.4078252}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795556078.452632}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 47, \"run_log\": 9, \"watch_closed\": 25, \"watch_snapshots\": 25} pools_total=93740","ts":1795556108.711373}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795556123.7510293}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795556168.7897105}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795556218.8270419}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795556268.873204}
