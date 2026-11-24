@@ -407,3 +407,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T03:46:11Z","ts":1795492256.6133811}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795492286.6007078}
 {"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795492316.6247594}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 66, \"run_log\": 6, \"watch_closed\": 13, \"watch_snapshots\": 5} pools_total=71094","ts":1795492376.8966458}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T03:49:57Z","ts":1795492397.2923634}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795492406.9160018}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795492436.9436147}
+{"level":"INFO","msg":"CANDIDATE SCINU / SOL 93FqECTzKFL1AyD6MLzxmvCYTMfSqhY3WhuCvMkoQgz4 age=0.54h mc=387702 ath=753563 tx24=2291 src=trending_5m","ts":1795492502.4380212}
+{"level":"INFO","msg":"CANDIDATE FATU / SOL 97edCxWZjCMSzoHqRBLdiqHEyDHiBQaptf5GytkeBVwy age=0.54h mc=268287 ath=414828 tx24=18469 src=trending_5m","ts":1795492507.080984}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795492526.9619477}
