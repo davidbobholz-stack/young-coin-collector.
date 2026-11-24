@@ -2617,3 +2617,10 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795561137.5619602}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795561187.5969396}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795561237.632704}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 434, \"pools_seen\": 171, \"run_log\": 6, \"watch_closed\": 6, \"watch_snapshots\": 21} pools_total=96179","ts":1795561268.0945754}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T22:58:38Z","ts":1795561273.1632383}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795561283.1365833}
+{"level":"INFO","msg":"CANDIDATE NAIWA / SOL FEbfaenRMEqHmKmtNdKW3ZBZP9dTxUNyoZvz7uhrAkj1 age=0.54h mc=1046566 ath=1716258 tx24=16444 src=trending_5m","ts":1795561313.203692}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795561328.1747959}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795561378.2116678}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795561428.2561417}
