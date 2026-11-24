@@ -543,3 +543,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795496997.3592553}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T05:09:23Z","ts":1795497042.392859}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795497047.3897777}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 166, \"pools_seen\": 130, \"run_log\": 8, \"watch_closed\": 11, \"watch_snapshots\": 4} pools_total=72437","ts":1795497077.7817533}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795497097.8103178}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795497142.8396149}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795497187.8711944}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T05:11:51Z","ts":1795497222.9073405}
+{"level":"INFO","msg":"CANDIDATE yippee / SOL 4uHmFyCSTwWqWJpbtjayYyUmGe8HF9ymTtYjqpYY8KYN age=0.54h mc=847169 ath=1764515 tx24=5524 src=trending_5m","ts":1795497232.9086874}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795497237.9001153}
