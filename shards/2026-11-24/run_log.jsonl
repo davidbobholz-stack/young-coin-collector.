@@ -1355,3 +1355,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795521309.383}
 {"level":"INFO","msg":"CANDIDATE ATX / USDC g9bf8Lp2RXAyms2nezRGzUYUfUZcqi4AZBGGWbpd5zL age=2.55h mc=12895720 ath=12895720 tx24=2089 src=watch_refresh","ts":1795521339.9206188}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795521359.4489923}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 582, \"pools_seen\": 20, \"run_log\": 8, \"watch_closed\": 13, \"watch_snapshots\": 114} pools_total=80674","ts":1795521389.9878852}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL Dv3jtrZ4cS8oDFzkSwi29Ktusk1Hao2bn9nx8V9Q56n9 age=12.71h mc=105248384 ath=105248384 tx24=1899 src=watch_refresh","ts":1795521395.48443}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795521415.0995686}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T11:55:10Z","ts":1795521455.1712189}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521465.165274}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521510.2296805}
+{"level":"INFO","msg":"CANDIDATE RSFA / SOL HkNgcTmS5wyh83iXeWGGZtALhZVQY3PjkaNHYx9c9Dz6 age=8.76h mc=17454060 ath=17454060 tx24=4633 src=trending_5m","ts":1795521550.3363106}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521555.2929697}
