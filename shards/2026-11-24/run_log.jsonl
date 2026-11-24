@@ -2432,3 +2432,12 @@
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795555787.798333}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795555837.8783042}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795555882.9198828}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 89, \"pools_seen\": 129, \"run_log\": 6, \"watch_closed\": 17, \"watch_snapshots\": 6} pools_total=93693","ts":1795555913.2912576}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795555928.3282263}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T21:25:41Z)","ts":1795555968.4251316}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T21:29:28Z","ts":1795555968.4254298}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795555978.3650753}
+{"level":"INFO","msg":"CANDIDATE Cudie / SOL ECJLtNAPwM22ArKAX63MeKdoSpBrPuUoViDZtfMG4BUM age=0.57h mc=906773 ath=1070942 tx24=16670 src=trending_5m","ts":1795556008.4307048}
+{"level":"INFO","msg":"CANDIDATE Cudie / SOL DLo1jw52Aww2SUmWf3n83SkUnDbdPWaKsa8kWBnhaJVh age=0.59h mc=786761 ath=786761 tx24=17056 src=trending_5m","ts":1795556013.5314965}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795556028.4078252}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795556078.452632}
