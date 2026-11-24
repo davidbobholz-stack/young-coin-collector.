@@ -215,3 +215,9 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T01:54:29Z","ts":1795485433.2794654}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795485448.2701285}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 60s","ts":1795485478.3032548}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 52, \"pools_seen\": 46, \"run_log\": 5, \"watch_closed\": 9, \"watch_snapshots\": 5} pools_total=69021","ts":1795485538.5895905}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795485568.6096537}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795485598.6293924}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T01:56:41Z","ts":1795485663.6582072}
+{"level":"INFO","msg":"CANDIDATE CLAUDIO / SOL 3qAdNhX6Z7HAoq2mxMN1vJrSxq8Z2Pa1ijhfLnaKi8FT age=0.97h mc=8973146 ath=8973146 tx24=15334 src=trending_5m","ts":1795485683.746251}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795485688.6523929}
