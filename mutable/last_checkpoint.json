@@ -1,17 +1,17 @@
 {
   "candidates_total": 416,
   "counts": {
-    "candidates": 5,
+    "candidates": 0,
     "downtime": 0,
-    "followup_results": 0,
+    "followup_results": 1,
     "ohlcv": 0,
-    "pools_seen": 7,
-    "run_log": 9,
-    "watch_closed": 8,
-    "watch_snapshots": 24
+    "pools_seen": 50,
+    "run_log": 4,
+    "watch_closed": 11,
+    "watch_snapshots": 3
   },
-  "followups_pending": 1202,
-  "iso": "2026-11-24T03:03:56Z",
-  "pools_total": 70205,
-  "ts": 1795489436.1496587
+  "followups_pending": 1201,
+  "iso": "2026-11-24T03:06:56Z",
+  "pools_total": 70255,
+  "ts": 1795489616.4798357
 }
