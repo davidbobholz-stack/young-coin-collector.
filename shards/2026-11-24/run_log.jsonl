@@ -2049,3 +2049,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795542597.2352586}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T17:48:32Z","ts":1795542682.272337}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795542687.2711182}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 116, \"run_log\": 7, \"watch_closed\": 15, \"watch_snapshots\": 10} pools_total=89584","ts":1795542717.474247}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795542717.5038233}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL HEtoZXTuBx3GiLAXjyfwU47wb2Ad3Sr7eYmJjvZyJqdZ age=11.62h mc=1046444210 ath=1046444210 tx24=16803 src=trending_5m","ts":1795542777.5392714}
+{"level":"INFO","msg":"CANDIDATE MANDY / SOL 7W4R1yxrkLQnijoz2PFktv6ek9gdEFwdzbSWS4vTZbsZ age=0.74h mc=260556 ath=656223 tx24=3710 src=trending_5m","ts":1795542792.9676557}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795542807.5385385}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795542837.57592}
