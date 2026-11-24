@@ -1385,3 +1385,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T12:07:31Z","ts":1795522237.5925686}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795522257.4414463}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522307.507652}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 18, \"pools_seen\": 131, \"run_log\": 7, \"watch_closed\": 26, \"watch_snapshots\": 8} pools_total=80938","ts":1795522337.838429}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T12:09:52Z","ts":1795522342.9084678}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795522357.9081283}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795522402.9701757}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795522448.033793}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL AhdktrGqa4YbqxSaDiSVnfcG9rYgyo6fjfCoTkXq7MCN age=0.67h mc=101079659 ath=101079659 tx24=2286 src=trending_1h","ts":1795522483.1772218}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795522498.0994277}
