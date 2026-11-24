@@ -1679,3 +1679,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795531584.7024004}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T14:44:54Z","ts":1795531639.733552}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795531644.7316916}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 43, \"pools_seen\": 96, \"run_log\": 5, \"watch_closed\": 21, \"watch_snapshots\": 27} pools_total=84940","ts":1795531690.4694953}
+{"level":"INFO","msg":"CANDIDATE ACHI / SOL oZi2HxiXj6KnAJ5dkitDb5L89UdqeQGUA3DC9e8UYn8 age=9.46h mc=9712541 ath=9712541 tx24=60858 src=watch_refresh","ts":1795531695.2569177}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531699.7617526}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795531759.7905025}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T14:48:13Z","ts":1795531799.82637}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531809.8185773}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL 66gJv3W7czsNq767tfnXgsuEABXqoCRS8765MUQwnJTL age=2.45h mc=553397824 ath=553397824 tx24=3530 src=watch_refresh","ts":1795531840.3849726}
+{"level":"INFO","msg":"CANDIDATE CHIBI / SOL DvLVC3rYvexbPPwYxfwFgvVvt8pPZtCEoE2mGZKmBK1m age=3.50h mc=301077585 ath=301077585 tx24=2715 src=watch_refresh","ts":1795531870.276015}
+{"level":"INFO","msg":"CANDIDATE Bullseye / SOL 6DNp61rUz4jqaaf1QTrYzu2vNjChRsmCPMAXE8fNofdp age=3.28h mc=21970923 ath=21970923 tx24=22199 src=watch_refresh","ts":1795531870.2767942}
+{"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL Dms7szP7kAhb7yabbQPgaZBFm8dKifGa2UURVKwEsTxr age=3.35h mc=317048747 ath=317048747 tx24=1844 src=watch_refresh","ts":1795531870.277378}
