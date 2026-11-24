@@ -2209,3 +2209,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795548466.1861103}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T19:25:46Z","ts":1795548506.2431045}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795548516.2152996}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 14, \"pools_seen\": 109, \"run_log\": 8, \"watch_closed\": 21, \"watch_snapshots\": 10} pools_total=91144","ts":1795548546.4184656}
+{"level":"INFO","msg":"CANDIDATE TURKEY / SOL 6Nx5TvTBdhLMrgJkWrLs4d67tCRTGPPGDwGxfTrxfmBj age=0.68h mc=1032929 ath=1032929 tx24=7441 src=trending_5m","ts":1795548556.4567292}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795548561.4524865}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795548606.4872432}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795548656.5198581}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795548706.5494618}
