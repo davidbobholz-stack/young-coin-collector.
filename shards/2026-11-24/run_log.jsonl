@@ -518,3 +518,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T04:53:04Z","ts":1795496225.7777789}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795496230.772746}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795496275.8075721}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 52, \"run_log\": 7, \"watch_closed\": 20, \"watch_snapshots\": 13} pools_total=72212","ts":1795496306.0943444}
+{"level":"INFO","msg":"CANDIDATE CHIBI / SOL FDijxciQkRXtPoMSk6zR9vgRi2cQwdhGwohon9YVn9n6 age=0.60h mc=607004 ath=607004 tx24=2374 src=trending_5m","ts":1795496306.127903}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795496326.1224382}
+{"level":"INFO","msg":"CANDIDATE HOGE / SOL G8vpJPubC5m96HNE4qc2agyo3RUBMdU2L8FgQJVFuqkh age=4.60h mc=433612 ath=433612 tx24=2531 src=trending_5m","ts":1795496371.1847005}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795496376.1529746}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795496421.184888}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795496466.2132032}
