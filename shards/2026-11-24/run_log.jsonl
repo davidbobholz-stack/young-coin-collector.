@@ -1406,3 +1406,9 @@
 {"level":"INFO","msg":"CANDIDATE NOAF / SOL CafeGuUyfTZwnsQ3gKDheTyNpt8bno6KeCzjwb26mwce age=11.60h mc=106393981 ath=106393981 tx24=2538 src=watch_refresh","ts":1795522834.6639504}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795522844.27145}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522889.3357382}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 11, \"pools_seen\": 82, \"run_log\": 9, \"watch_closed\": 18, \"watch_snapshots\": 76} pools_total=81182","ts":1795522919.6668346}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522934.7297878}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-24T12:20:29Z","ts":1795522974.8410358}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795522979.7953782}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795523034.8574421}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795523084.9206734}
