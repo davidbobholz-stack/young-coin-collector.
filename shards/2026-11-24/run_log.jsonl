@@ -1817,3 +1817,10 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T15:55:07Z","ts":1795535791.823684}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795535796.8213456}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795535841.8518062}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 4, \"pools_seen\": 118, \"run_log\": 8, \"watch_closed\": 23, \"watch_snapshots\": 43} pools_total=86723","ts":1795535872.0633965}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795535887.0928981}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-24T15:57:12Z","ts":1795535922.1298933}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795535937.1216338}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795535987.1694763}
+{"level":"INFO","msg":"CANDIDATE JIMMY / SOL 9i2hJX4beboFyD5DXpthiayfzNRQqACmMnZfGNfMx2HX age=0.78h mc=1190695 ath=1190695 tx24=7707 src=trending_5m","ts":1795536022.798766}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795536037.2008014}
