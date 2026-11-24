@@ -1419,3 +1419,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795523215.5203717}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-24T12:25:03Z","ts":1795523250.5941288}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795523265.6361887}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 12, \"pools_seen\": 58, \"run_log\": 7, \"watch_closed\": 12, \"watch_snapshots\": 29} pools_total=81366","ts":1795523295.9428468}
+{"level":"INFO","msg":"CANDIDATE DUVAL / SOL CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5 age=2.27h mc=401776 ath=401776 tx24=36655 src=trending_5m","ts":1795523306.015932}
+{"level":"INFO","msg":"CANDIDATE ANSEM / SOL 9T3oNJVBxy4ajjLWyemNkKgGyqWutVzerA2VzFFpmVPN age=0.82h mc=1491076 ath=1491076 tx24=7155 src=trending_5m","ts":1795523306.0172598}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795523311.006465}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795523356.0709577}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795523396.133982}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795523446.1981523}
