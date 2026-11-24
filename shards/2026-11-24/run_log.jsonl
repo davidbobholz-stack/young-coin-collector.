@@ -1231,3 +1231,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517497.5574949}
 {"level":"INFO","msg":"CANDIDATE ALICE / SOL G65PHMQJTmFYEKfDeNXgihUxNqRiovuRoCW6XdSRTyC1 age=5.98h mc=11260766 ath=11260766 tx24=1558 src=watch_refresh","ts":1795517533.0032313}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517542.62173}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 60, \"run_log\": 8, \"watch_closed\": 18, \"watch_snapshots\": 56} pools_total=79365","ts":1795517572.9344742}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795517587.9983428}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T10:51:16Z","ts":1795517633.069453}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795517638.0616665}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517688.1274369}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795517738.1912441}
