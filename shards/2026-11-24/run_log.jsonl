@@ -1662,3 +1662,10 @@
 {"level":"INFO","msg":"CANDIDATE ANTx / USDC FjdLbbq4QWNz1hzuTiHpJbgEipm9Xs2FmgKBWd9dUSxJ age=13.29h mc=20991034 ath=1305087877 tx24=1334 src=watch_refresh","ts":1795531048.7821393}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T14:36:25Z","ts":1795531088.3297296}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531103.3193407}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 107, \"run_log\": 7, \"watch_closed\": 22, \"watch_snapshots\": 86} pools_total=84711","ts":1795531133.5402327}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531163.577014}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531198.8639674}
+{"level":"INFO","msg":"CANDIDATE DUVAL / SOL 7ymeA8udZF5ui2NLkAvgcupkd29eDBw276Gups9Yxw1q age=2.51h mc=202572 ath=905815 tx24=6719 src=watch_refresh","ts":1795531234.1062253}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T14:39:29Z","ts":1795531263.911762}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795531278.9038413}
+{"level":"INFO","msg":"CANDIDATE b / SOL 5EDywHEnowiJGA35mWk8dVczYquEh3FYu7BjiNUn2HDT age=0.68h mc=309809 ath=902385 tx24=10023 src=trending_5m","ts":1795531313.9558852}
