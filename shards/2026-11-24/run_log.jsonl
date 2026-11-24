@@ -982,3 +982,10 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795510281.714291}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795510326.7436829}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795510376.783424}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 9, \"ohlcv\": 670, \"pools_seen\": 28, \"run_log\": 7, \"watch_closed\": 7, \"watch_snapshots\": 28} pools_total=76714","ts":1795510407.310346}
+{"level":"INFO","msg":"CANDIDATE uzicat / SOL 6obXu24GF8nAn44nJhkxLBcstjYdKJhYXcfuT8fLNmhw age=13.89h mc=409299164 ath=409299164 tx24=3047 src=watch_refresh","ts":1795510417.6709409}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-24T08:50:43Z","ts":1795510422.3574758}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795510427.338901}
+{"level":"INFO","msg":"CANDIDATE Jacket / SOL Db6QaHi7STbDvLn8r5jCf53DG5pxmdiNRTdn7AEp65zm age=13.19h mc=300860857 ath=300860857 tx24=1970 src=watch_refresh","ts":1795510472.7229486}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795510477.368279}
+{"level":"INFO","msg":"STOP clean","ts":1795510508.1871724}
