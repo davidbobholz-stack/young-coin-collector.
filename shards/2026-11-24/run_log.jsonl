@@ -1938,3 +1938,11 @@
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 136, \"run_log\": 8, \"watch_closed\": 12, \"watch_snapshots\": 30} pools_total=88340","ts":1795539338.564024}
 {"level":"INFO","msg":"STOP clean","ts":1795539349.0122607}
 {"level":"INFO","msg":"START pid=3068 pending_followups=1119 overdue=1 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795539374.903899}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 8, \"watch_snapshots\": 0} pools_total=88340","ts":1795539375.0827134}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795539390.1325214}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T16:55:02Z","ts":1795539420.1825016}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795539435.1685538}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795539475.2005646}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL rDxFmGsvvkuorYBmFgRwMCVHUq8jcruVo5eGvmzQZvX age=0.67h mc=1346709399 ath=1346709399 tx24=3206 src=trending_5m","ts":1795539505.333923}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL C25mgMDCT5NGTwtywvGjy99gHypa43345x4NW3r4TPvo age=10.29h mc=3625521347 ath=3741520484 tx24=11183 src=trending_5m","ts":1795539510.3134224}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795539525.2283025}
