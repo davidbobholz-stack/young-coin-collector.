@@ -1223,3 +1223,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795517301.9673874}
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-24T10:46:19Z","ts":1795517337.0394895}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517347.0733123}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 107, \"run_log\": 6, \"watch_closed\": 5, \"watch_snapshots\": 2} pools_total=79305","ts":1795517377.365081}
+{"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL 68uiBvXFNTnwxSMAtyXikxtt1pzg2t5HC1Yvk7V7kVdk age=5.24h mc=6409042746 ath=6409042746 tx24=3076 src=watch_refresh","ts":1795517377.8609645}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795517397.428387}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T10:48:40Z","ts":1795517442.497968}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795517447.4923303}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517497.5574949}
+{"level":"INFO","msg":"CANDIDATE ALICE / SOL G65PHMQJTmFYEKfDeNXgihUxNqRiovuRoCW6XdSRTyC1 age=5.98h mc=11260766 ath=11260766 tx24=1558 src=watch_refresh","ts":1795517533.0032313}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795517542.62173}
