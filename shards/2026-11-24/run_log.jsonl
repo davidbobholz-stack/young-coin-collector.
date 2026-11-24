@@ -1937,3 +1937,4 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795539308.3333926}
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 136, \"run_log\": 8, \"watch_closed\": 12, \"watch_snapshots\": 30} pools_total=88340","ts":1795539338.564024}
 {"level":"INFO","msg":"STOP clean","ts":1795539349.0122607}
+{"level":"INFO","msg":"START pid=3068 pending_followups=1119 overdue=1 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795539374.903899}
