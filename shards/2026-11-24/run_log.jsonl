@@ -1796,3 +1796,11 @@
 {"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL 3vXtuYYiNyQMuj8JLFf2PNknfoX2CYLrCmc4xeEBVMp3 age=2.90h mc=1063078 ath=1063078 tx24=4944 src=watch_refresh","ts":1795535211.2771435}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795535215.8050404}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795535265.8359466}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 39, \"run_log\": 6, \"watch_closed\": 24, \"watch_snapshots\": 88} pools_total=86440","ts":1795535296.0423913}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795535316.070821}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T15:41:26Z)","ts":1795535356.3985145}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T15:46:20Z","ts":1795535356.3985956}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795535361.1007326}
+{"level":"INFO","msg":"CANDIDATE Rockstar / SOL EYf4JP4DBabqs8c4x7ikpuqeRmJjjpMforYgusBA9KKo age=0.68h mc=568994 ath=568994 tx24=2511 src=trending_5m","ts":1795535401.143304}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795535406.1415284}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795535456.1746285}
