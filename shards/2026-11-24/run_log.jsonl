@@ -32,3 +32,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T00:11:32Z","ts":1795479315.4550362}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479330.4344308}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479375.4830785}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 129, \"run_log\": 7, \"watch_closed\": 16, \"watch_snapshots\": 5} pools_total=67063","ts":1795479405.7419229}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479415.7900116}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-24T00:15:16Z","ts":1795479445.863301}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795479465.8420854}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-24T00:15:21Z","ts":1795479505.8951733}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795479510.9029489}
+{"level":"INFO","msg":"CANDIDATE JACKET / SOL 6ksTz833Q3jQkRXDu4xKyH2aQPZrp5tgMWNs1T7ZMFzc age=10.25h mc=1182606596 ath=1182606596 tx24=3016 src=watch_refresh","ts":1795479541.432395}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795479555.9577627}
