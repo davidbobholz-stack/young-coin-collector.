@@ -47,3 +47,12 @@
 {"level":"INFO","msg":"CANDIDATE BONER / SOL 4xuuYMQM5g2eUF2faLhsjM5HYGtPAeAiXKUvX4fan6Yy age=9.91h mc=388205 ath=8934791 tx24=2275 src=watch_refresh","ts":1795479681.6084256}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479696.385488}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479741.4260743}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 55, \"run_log\": 7, \"watch_closed\": 9, \"watch_snapshots\": 22} pools_total=67178","ts":1795479771.972342}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795479787.029233}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T00:15:21Z)","ts":1795479822.0823743}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T00:20:25Z","ts":1795479822.0824928}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL 7eZJL8x1qJYDiQ5SYVR7CDxYHsFVQFkYnwfaXKVDfJtg age=0.54h mc=415901 ath=415901 tx24=9981 src=trending_5m","ts":1795479832.1265278}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795479837.0897837}
+{"level":"INFO","msg":"CANDIDATE Jacket / SOL 7p2Mq5z7d8BwSHgwCrNAPWVSj2Abmap1N7eUwszEgHyZ age=0.68h mc=3011837 ath=3011837 tx24=6474 src=trending_5m","ts":1795479867.2953997}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795479887.144063}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795479937.1899111}
