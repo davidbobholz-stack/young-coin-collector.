@@ -1477,3 +1477,9 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T12:53:45Z","ts":1795524926.754529}
 {"level":"INFO","msg":"STOP clean","ts":1795524926.7569008}
 {"level":"INFO","msg":"START pid=2367 pending_followups=1111 overdue=4 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795524955.850492}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 1, \"watch_snapshots\": 0} pools_total=82053","ts":1795524956.0279222}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-24T12:54:41Z","ts":1795524966.075757}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795524986.0615826}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795525016.1230583}
+{"level":"INFO","msg":"CANDIDATE UGOS / SOL 31TTwVoj7jp3xdLySjTcfZSGoAuowwa25XFkgjWYJNnH age=7.84h mc=211367045 ath=211367045 tx24=2109 src=trending_5m","ts":1795525101.2675393}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525106.1623702}
