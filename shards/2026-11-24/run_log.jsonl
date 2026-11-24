@@ -332,3 +332,11 @@
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795489436.1825078}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795489526.200983}
 {"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795489556.222001}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 50, \"run_log\": 4, \"watch_closed\": 11, \"watch_snapshots\": 3} pools_total=70255","ts":1795489616.4820244}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795489646.5026114}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795489676.5643692}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T02:55:51Z)","ts":1795489736.5974555}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T03:04:07Z","ts":1795489736.5976305}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-24T03:05:12Z","ts":1795489751.5940528}
+{"level":"INFO","msg":"CANDIDATE DONJENSEN / SOL 7v3yUnuNayZ6KwbAxJSd3TXnk2WT92q18zJiB677nNso age=0.59h mc=1710221 ath=1710221 tx24=11607 src=trending_5m","ts":1795489756.599996}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795489766.5824938}
