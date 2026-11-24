@@ -2473,3 +2473,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-24T21:46:44Z","ts":1795556980.968233}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795556985.941768}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795557030.9852269}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 111, \"run_log\": 6, \"watch_closed\": 20, \"watch_snapshots\": 7} pools_total=94257","ts":1795557061.266339}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795557076.3085454}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T21:49:30Z","ts":1795557106.3878253}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557116.3460605}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557166.388372}
+{"level":"INFO","msg":"CANDIDATE Flop / SOL BjegvkHzADV2QS2SBXeJnuErYhmWeEXkBqeRHwpRggH3 age=1.22h mc=536706 ath=536706 tx24=19884 src=trending_1h","ts":1795557196.4637163}
+{"level":"INFO","msg":"CANDIDATE ANSEM / SOL 4CsiCRmtfG9pvmBqHpamSJ26i1byVtVqXBHi9vCEdGKD age=1.08h mc=538983 ath=538983 tx24=5482 src=trending_1h","ts":1795557196.4646904}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795557216.4384406}
