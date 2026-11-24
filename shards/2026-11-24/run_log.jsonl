@@ -1086,3 +1086,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795513248.3363285}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795513298.456355}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795513343.5195303}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 77, \"run_log\": 5, \"watch_closed\": 16, \"watch_snapshots\": 88} pools_total=77794","ts":1795513373.837911}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795513388.9056273}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-24T09:41:14Z","ts":1795513418.9773424}
+{"level":"INFO","msg":"CANDIDATE ECAT / SOL 7AjVvHw7kHyN9yApcAMJpmrh9VvzvNMvHi42YWPUoAna age=0.69h mc=2415339 ath=2415339 tx24=8057 src=trending_5m","ts":1795513423.9777815}
+{"level":"INFO","msg":"CANDIDATE Satoshi / SOL BpiE5CS8Tr4SktdjaVRv5FJaNP6GY1AhpizyKiQcgCTT age=0.86h mc=1491018 ath=1491018 tx24=8497 src=trending_5m","ts":1795513429.0372183}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795513438.969402}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795513494.0799537}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795513544.1469162}
