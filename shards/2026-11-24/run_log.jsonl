@@ -1882,3 +1882,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T16:25:36Z","ts":1795537730.465732}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795537735.4168348}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537785.4465551}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 98, \"run_log\": 7, \"watch_closed\": 8, \"watch_snapshots\": 12} pools_total=87528","ts":1795537815.6598601}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537830.6923087}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795537875.7218933}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T16:25:36Z)","ts":1795537905.7565246}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T16:28:15Z","ts":1795537905.756609}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795537915.754627}
+{"level":"INFO","msg":"CANDIDATE XCL / SOL FoLDZkcL1gajR8vsyryqpuYe2H7Gi5yASA6W7CFoGZvo age=1.04h mc=550926 ath=550926 tx24=4905 src=trending_5m","ts":1795537945.7906885}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795537965.7874198}
