@@ -1363,3 +1363,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521510.2296805}
 {"level":"INFO","msg":"CANDIDATE RSFA / SOL HkNgcTmS5wyh83iXeWGGZtALhZVQY3PjkaNHYx9c9Dz6 age=8.76h mc=17454060 ath=17454060 tx24=4633 src=trending_5m","ts":1795521550.3363106}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521555.2929697}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 60, \"run_log\": 8, \"watch_closed\": 20, \"watch_snapshots\": 67} pools_total=80734","ts":1795521585.607532}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795521595.6716025}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521645.740222}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521690.8458881}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795521735.908172}
