@@ -1669,3 +1669,8 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T14:39:29Z","ts":1795531263.911762}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795531278.9038413}
 {"level":"INFO","msg":"CANDIDATE b / SOL 5EDywHEnowiJGA35mWk8dVczYquEh3FYu7BjiNUn2HDT age=0.68h mc=309809 ath=902385 tx24=10023 src=trending_5m","ts":1795531313.9558852}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 27, \"pools_seen\": 76, \"run_log\": 7, \"watch_closed\": 18, \"watch_snapshots\": 31} pools_total=84787","ts":1795531314.1703703}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795531363.9462953}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795531418.9743526}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T14:41:20Z","ts":1795531454.0061233}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795531479.0038388}
