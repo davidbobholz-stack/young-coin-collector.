@@ -1397,3 +1397,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522598.5594497}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522648.69924}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522688.7643037}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 124, \"run_log\": 5, \"watch_closed\": 17, \"watch_snapshots\": 14} pools_total=81100","ts":1795522719.0762916}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T12:09:52Z)","ts":1795522719.2020686}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T12:15:01Z","ts":1795522719.2022326}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522739.1398563}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T12:18:38Z","ts":1795522789.2112544}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795522794.2029972}
+{"level":"INFO","msg":"CANDIDATE NOAF / SOL CafeGuUyfTZwnsQ3gKDheTyNpt8bno6KeCzjwb26mwce age=11.60h mc=106393981 ath=106393981 tx24=2538 src=watch_refresh","ts":1795522834.6639504}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795522844.27145}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795522889.3357382}
