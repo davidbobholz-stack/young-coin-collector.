@@ -955,3 +955,9 @@
 {"level":"INFO","msg":"CANDIDATE pepe / SOL 9Jt5gqNLsGKPjgfU14G1YZ6JeT8keMSpM3ggYKGeqAWe age=12.06h mc=229487 ath=616414 tx24=2860 src=watch_refresh","ts":1795509630.2040906}
 {"level":"INFO","msg":"CANDIDATE DIH / SOL 9mp2pwPoXm7iWJZzmNDevRFPXtixqa28Eqr8BJJkjqTr age=12.38h mc=350459 ath=2394883 tx24=3956 src=watch_refresh","ts":1795509634.9638603}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509644.824734}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 4, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 23, \"run_log\": 10, \"watch_closed\": 18, \"watch_snapshots\": 74} pools_total=76460","ts":1795509675.1167917}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509690.1461022}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-24T08:39:39Z","ts":1795509730.1807597}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795509735.1758552}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795509775.203851}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509825.2312493}
