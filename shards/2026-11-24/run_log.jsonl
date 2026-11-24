@@ -901,3 +901,11 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795508196.7543435}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795508241.783132}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795508286.8114352}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 24, \"run_log\": 5, \"watch_closed\": 4, \"watch_snapshots\": 31} pools_total=76019","ts":1795508317.0820951}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795508337.1102886}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-24T08:16:56Z","ts":1795508372.1425495}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795508387.1390264}
+{"level":"INFO","msg":"CANDIDATE NVDA / SQQQ 3vTzrZGcUQ2oqQk5jbaWuEHwvQHDqa7BWuof9Q4nL9RH age=16.90h mc=2359335 ath=3845281 tx24=1783 src=watch_refresh","ts":1795508417.5280666}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795508437.1669793}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-24T08:19:58Z","ts":1795508472.2001917}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795508482.198379}
