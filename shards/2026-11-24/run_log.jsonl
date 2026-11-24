@@ -945,3 +945,13 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509404.231734}
 {"level":"INFO","msg":"CANDIDATE Lucia / SOL AuVQYw5HK3PLvDuPdNW9MrNPLECWXTgraroaQ4c6Lrrm age=13.50h mc=3791392 ath=3791392 tx24=2885 src=watch_refresh","ts":1795509434.6095634}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509449.2604659}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 81, \"run_log\": 9, \"watch_closed\": 13, \"watch_snapshots\": 50} pools_total=76437","ts":1795509479.5566204}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-24T08:35:05Z","ts":1795509489.588712}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509494.7361007}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509539.7653794}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509594.7934053}
+{"level":"INFO","msg":"CANDIDATE PEPE / USDC Hzcr6ndzyL6Z7UNU9atke6uqXGwtAX5JLApzrTvr7zq age=12.10h mc=1242558 ath=1242558 tx24=1758 src=watch_refresh","ts":1795509625.1331391}
+{"level":"INFO","msg":"CANDIDATE pepe / SOL 3GRgDcHidvUXUZAFNb6dZbsfqCw6pKVwaQe98udYwfL6 age=12.05h mc=341081 ath=580462 tx24=2239 src=watch_refresh","ts":1795509630.2032695}
+{"level":"INFO","msg":"CANDIDATE pepe / SOL 9Jt5gqNLsGKPjgfU14G1YZ6JeT8keMSpM3ggYKGeqAWe age=12.06h mc=229487 ath=616414 tx24=2860 src=watch_refresh","ts":1795509630.2040906}
+{"level":"INFO","msg":"CANDIDATE DIH / SOL 9mp2pwPoXm7iWJZzmNDevRFPXtixqa28Eqr8BJJkjqTr age=12.38h mc=350459 ath=2394883 tx24=3956 src=watch_refresh","ts":1795509634.9638603}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509644.824734}
