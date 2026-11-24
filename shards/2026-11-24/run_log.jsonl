@@ -160,3 +160,11 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795483529.8926842}
 {"level":"WARN","msg":"429 on multi_followup; backoff 60s","ts":1795483559.91479}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795483649.9359987}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 128, \"run_log\": 5, \"watch_closed\": 18, \"watch_snapshots\": 10} pools_total=68395","ts":1795483680.2478566}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795483680.2788672}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T01:26:21Z","ts":1795483750.3027747}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795483765.3002734}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 60s","ts":1795483795.3202045}
+{"level":"INFO","msg":"CANDIDATE baton / SOL DSE5Gn5kKaQZKGwCiK2ZbmxN8TZSQTUZVGYMrbxvKnNW age=0.76h mc=1525345 ath=1525345 tx24=4085 src=trending_5m","ts":1795483855.487147}
+{"level":"INFO","msg":"CANDIDATE TAKEOFF / SOL DfTGDnn8j4ZPGH6RSmpLEuPrtf24VRc2Ppnxt72q3k2W age=1.88h mc=26414769 ath=26414769 tx24=22685 src=trending_5m","ts":1795483860.3595312}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL BwgRoUTH1RotQgCpvMWbJ6opdoMo5x2zUR2epzjXm2La age=0.59h mc=844183 ath=844183 tx24=6511 src=trending_5m","ts":1795483860.3600893}
