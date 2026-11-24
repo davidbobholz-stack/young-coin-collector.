@@ -319,3 +319,12 @@
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T02:55:51Z","ts":1795489160.378538}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795489165.3671408}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795489195.3852813}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 474, \"pools_seen\": 100, \"run_log\": 6, \"watch_closed\": 17, \"watch_snapshots\": 12} pools_total=70198","ts":1795489255.8147168}
+{"level":"INFO","msg":"CANDIDATE GROKIA / SOL CpfB8pTVj8Uzu55nKj6sX4KmV6zVe7J2t3C22mLgCVGg age=0.76h mc=1177803 ath=1177803 tx24=15332 src=trending_5m","ts":1795489255.849276}
+{"level":"INFO","msg":"CANDIDATE JIMMY / SOL 7KMNHdGZSy3iJZE1smn4SqJmcj21uc1etw5ge8TjsXwz age=0.83h mc=457753 ath=457753 tx24=7465 src=trending_5m","ts":1795489255.8499215}
+{"level":"INFO","msg":"CANDIDATE FIONA / SOL Gnx7ZKPCnXiQKF8zHmNwqajqfQ9Rsk2arySdogoHXK1e age=0.58h mc=1348237 ath=1348237 tx24=12239 src=trending_5m","ts":1795489255.8502986}
+{"level":"INFO","msg":"CANDIDATE CHIBI / SOL HdwpmHs62KdtWwu8FFn3WinW5qCqpJqtPdrhSGH5GwbX age=0.61h mc=462923 ath=462923 tx24=4315 src=trending_5m","ts":1795489260.9452634}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL Q4DLFRDAdzVFVSeGr6ynim9UZjVn814gN56yJo8LdJ9 age=1.49h mc=256949 ath=414490 tx24=21714 src=trending_5m","ts":1795489270.9224124}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795489285.8446658}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795489315.874396}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795489405.8941212}
