@@ -2059,3 +2059,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795542927.8007348}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795542957.837947}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795543047.910641}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pools_seen\": 70, \"run_log\": 4, \"watch_closed\": 13, \"watch_snapshots\": 5} pools_total=89664","ts":1795543078.1047232}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795543078.150755}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T17:48:32Z)","ts":1795543163.2085576}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T17:54:59Z","ts":1795543163.208611}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795543178.1857882}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795543223.2197456}
+{"level":"INFO","msg":"CANDIDATE Memeployed / SOL BuiFukkLde9ztRbjP3bKycfKD3WAkJCo3cALju4bMvBR age=0.55h mc=689126 ath=689126 tx24=2517 src=trending_5m","ts":1795543253.3147821}
