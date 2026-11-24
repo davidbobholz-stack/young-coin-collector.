@@ -2362,3 +2362,4 @@
 {"level":"WARN","msg":"new_pools /new_pools?page=3 -> 429","ts":1795553775.822882}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=0 newest=2026-11-24T20:54:07Z","ts":1795553775.823074}
 {"level":"INFO","msg":"STOP clean","ts":1795553775.8231235}
+{"level":"INFO","msg":"START pid=2215 pending_followups=1052 overdue=29 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795553800.0794895}

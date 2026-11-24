@@ -1,16 +1,16 @@
 {
   "candidates_total": 521,
   "checkpoint": true,
-  "clean_shutdown": true,
+  "clean_shutdown": false,
   "coverage_origin_ts": 1795294909.824083,
   "followups_pending": 1052,
-  "iso": "2026-11-24T20:56:16Z",
-  "last_alive_ts": 1795553776.0240219,
+  "iso": "2026-11-24T20:56:40Z",
+  "last_alive_ts": 1795553800.2727158,
   "pools_total": 92753,
-  "runs": 21,
+  "runs": 22,
   "state": {
     "backlog_watch": 5092,
     "np_newest": 1795553457.0
   },
-  "ts": 1795553776.0240219
+  "ts": 1795553800.2727158
 }
