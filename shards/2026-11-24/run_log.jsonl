@@ -114,3 +114,8 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-24T00:46:48Z)","ts":1795481836.3503072}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-24T00:54:10Z","ts":1795481836.3507547}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795481846.3413212}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 8, \"ohlcv\": 0, \"pools_seen\": 116, \"run_log\": 6, \"watch_closed\": 11, \"watch_snapshots\": 2} pools_total=67861","ts":1795481876.680119}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795481876.7081335}
+{"level":"INFO","msg":"CANDIDATE CLAUDIO / SOL EGBkjQvVd86nmygXWpkEtNyL3cnCkHV6vMGmv6fVZL35 age=0.74h mc=930105 ath=930105 tx24=43489 src=trending_5m","ts":1795481936.7327883}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795481966.7275527}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795481996.7694995}
