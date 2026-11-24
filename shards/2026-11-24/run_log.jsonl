@@ -2055,3 +2055,7 @@
 {"level":"INFO","msg":"CANDIDATE MANDY / SOL 7W4R1yxrkLQnijoz2PFktv6ek9gdEFwdzbSWS4vTZbsZ age=0.74h mc=260556 ath=656223 tx24=3710 src=trending_5m","ts":1795542792.9676557}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795542807.5385385}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795542837.57592}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 10, \"run_log\": 6, \"watch_closed\": 15, \"watch_snapshots\": 16} pools_total=89594","ts":1795542897.770334}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795542927.8007348}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795542957.837947}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795543047.910641}
