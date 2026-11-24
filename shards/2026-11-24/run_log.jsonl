@@ -472,3 +472,7 @@
 {"level":"INFO","msg":"CANDIDATE FIONA / SOL 3Pt3P59q4C39QQAHMVS64MtgYjiod3SVBUvPWaGFUcma age=0.50h mc=545282 ath=545282 tx24=3896 src=trending_5m","ts":1795494661.7302613}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795494686.7282977}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795494716.7465546}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 11, \"run_log\": 5, \"watch_closed\": 11, \"watch_snapshots\": 26} pools_total=71747","ts":1795494777.006433}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795494807.031467}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795494837.0490212}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795494927.0750632}
