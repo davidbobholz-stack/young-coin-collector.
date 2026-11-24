@@ -936,3 +936,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509158.790342}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509203.821864}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795509248.8497908}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 105, \"run_log\": 5, \"watch_closed\": 10, \"watch_snapshots\": 9} pools_total=76356","ts":1795509279.1417136}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-24T08:31:16Z","ts":1795509289.1768832}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509299.1710284}
+{"level":"INFO","msg":"CANDIDATE USAR / SOL 6cdHW2Gv4NkUnRhWbek1FdSXMMEThQQTZFw41YYjVowo age=13.62h mc=689601746 ath=689601746 tx24=1808 src=watch_refresh","ts":1795509329.5444028}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T08:34:52Z","ts":1795509349.2032242}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509354.2028952}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509404.231734}
+{"level":"INFO","msg":"CANDIDATE Lucia / SOL AuVQYw5HK3PLvDuPdNW9MrNPLECWXTgraroaQ4c6Lrrm age=13.50h mc=3791392 ath=3791392 tx24=2885 src=watch_refresh","ts":1795509434.6095634}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795509449.2604659}
