@@ -1554,3 +1554,8 @@
 {"level":"INFO","msg":"CANDIDATE JIMMY / SOL CDFnyUqJ1kxGDB7erwyxBR1KgL33qHXKuVptZ1e54AiJ age=6.27h mc=4949916 ath=4949916 tx24=3694 src=watch_refresh","ts":1795527437.3673556}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795527446.9014897}
 {"level":"WARN","msg":"429 on multi_watch; backoff 60s","ts":1795527477.0800538}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 55, \"run_log\": 6, \"watch_closed\": 4, \"watch_snapshots\": 27} pools_total=83059","ts":1795527547.3239973}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795527567.1087961}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795527597.1452527}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-24T13:38:42Z","ts":1795527682.1890874}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795527692.1822882}
