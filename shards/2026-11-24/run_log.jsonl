@@ -1071,3 +1071,13 @@
 {"level":"INFO","msg":"CANDIDATE JENSEN / SOL 8SV3nD9qdcCb15yGhxjdTgh9qWJqc9fo29VKaDg6tbUb age=11.38h mc=5213641 ath=5213641 tx24=3046 src=watch_refresh","ts":1795512897.7096436}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795512907.2629886}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795512957.3260396}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 92, \"pools_seen\": 37, \"run_log\": 7, \"watch_closed\": 14, \"watch_snapshots\": 39} pools_total=77655","ts":1795512987.645989}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-24T09:35:03Z","ts":1795513002.7632375}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795513007.7100132}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795513057.7757432}
+{"level":"INFO","msg":"CANDIDATE UDTF / USDC DwLQDersfe7ZyvWwMktCdqyXNhmzz3tpmNk7macBn7Kp age=10.40h mc=32213596 ath=32231003 tx24=1009 src=watch_refresh","ts":1795513088.2091293}
+{"level":"INFO","msg":"CANDIDATE JIMMY / SOL 4yqUCs4Gyou5VwDXC8crq9uUmwu7YUvbz2brHQn2tnpW age=10.36h mc=430704 ath=430704 tx24=3158 src=watch_refresh","ts":1795513088.2096987}
+{"level":"INFO","msg":"CANDIDATE TAKEOFF / SOL 3ku5AyJfiHTeLjbMJcAs6JxGRbLTBx2vXKnjYuRaeNH8 age=10.39h mc=7177948 ath=7177948 tx24=2187 src=watch_refresh","ts":1795513098.2716455}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795513102.8398666}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-24T09:35:03Z","ts":1795513137.9093542}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795513147.9051495}
