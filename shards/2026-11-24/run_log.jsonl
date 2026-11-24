@@ -574,3 +574,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795497959.7759721}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T05:23:48Z","ts":1795497999.8111455}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795498014.804541}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 158, \"pools_seen\": 80, \"run_log\": 6, \"watch_closed\": 14, \"watch_snapshots\": 9} pools_total=72756","ts":1795498045.1633117}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795498065.193355}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795498110.2222722}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-24T05:26:27Z","ts":1795498140.2565632}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795498155.2539597}
+{"level":"INFO","msg":"CANDIDATE GrokBOT / SOL HVWbLHHQdqekkCKyz71VFwbY2NNwquVGpb28BJwXQdR age=1.52h mc=1369654 ath=1369654 tx24=15133 src=trending_5m","ts":1795498185.2871063}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795498195.283928}
