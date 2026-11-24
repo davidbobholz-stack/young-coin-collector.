@@ -1494,3 +1494,6 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525432.2059267}
 {"level":"INFO","msg":"CANDIDATE DUVAL / SOL AEc7h6CwECwCf2qecB9NUwTvEwQrLbj4LNwgo5fNQr9B age=2.55h mc=312335 ath=458861 tx24=2943 src=trending_1h","ts":1795525467.775387}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525482.2358148}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 3, \"run_log\": 7, \"watch_closed\": 1, \"watch_snapshots\": 10} pools_total=82091","ts":1795525512.4261682}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795525552.5047312}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795525652.5367262}
