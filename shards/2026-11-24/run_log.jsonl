@@ -2333,3 +2333,7 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795552893.4362028}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795552928.4703314}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795552963.5055952}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 57, \"run_log\": 6, \"watch_closed\": 20, \"watch_snapshots\": 8} pools_total=92479","ts":1795552993.7060184}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795552998.73632}
+{"level":"WARN","msg":"429 on new_pools; backoff 60s","ts":1795553028.7708805}
+{"level":"WARN","msg":"429 on new_pools; backoff 120s","ts":1795553088.8005795}
