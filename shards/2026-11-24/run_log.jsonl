@@ -1168,3 +1168,12 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-24T10:21:18Z","ts":1795515761.5375192}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795515776.5284429}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795515826.639884}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 2135, \"pools_seen\": 58, \"run_log\": 6, \"watch_closed\": 5, \"watch_snapshots\": 22} pools_total=78701","ts":1795515857.7056944}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-24T10:23:04Z","ts":1795515872.777375}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795515877.769744}
+{"level":"INFO","msg":"CANDIDATE CHIBI / SOL EDipTMtSKBQHHFxB2zV1xwmxruMpyifRkJKXYzYT4pJ7 age=9.19h mc=472212 ath=472212 tx24=8047 src=watch_refresh","ts":1795515913.481571}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795515922.8379936}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795515967.9045038}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL nKuFEKAG53Hooa74xj8i3AwVk62XDQiTxZHpL42ZmYf age=6.33h mc=66937699 ath=66937699 tx24=2058 src=watch_refresh","ts":1795515998.735265}
+{"level":"INFO","msg":"CANDIDATE CLAUDIO / SOL Aagm1PeLTr3HzmWgYMWmQBzbKVx8uYHr1drZw5CqGTXA age=8.48h mc=11834648 ath=11834648 tx24=37794 src=watch_refresh","ts":1795516008.468013}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795516017.967578}
