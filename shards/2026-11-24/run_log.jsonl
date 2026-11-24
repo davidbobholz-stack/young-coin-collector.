@@ -1689,3 +1689,9 @@
 {"level":"INFO","msg":"CANDIDATE CHIBI / SOL DvLVC3rYvexbPPwYxfwFgvVvt8pPZtCEoE2mGZKmBK1m age=3.50h mc=301077585 ath=301077585 tx24=2715 src=watch_refresh","ts":1795531870.276015}
 {"level":"INFO","msg":"CANDIDATE Bullseye / SOL 6DNp61rUz4jqaaf1QTrYzu2vNjChRsmCPMAXE8fNofdp age=3.28h mc=21970923 ath=21970923 tx24=22199 src=watch_refresh","ts":1795531870.2767942}
 {"level":"INFO","msg":"CANDIDATE \u82f1\u4f1f\u8fbe / SOL Dms7szP7kAhb7yabbQPgaZBFm8dKifGa2UURVKwEsTxr age=3.35h mc=317048747 ath=317048747 tx24=1844 src=watch_refresh","ts":1795531870.277378}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 5, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 101, \"run_log\": 10, \"watch_closed\": 15, \"watch_snapshots\": 141} pools_total=85041","ts":1795531875.601168}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795531884.9685245}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 60s","ts":1795531915.0985546}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795532020.1282165}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-24T14:51:28Z","ts":1795532050.1594443}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795532060.1572824}
