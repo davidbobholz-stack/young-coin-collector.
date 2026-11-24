@@ -119,3 +119,7 @@
 {"level":"INFO","msg":"CANDIDATE CLAUDIO / SOL EGBkjQvVd86nmygXWpkEtNyL3cnCkHV6vMGmv6fVZL35 age=0.74h mc=930105 ath=930105 tx24=43489 src=trending_5m","ts":1795481936.7327883}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795481966.7275527}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795481996.7694995}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 9, \"run_log\": 5, \"watch_closed\": 15, \"watch_snapshots\": 15} pools_total=67870","ts":1795482057.03749}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795482087.0677726}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795482117.086608}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795482207.1043463}
