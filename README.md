@@ -1,5 +1,7 @@
 # Young-coin forward collector (DATA ONLY)
 
+Collection is stopped. Do NOT restart Collect until the OHLCV persistence bug in COLLECTOR_BUG.md is fixed and its regression test passes. Do NOT squash, force-push or rewrite the `data` branch: its history is the only in-repo copy of candles missing from the tip.
+
 Forward research data for young Solana memecoin pools. The collector polls the free public [GeckoTerminal](https://api.geckoterminal.com) API, records pools that pass a fixed filter, and schedules follow-up snapshots. It does not trade, it does not hold a wallet, and it does not use API keys, secrets, or paid services.
 
 The filter, the discovery cadence, and the follow-up schedule are the ones this collector was written with. GitHub Actions is only the process that keeps it running while the machine it was written on sleeps.
