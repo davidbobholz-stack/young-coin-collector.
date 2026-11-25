@@ -2166,3 +2166,9 @@
 {"level":"INFO","msg":"CANDIDATE MEDIC / SOL 9kDp67z9CK3re4bqmw1ZQ3Wfqi7v9Fefm1WnA6tYf3TC age=2.23h mc=336928 ath=450521 tx24=2533 src=trending_6h","ts":1795630185.5944858}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630195.4060884}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630245.4365065}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 6, \"watch_closed\": 13, \"watch_snapshots\": 9} pools_total=121275","ts":1795630275.6555912}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630290.686657}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630335.7190967}
+{"level":"INFO","msg":"CANDIDATE MIM / SOL CXqfm3MKHHv3a1XiYZZZQ9QRLWf3Chm7KvohoQ4mQtq4 age=0.53h mc=489415 ath=1013821 tx24=13558 src=trending_24h","ts":1795630365.9390635}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795630375.7514217}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795630425.780155}
