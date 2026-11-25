@@ -2453,3 +2453,9 @@
 {"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T20:20:44Z","ts":1795638594.016955}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795638598.9702559}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795638654.0031502}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 14, \"pools_seen\": 77, \"run_log\": 7, \"watch_closed\": 6, \"watch_snapshots\": 52} pools_total=124997","ts":1795638684.3379085}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795638704.367508}
+{"level":"INFO","msg":"CANDIDATE BossJensen / SOL 9ZFhBuLBq4LVxRi9JEjupgyUSuV3oRW91UW8qhLX2W9M age=5.54h mc=484733 ath=484733 tx24=1590 src=watch_refresh","ts":1795638734.8619187}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638749.3962317}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638799.428371}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638839.4600759}
