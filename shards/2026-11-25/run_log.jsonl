@@ -2459,3 +2459,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638749.3962317}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638799.428371}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638839.4600759}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 121, \"run_log\": 6, \"watch_closed\": 10, \"watch_snapshots\": 77} pools_total=125118","ts":1795638869.7468712}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-25T20:24:23Z","ts":1795638869.78685}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795638894.814317}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T20:24:42Z","ts":1795638924.84662}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795638944.8554251}
+{"level":"INFO","msg":"CANDIDATE BAP / SOL 4BvzDS4tJdbfN9nfhkdgHHSLimVz2i995xcbZsNSHeap age=5.28h mc=699710 ath=699710 tx24=20673 src=watch_refresh","ts":1795638985.3117616}
+{"level":"INFO","msg":"CANDIDATE BAP / SOL 2VR8eyLRsyuqgD1mbuHbm6ZSohjo7PooSYDW9CAJBdCe age=5.46h mc=19244905965 ath=19244905965 tx24=1643 src=watch_refresh","ts":1795638985.3123024}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795638989.8929198}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639034.925178}
