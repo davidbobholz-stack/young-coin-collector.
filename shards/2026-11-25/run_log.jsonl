@@ -1535,3 +1535,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611417.2362585}
 {"level":"INFO","msg":"STOP clean","ts":1795611447.714713}
 {"level":"INFO","msg":"START pid=2206 pending_followups=881 overdue=0 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795611470.8620114}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 2, \"watch_snapshots\": 0} pools_total=114386","ts":1795611471.0901115}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T12:57:22Z","ts":1795611481.1343505}
+{"level":"INFO","msg":"CANDIDATE $1 / SOL 7TJo7GMNHxRUPr13bNPjjqRwZFi5eBVLqrv9F9xuZHro age=1.30h mc=389200930027 ath=389200930027 tx24=17050 src=trending_5m","ts":1795611491.142702}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795611501.128812}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795611536.167562}
+{"level":"INFO","msg":"CANDIDATE Pompom / SOL 5UTPFtaKKMSeCKJ1ZpTpTWYz4FPvbpj5rXnFsbR1kMiJ age=1.06h mc=353143 ath=449521 tx24=1932 src=trending_5m","ts":1795611576.3688257}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795611586.2044687}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795611636.2434545}
