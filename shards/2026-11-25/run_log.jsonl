@@ -206,3 +206,10 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T01:44:30Z","ts":1795571184.8010151}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795571204.7841067}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795571249.8315275}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 296, \"pools_seen\": 93, \"run_log\": 6, \"watch_closed\": 16, \"watch_snapshots\": 6} pools_total=100348","ts":1795571280.1760418}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-25T01:45:54Z","ts":1795571290.2289166}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795571295.2197928}
+{"level":"INFO","msg":"CANDIDATE Jimmies / SOL BXrbrMuLSW1qaS4P3R7AUPR6YX2E56Re94WJedoxLiV5 age=2.53h mc=418390 ath=418390 tx24=17606 src=trending_5m","ts":1795571330.292597}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795571335.2638721}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795571385.3160686}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795571430.3691025}
