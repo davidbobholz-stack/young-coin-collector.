@@ -1381,3 +1381,9 @@
 {"level":"INFO","msg":"CANDIDATE UDTF / USDC 4hZwQRvDNouje73VuGHcdqJiYmUSZLoR9VeD9XxMfwyY age=6.82h mc=32166356 ath=32194315 tx24=1006 src=watch_refresh","ts":1795606881.2436354}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795606890.8956373}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795606935.9302666}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 17, \"run_log\": 7, \"watch_closed\": 8, \"watch_snapshots\": 46} pools_total=113162","ts":1795606966.124669}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795606976.15598}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T11:39:57Z","ts":1795607016.2034826}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795607026.190258}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795607076.2252514}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795607121.2583358}
