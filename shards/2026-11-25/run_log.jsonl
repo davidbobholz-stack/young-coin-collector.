@@ -771,3 +771,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795588267.4534593}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T06:30:12Z","ts":1795588312.4814649}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795588317.4734197}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 78, \"run_log\": 6, \"watch_closed\": 13, \"watch_snapshots\": 20} pools_total=106497","ts":1795588347.7668881}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795588367.7868278}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-25T06:32:24Z","ts":1795588412.8138812}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795588417.807823}
+{"level":"INFO","msg":"CANDIDATE Datacat / SOL 5LkTM1u3nZ5pF8W2ALgyYVqGVJypujXL27LQYgnZaBkZ age=5.89h mc=503209852 ath=503209852 tx24=1215 src=watch_refresh","ts":1795588448.2521284}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795588462.83117}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795588507.88357}
