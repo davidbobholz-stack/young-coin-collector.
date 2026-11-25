@@ -1882,3 +1882,10 @@
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T15:13:45Z","ts":1795622068.9591556}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795622078.9503324}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795622123.988548}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 159, \"pools_seen\": 89, \"run_log\": 8, \"watch_closed\": 7, \"watch_snapshots\": 11} pools_total=117886","ts":1795622154.2759302}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795622169.3255033}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795622219.3638346}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T15:16:30Z","ts":1795622249.4092567}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795622274.4100623}
+{"level":"INFO","msg":"CANDIDATE JENSEN / SOL AjFCRQUa9gMwhzqWENyVVUFyeiFjaKr55TJfocDQUcik age=3.92h mc=365215576 ath=365215576 tx24=1684 src=watch_refresh","ts":1795622309.8713493}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795622324.4476154}
