@@ -1064,3 +1064,10 @@
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795596998.7287652}
 {"level":"INFO","msg":"STOP clean","ts":1795597034.02268}
 {"level":"INFO","msg":"START pid=2197 pending_followups=928 overdue=1 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795597051.5315557}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 1, \"watch_closed\": 1, \"watch_snapshots\": 0} pools_total=109564","ts":1795597051.6989622}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T08:54:57Z","ts":1795597051.7589042}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795597076.731163}
+{"level":"INFO","msg":"CANDIDATE ROCKET / SOL 1CsXs7igeP98KtWroaEb8By1TsVwpAMfSWfvmuNw361 age=3.32h mc=548032 ath=548032 tx24=3373 src=trending_5m","ts":1795597121.7891688}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795597126.7841907}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795597176.8128178}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795597221.845626}
