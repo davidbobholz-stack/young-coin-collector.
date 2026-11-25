@@ -1817,3 +1817,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795620168.725777}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T14:52:40Z","ts":1795620208.7983055}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620218.7651675}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 29, \"pools_seen\": 125, \"run_log\": 7, \"watch_closed\": 6, \"watch_snapshots\": 25} pools_total=117280","ts":1795620249.3024507}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620264.3433146}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795620309.3819203}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T14:54:53Z","ts":1795620349.4276364}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620359.4232392}
+{"level":"INFO","msg":"CANDIDATE BASKET / SOL 7zPNytXofAcCSdJ1Ew65o5FU8RBsXMwQRiuMXJ1iWmqz age=4.05h mc=1520360 ath=2045093 tx24=1458 src=watch_refresh","ts":1795620410.0495844}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795620414.4691515}
