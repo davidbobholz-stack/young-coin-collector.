@@ -3,15 +3,15 @@
   "counts": {
     "candidates": 0,
     "downtime": 0,
-    "followup_results": 0,
-    "ohlcv": 0,
-    "pools_seen": 6,
+    "followup_results": 2,
+    "ohlcv": 24,
+    "pools_seen": 146,
     "run_log": 7,
-    "watch_closed": 14,
-    "watch_snapshots": 20
+    "watch_closed": 1,
+    "watch_snapshots": 5
   },
-  "followups_pending": 816,
-  "iso": "2026-11-25T17:20:45Z",
-  "pools_total": 119853,
-  "ts": 1795627245.1290615
+  "followups_pending": 814,
+  "iso": "2026-11-25T17:24:01Z",
+  "pools_total": 119999,
+  "ts": 1795627441.063504
 }
