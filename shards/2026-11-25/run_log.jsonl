@@ -2411,3 +2411,9 @@
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795637206.2114923}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637256.2501452}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637301.2785442}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 74, \"run_log\": 6, \"watch_closed\": 21, \"watch_snapshots\": 22} pools_total=124501","ts":1795637331.539695}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637346.5689719}
+{"level":"INFO","msg":"CANDIDATE WORTHLESS / SOL 9RT5nYgXJ3nsJ7kFS5aYUhc5j6i4ZempBqDWsVQgArsV age=0.69h mc=201784 ath=746654 tx24=19693 src=trending_1h","ts":1795637391.6346688}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637396.604041}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637446.6333272}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795637496.662218}
