@@ -2330,3 +2330,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795634902.792948}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T19:19:10Z","ts":1795635005.0482578}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795635010.0458362}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pools_seen\": 45, \"run_log\": 6, \"watch_closed\": 21, \"watch_snapshots\": 17} pools_total=123308","ts":1795635040.289008}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795635055.3175652}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795635105.3550594}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795635150.3857198}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T19:20:58Z","ts":1795635185.42962}
+{"level":"INFO","msg":"CANDIDATE \u8681\u5de2 / SOL BMtEvBmTQjgzGcZZmyfZs74UxH5i168wdS7C8qoaDkP5 age=5.39h mc=34560386 ath=34560386 tx24=4114 src=watch_refresh","ts":1795635201.9898732}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795635206.6343706}
