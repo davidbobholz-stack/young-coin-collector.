@@ -1633,3 +1633,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795614263.32502}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T13:42:08Z","ts":1795614298.378328}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795614308.3655539}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 71, \"pools_seen\": 68, \"run_log\": 8, \"watch_closed\": 12, \"watch_snapshots\": 11} pools_total=115545","ts":1795614339.2639787}
+{"level":"INFO","msg":"CANDIDATE BASKET / USDC Ce4dtLpb1XeVi6xCRJC7aNv34ijaj98xneH2SFx3RJLf age=2.54h mc=1578833 ath=2125638 tx24=3257 src=watch_refresh","ts":1795614339.8449385}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795614359.3020773}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795614414.3422515}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-25T13:44:33Z","ts":1795614459.398912}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795614464.3899708}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795614509.4275029}
