@@ -1173,3 +1173,10 @@
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T09:51:28Z","ts":1795600406.9336243}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795600426.6062024}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795600477.275669}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 251, \"pools_seen\": 69, \"run_log\": 6, \"watch_closed\": 14, \"watch_snapshots\": 4} pools_total=110853","ts":1795600507.534466}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795600522.568163}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795600567.7622004}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-25T09:54:32Z","ts":1795600612.9122763}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795600617.9477057}
+{"level":"INFO","msg":"CANDIDATE Koinu / SOL 6socwxHmMk1BMKAVjmS8u2XpRQq4iFDC16eLevbdJMpc age=0.59h mc=1823373 ath=1823373 tx24=17219 src=trending_5m","ts":1795600663.128477}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600668.0180109}
