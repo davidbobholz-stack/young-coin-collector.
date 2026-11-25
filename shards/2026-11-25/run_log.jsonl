@@ -437,3 +437,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795578246.3516223}
 {"level":"INFO","msg":"CANDIDATE WORTHLESS / SOL 79JL8tYcX49eaBqe8Y3VZBULAq2aXY1GLb5qiHxp89sw age=12.54h mc=6907821 ath=6907821 tx24=1467 src=watch_refresh","ts":1795578291.8986316}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795578296.3944418}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 50, \"run_log\": 7, \"watch_closed\": 17, \"watch_snapshots\": 57} pools_total=102980","ts":1795578326.6683443}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T03:44:43Z","ts":1795578346.7666981}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795578351.717679}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795578396.7606916}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795578446.8073184}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T03:45:01Z","ts":1795578476.8666458}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795578486.9234636}
