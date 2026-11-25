@@ -1851,3 +1851,9 @@
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T15:02:20Z","ts":1795621151.65555}
 {"level":"INFO","msg":"CANDIDATE 4CHAN / SOL DQuZzoP7u7fWfbHpYi7NDVmQKT3XZgJ6P6cYBHAkb6gP age=10.13h mc=6243585 ath=6243585 tx24=13491 src=watch_refresh","ts":1795621157.2160847}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795621161.6455116}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 75, \"run_log\": 8, \"watch_closed\": 5, \"watch_snapshots\": 27} pools_total=117532","ts":1795621191.8926063}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795621206.9768622}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795621257.0181227}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T15:04:15Z","ts":1795621297.0683954}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795621307.059563}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795621357.1000066}
