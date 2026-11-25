@@ -2564,3 +2564,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795641775.120209}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-25T21:14:56Z","ts":1795641815.1521015}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795641825.1565437}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 39, \"pools_seen\": 95, \"run_log\": 6, \"watch_closed\": 9, \"watch_snapshots\": 7} pools_total=125980","ts":1795641825.367562}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795641870.3883648}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T21:15:52Z","ts":1795641910.4200714}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795641915.4104996}
+{"level":"INFO","msg":"CANDIDATE GRIMACE / SOL 9nEw7LnHfSc9DhaHV59g97UHHfT6VYdosoJXuzcn7QQZ age=4.93h mc=756220404 ath=756220404 tx24=3559 src=watch_refresh","ts":1795641946.0606108}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795641955.438142}
+{"level":"INFO","msg":"CANDIDATE Pompom / SOL 9p5ZNnUL8FKN4oSCDs3DFA1aNrY1M1sXFuuEYHChEKwu age=2.70h mc=569179 ath=569179 tx24=1007 src=watch_refresh","ts":1795641991.3746188}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795642005.4564016}
