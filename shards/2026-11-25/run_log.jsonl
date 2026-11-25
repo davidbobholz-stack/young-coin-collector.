@@ -2247,3 +2247,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795632450.268676}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795632495.2966835}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795632535.3263116}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 82, \"run_log\": 6, \"watch_closed\": 3, \"watch_snapshots\": 9} pools_total=122500","ts":1795632565.575104}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T18:44:22Z","ts":1795632570.6119754}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795632585.6129866}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795632630.6450207}
+{"level":"INFO","msg":"CANDIDATE GRAUDIA / SOL 67bjjwXcDx5qDe9EG7hXCjLb8L58QNYxeVxJ4qfDqdgm age=1.20h mc=238159 ath=460515 tx24=16203 src=trending_1h","ts":1795632660.8145545}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795632675.679576}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795632715.7123923}
