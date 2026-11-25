@@ -2160,3 +2160,9 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795629975.0286121}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630015.0588706}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795630065.0917537}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 5, \"watch_closed\": 11, \"watch_snapshots\": 21} pools_total=121275","ts":1795630095.3123882}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630110.3411582}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795630155.371341}
+{"level":"INFO","msg":"CANDIDATE MEDIC / SOL 9kDp67z9CK3re4bqmw1ZQ3Wfqi7v9Fefm1WnA6tYf3TC age=2.23h mc=336928 ath=450521 tx24=2533 src=trending_6h","ts":1795630185.5944858}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630195.4060884}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795630245.4365065}
