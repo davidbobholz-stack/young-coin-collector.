@@ -128,3 +128,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795568637.0967977}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568727.1424487}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795568757.1870391}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 4, \"watch_closed\": 19, \"watch_snapshots\": 20} pools_total=99345","ts":1795568817.434119}
+{"level":"INFO","msg":"CANDIDATE 4CHAN / SOL 3zd6CXiCYPsfBCrkWEzQNNsz3yxDoW6A2CDfLwAFkThk age=1.54h mc=457168 ath=457168 tx24=2155 src=trending_1h","ts":1795568832.5915215}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568847.4835865}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795568877.5723734}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568967.6155088}
