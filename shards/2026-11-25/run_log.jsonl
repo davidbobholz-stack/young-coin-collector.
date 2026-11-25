@@ -1824,3 +1824,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620359.4232392}
 {"level":"INFO","msg":"CANDIDATE BASKET / SOL 7zPNytXofAcCSdJ1Ew65o5FU8RBsXMwQRiuMXJ1iWmqz age=4.05h mc=1520360 ath=2045093 tx24=1458 src=watch_refresh","ts":1795620410.0495844}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795620414.4691515}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 33, \"pools_seen\": 45, \"run_log\": 7, \"watch_closed\": 10, \"watch_snapshots\": 123} pools_total=117325","ts":1795620444.8033605}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795620464.8408344}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T14:56:17Z","ts":1795620499.8926475}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620509.8926353}
+{"level":"INFO","msg":"CANDIDATE Pompom / SOL Vthd39Jh1GgZtanGZfDGdFbVoLcTNaNUWmJ9rgduH6y age=2.35h mc=237177 ath=421777 tx24=3060 src=watch_refresh","ts":1795620550.4867518}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620554.931592}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795620595.3055577}
