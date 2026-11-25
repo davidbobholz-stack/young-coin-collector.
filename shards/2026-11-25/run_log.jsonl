@@ -1508,3 +1508,9 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795610715.4775574}
 {"level":"INFO","msg":"CANDIDATE JENSEN / SOL Fpqu78b2VjZgx9dh5M1uuqZkyXjZitEqrZxjHX8AnGfH age=4.69h mc=23703378 ath=23703378 tx24=3082 src=watch_refresh","ts":1795610745.854673}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795610755.5112088}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 493, \"pools_seen\": 19, \"run_log\": 7, \"watch_closed\": 18, \"watch_snapshots\": 38} pools_total=114331","ts":1795610785.8658364}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795610805.9018726}
+{"level":"INFO","msg":"CANDIDATE JaoJiu / SOL GhWk8Z4QRGHanXcoMWkAzzykM7nALj2bBqrYk7415eid age=0.78h mc=247235 ath=826509 tx24=26665 src=trending_5m","ts":1795610846.0448685}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795610850.939481}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795610895.983301}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795610936.0178468}
