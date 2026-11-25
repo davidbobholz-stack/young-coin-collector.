@@ -2208,3 +2208,10 @@
 {"level":"INFO","msg":"CANDIDATE JIMMY / SOL 5g8rVgaXccUK1f5JJ22epfxuJjvAxNWN6qcDaM3679rF age=13.73h mc=1243419 ath=1789706 tx24=1025 src=watch_refresh","ts":1795631328.1717546}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795631337.764892}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795631387.7956815}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 392, \"pools_seen\": 26, \"run_log\": 7, \"watch_closed\": 2, \"watch_snapshots\": 75} pools_total=121815","ts":1795631418.2023895}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795631438.2324996}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795631483.2617774}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T18:25:01Z)","ts":1795631523.2959507}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T18:29:36Z","ts":1795631523.2960675}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795631528.2948565}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795631578.3214786}
