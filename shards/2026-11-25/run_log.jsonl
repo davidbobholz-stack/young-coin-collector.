@@ -117,3 +117,10 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T00:55:58Z","ts":1795568356.348683}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568366.3240457}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795568396.37328}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 89, \"run_log\": 7, \"watch_closed\": 15, \"watch_snapshots\": 9} pools_total=99326","ts":1795568456.6475465}
+{"level":"INFO","msg":"CANDIDATE BOOBS / SOL 4NEnpvsb1zSiePQQbDe9TcM9DKiW7eZ5B7rvrJwv8jpY age=0.57h mc=333013 ath=761728 tx24=12868 src=trending_5m","ts":1795568462.187948}
+{"level":"INFO","msg":"CANDIDATE 4CHAN / SOL Ak4wr2ueEAJMqZSEcGPMX9EhCrwWRngP8CskvdEh1e6H age=3.00h mc=431915 ath=431915 tx24=38000 src=trending_5m","ts":1795568462.1885045}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568486.7055612}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795568516.7509563}
+{"level":"INFO","msg":"CANDIDATE ACT / SOL 2jR56enb8XdUEAiEjJMDqbnTrnBVTb9TpYuF7wUA4kXW age=1.26h mc=766801 ath=766801 tx24=4345 src=trending_5m","ts":1795568576.8929458}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795568606.7985392}
