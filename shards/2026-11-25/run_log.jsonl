@@ -1180,3 +1180,9 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795600617.9477057}
 {"level":"INFO","msg":"CANDIDATE Koinu / SOL 6socwxHmMk1BMKAVjmS8u2XpRQq4iFDC16eLevbdJMpc age=0.59h mc=1823373 ath=1823373 tx24=17219 src=trending_5m","ts":1795600663.128477}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600668.0180109}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 67, \"pools_seen\": 107, \"run_log\": 7, \"watch_closed\": 16, \"watch_snapshots\": 35} pools_total=110960","ts":1795600698.264867}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600718.2989962}
+{"level":"INFO","msg":"CANDIDATE BASKET / USDC 8YrJ8ybb3qAsADn1bAq2YTRD1gakdEACxuJf3q1eh8So age=1.19h mc=1340394 ath=1340394 tx24=1677 src=trending_5m","ts":1795600758.4196608}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600763.3298595}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600808.3628905}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795600858.3938923}
