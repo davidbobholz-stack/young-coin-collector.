@@ -1131,3 +1131,8 @@
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-25T09:28:25Z","ts":1795599073.572427}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795599083.7083604}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795599128.7825468}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 84, \"run_log\": 6, \"watch_closed\": 17, \"watch_snapshots\": 34} pools_total=110272","ts":1795599159.025035}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795599179.107111}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795599234.148674}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795599284.179494}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795599329.494487}
