@@ -2272,3 +2272,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795633208.0359435}
 {"level":"INFO","msg":"CANDIDATE ATX / SOL BJbmxBiGv7sQRZa9soKci4StfrqTxLiWFFBWPoVKSqVQ age=10.63h mc=1583943226 ath=1583943226 tx24=3889 src=watch_refresh","ts":1795633254.5567148}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795633269.1473866}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 80, \"run_log\": 6, \"watch_closed\": 18, \"watch_snapshots\": 69} pools_total=122735","ts":1795633299.4505684}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T18:54:46Z","ts":1795633299.4849327}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795633319.4796941}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795633374.5078151}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795633424.536164}
+{"level":"INFO","msg":"CANDIDATE CI / SOL 54rg16DScx7zi1n8uUAH8vdodwHoudkrdZGD9Hb3pVPU age=0.52h mc=699039 ath=699039 tx24=1411 src=trending_5m","ts":1795633459.9930327}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795633469.5736418}
