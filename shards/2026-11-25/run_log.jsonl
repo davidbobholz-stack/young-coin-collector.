@@ -1325,3 +1325,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795605177.2943456}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-25T11:09:56Z","ts":1795605207.3495357}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795605227.3279257}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 11, \"pools_seen\": 113, \"run_log\": 6, \"watch_closed\": 10, \"watch_snapshots\": 23} pools_total=112679","ts":1795605257.553079}
+{"level":"INFO","msg":"CANDIDATE BASKET / SOL NVRHVFCy92Vamskg85XhH3kA9LrDXoDBzWAHqM1Ng4X age=0.68h mc=2224733 ath=2374071 tx24=3085 src=trending_1h","ts":1795605267.6150365}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795605277.6366096}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795605322.6716683}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795605367.7038417}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795605417.7372096}
