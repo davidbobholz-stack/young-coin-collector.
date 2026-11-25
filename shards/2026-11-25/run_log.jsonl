@@ -139,3 +139,7 @@
 {"level":"INFO","msg":"CANDIDATE WIKI / SOL 9GvrP2EQWf4ndmvZ52rYkw9zchDLa4dFS8a21PL7rqpV age=0.54h mc=932879 ath=1026525 tx24=19698 src=trending_6h","ts":1795569063.509707}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795569088.0567968}
 {"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795569118.1033306}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 6, \"watch_closed\": 18, \"watch_snapshots\": 7} pools_total=99346","ts":1795569178.338958}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795569208.3849838}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795569238.4373534}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795569328.4815912}
