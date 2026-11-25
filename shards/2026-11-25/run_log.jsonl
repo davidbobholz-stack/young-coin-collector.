@@ -2607,3 +2607,10 @@
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-25T21:34:32Z","ts":1795643032.2057743}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795643037.1897035}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795643087.2085953}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 36, \"run_log\": 6, \"watch_closed\": 13, \"watch_snapshots\": 111} pools_total=126386","ts":1795643117.4203026}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795643137.4432259}
+{"level":"INFO","msg":"CANDIDATE PLCROWN / USDC 5DuHjwH897RGirki2mLNe5adVuomYMS7uhBtuACmN2Xh age=6.89h mc=49522225 ath=49522225 tx24=2928 src=watch_refresh","ts":1795643168.0332296}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795643182.4622376}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-25T21:36:12Z","ts":1795643222.487635}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795643227.4856455}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795643277.5063884}
