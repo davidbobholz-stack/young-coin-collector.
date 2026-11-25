@@ -2324,3 +2324,9 @@
 {"level":"INFO","msg":"CANDIDATE nSAI / SOL 68dWzorvjdtqaYsnxKqDSkoNyH3nfRH6ShcVdVKKBD4D age=5.26h mc=1057166 ath=1057166 tx24=1521 src=watch_refresh","ts":1795634742.8821476}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795634757.4194145}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795634807.4456885}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 16, \"pools_seen\": 67, \"run_log\": 8, \"watch_closed\": 3, \"watch_snapshots\": 16} pools_total=123263","ts":1795634837.6983573}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T19:17:46Z","ts":1795634842.732754}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795634857.7610626}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795634902.792948}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T19:19:10Z","ts":1795635005.0482578}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795635010.0458362}
