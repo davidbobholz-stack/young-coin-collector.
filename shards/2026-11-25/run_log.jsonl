@@ -2014,3 +2014,4 @@
 {"level":"WARN","msg":"new_pools /new_pools?page=6 -> 429","ts":1795625871.2099688}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=0 newest=2026-11-25T16:41:12Z","ts":1795625871.2101855}
 {"level":"INFO","msg":"STOP clean","ts":1795625871.210271}
+{"level":"INFO","msg":"START pid=2218 pending_followups=830 overdue=2 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795625892.2058089}
