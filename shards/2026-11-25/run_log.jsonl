@@ -2337,3 +2337,9 @@
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T19:20:58Z","ts":1795635185.42962}
 {"level":"INFO","msg":"CANDIDATE \u8681\u5de2 / SOL BMtEvBmTQjgzGcZZmyfZs74UxH5i168wdS7C8qoaDkP5 age=5.39h mc=34560386 ath=34560386 tx24=4114 src=watch_refresh","ts":1795635201.9898732}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795635206.6343706}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 11, \"pools_seen\": 43, \"run_log\": 7, \"watch_closed\": 21, \"watch_snapshots\": 54} pools_total=123351","ts":1795635236.9005327}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795635246.9323714}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795635296.9605572}
+{"level":"INFO","msg":"CANDIDATE GOLDINU / SOL 84YiJdDrtaiquHwPEWNUYeDZzWM82kZyHxgcepwZdfpC age=1.45h mc=329884 ath=471370 tx24=23616 src=trending_1h","ts":1795635327.213347}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795635346.9925995}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795635397.0242307}
