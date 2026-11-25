@@ -535,3 +535,8 @@
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-25T04:29:58Z","ts":1795581144.623821}
 {"level":"INFO","msg":"CANDIDATE \u8681\u5de2 / SOL 8Bu9SVoKj1TaRXYcuH6hjhk3KLDJf998yr2JJo3o2Rxx age=9.38h mc=12049624 ath=12049624 tx24=4366 src=watch_refresh","ts":1795581149.9839668}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795581164.5752583}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 74, \"run_log\": 8, \"watch_closed\": 11, \"watch_snapshots\": 39} pools_total=103921","ts":1795581194.850269}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795581209.9026246}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795581254.9444861}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795581299.9867027}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795581355.0266535}
