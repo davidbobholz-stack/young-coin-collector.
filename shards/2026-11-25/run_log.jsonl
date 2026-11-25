@@ -2488,3 +2488,11 @@
 {"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T20:24:42Z","ts":1795639531.1902528}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639546.17762}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639596.2105865}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 6, \"watch_closed\": 23, \"watch_snapshots\": 11} pools_total=125153","ts":1795639626.447721}
+{"level":"INFO","msg":"CANDIDATE 4CHAN / SOL 54bHZ2iznLZqXN4Y5LWYJVod5SekJPvw6WWo9tbeozin age=5.60h mc=216301745529 ath=216301745529 tx24=3428 src=watch_refresh","ts":1795639626.843258}
+{"level":"INFO","msg":"CANDIDATE Jensen / SOL 9H8C3a9wBhmKSovFdMUqQAtnohbCCrNtxbAxjsS6vRkD age=5.62h mc=1989889 ath=1989889 tx24=3635 src=watch_refresh","ts":1795639636.8830888}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639641.479863}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T20:24:42Z","ts":1795639681.5167067}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639686.5292003}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795639736.5583003}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795639786.6318073}
