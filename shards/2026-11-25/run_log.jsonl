@@ -1521,3 +1521,10 @@
 {"level":"INFO","msg":"CANDIDATE UGOS / SOL GLUzYL4CqHozEkc3qpxUiAbDyTewiVDP2M8gf4ab4Wau age=11.42h mc=35705119 ath=35705119 tx24=1603 src=watch_refresh","ts":1795611066.624361}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795611081.3036542}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611126.3366828}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 19, \"run_log\": 7, \"watch_closed\": 14, \"watch_snapshots\": 47} pools_total=114353","ts":1795611156.5458267}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611176.581186}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-25T12:51:45Z","ts":1795611211.6213632}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611226.6137152}
+{"level":"INFO","msg":"CANDIDATE MERGED / SOL BpdZYb7JuLf9awpZoAtgiazqvayLr9cj5hmsochU1gb4 age=5.04h mc=293849985 ath=293849985 tx24=1347 src=watch_refresh","ts":1795611257.0514188}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611276.6438096}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795611321.678416}
