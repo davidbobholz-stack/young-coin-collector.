@@ -2388,3 +2388,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636649.8520741}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636694.891705}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636739.9423015}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 140, \"run_log\": 7, \"watch_closed\": 12, \"watch_snapshots\": 59} pools_total=124195","ts":1795636770.2433512}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T19:49:22Z)","ts":1795636770.2762144}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T19:55:19Z","ts":1795636770.2763374}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636795.280564}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636845.314904}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T19:55:19Z)","ts":1795636885.3601525}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T19:57:58Z","ts":1795636885.360285}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795636890.3481233}
+{"level":"INFO","msg":"CANDIDATE Anthropic / SOL GiptGNysUUvFNYNDSaLRSJ7zU6jqBEA7pQPtRbFVVA8j age=6.96h mc=326710387 ath=326710387 tx24=1776 src=watch_refresh","ts":1795636930.549262}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795636935.382609}
