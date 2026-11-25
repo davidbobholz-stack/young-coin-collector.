@@ -1752,3 +1752,9 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T14:13:09Z)","ts":1795618107.29894}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T14:19:55Z","ts":1795618107.2990687}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795618127.2837865}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 419, \"pools_seen\": 132, \"run_log\": 7, \"watch_closed\": 14, \"watch_snapshots\": 14} pools_total=116498","ts":1795618157.670469}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795618177.7102225}
+{"level":"INFO","msg":"CANDIDATE KYM / SOL BPgHiETi7RVx1ojx6L7QjFpLdmdHFTeMRYkh9DqGiTeK age=0.82h mc=398650 ath=401349 tx24=9617 src=trending_1h","ts":1795618213.0966246}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795618222.74796}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795618267.7876368}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795618317.83117}
