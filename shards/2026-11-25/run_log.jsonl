@@ -1555,3 +1555,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795611967.0503678}
 {"level":"INFO","msg":"CANDIDATE Pompom / SOL 7kNYdYbHbGMdQczmKSxqNzg4p4pGc6VpERzMfPBptGso age=1.83h mc=406479 ath=406479 tx24=36583 src=trending_24h","ts":1795612002.1664925}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795612017.0882828}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 0, \"run_log\": 6, \"watch_closed\": 21, \"watch_snapshots\": 6} pools_total=114477","ts":1795612047.3426497}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795612067.3810298}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795612117.4241457}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795612162.4702933}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T12:57:22Z)","ts":1795612197.518515}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T13:06:42Z","ts":1795612197.518686}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795612207.5090864}
