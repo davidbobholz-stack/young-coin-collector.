@@ -295,3 +295,9 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795573847.2886436}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T02:29:24Z","ts":1795573882.3682952}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795573897.331122}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 7, \"ohlcv\": 577, \"pools_seen\": 73, \"run_log\": 6, \"watch_closed\": 15, \"watch_snapshots\": 36} pools_total=101296","ts":1795573927.7879179}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795573942.8287914}
+{"level":"INFO","msg":"CANDIDATE ChristmASS / SOL EEczLmKqsnyPUZ5FRTAiTFpDNAtn4XBTFbaSnY111Tfo age=2.35h mc=253277 ath=401723 tx24=19622 src=trending_1h","ts":1795573983.0720108}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795573987.8683662}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795574037.9127843}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795574087.9741194}
