@@ -257,3 +257,11 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795572659.0490572}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795572714.1039922}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795572764.1475317}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 51, \"pools_seen\": 120, \"run_log\": 7, \"watch_closed\": 17, \"watch_snapshots\": 4} pools_total=100844","ts":1795572794.4239128}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-25T02:10:57Z","ts":1795572804.4936497}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795572809.4644706}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795572854.5082462}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795572899.5541835}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T02:13:39Z","ts":1795572934.6825087}
+{"level":"INFO","msg":"CANDIDATE 4CHAN / SOL 9U4jtPw2qGpsaTHfV9Me3ayQeJF62RL226WdCR1shuGY age=2.19h mc=551867 ath=551867 tx24=30368 src=trending_5m","ts":1795572949.6195195}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795572954.6022792}
