@@ -1474,3 +1474,11 @@
 {"level":"INFO","msg":"CANDIDATE \u9ec4\u4ec1\u52cb / SOL 9wrRdMVp1ygXQTjdU3xL39tthMJfFBNCVPsBUxkmxhCP age=6.18h mc=6362725 ath=6362725 tx24=2038 src=watch_refresh","ts":1795609753.3586693}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795609763.0019495}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795609808.0333526}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 720, \"pools_seen\": 45, \"run_log\": 7, \"watch_closed\": 15, \"watch_snapshots\": 17} pools_total=114150","ts":1795609838.4398909}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T12:29:16Z","ts":1795609853.4974513}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795609858.4689872}
+{"level":"INFO","msg":"CANDIDATE Pompom / SOL 9PyixqfSmdKrQLr2Niy36jiK8byZq537vKqNTWM8Lmi7 age=0.66h mc=765787 ath=765787 tx24=19553 src=trending_5m","ts":1795609893.5282748}
+{"level":"INFO","msg":"CANDIDATE hSOL / OUROBOROS 2SHPxaj6vZmf9nWzfgsGnoHGp2MfNyEVyt7s9qYvkUHY age=0.57h mc=67527096 ath=67527096 tx24=1851 src=trending_5m","ts":1795609903.5425782}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795609908.5054247}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795609958.5530024}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795610003.5852249}
