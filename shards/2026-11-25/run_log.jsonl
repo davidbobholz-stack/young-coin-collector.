@@ -2503,3 +2503,11 @@
 {"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T20:24:42Z)","ts":1795639972.03289}
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T20:47:38Z","ts":1795639972.0330174}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795639977.0125997}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 195, \"run_log\": 7, \"watch_closed\": 18, \"watch_snapshots\": 31} pools_total=125348","ts":1795640007.3985767}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795640027.4469504}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795640077.4841526}
+{"level":"WARN","msg":"new_pools coverage gap: 10 pages did not reach last newest (2026-11-25T20:47:38Z)","ts":1795640117.5303404}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=0 newest=2026-11-25T20:51:04Z","ts":1795640117.5304778}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795640122.5121403}
+{"level":"INFO","msg":"CANDIDATE Pompompurin / SOL F1oTWvNF5HVy3BrLo2q9djpAATid8KXSpoKSr9MuLWkM age=0.62h mc=414861 ath=942645 tx24=13983 src=trending_5m","ts":1795640157.5521507}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795640167.5501318}
