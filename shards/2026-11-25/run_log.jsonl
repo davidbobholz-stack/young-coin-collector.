@@ -669,3 +669,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795585206.0573037}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T05:39:18Z","ts":1795585251.4567497}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795585256.0779035}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 143, \"pools_seen\": 88, \"run_log\": 7, \"watch_closed\": 10, \"watch_snapshots\": 12} pools_total=105493","ts":1795585286.4215124}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795585306.4417138}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795585356.4628823}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795585401.4854674}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T05:41:31Z","ts":1795585431.5140178}
+{"level":"INFO","msg":"CANDIDATE TRILLY / SOL 5Hh5hEZaaqjipDXxHhxDMd747vPJWxJQxY3mPp2H3Z8M age=6.64h mc=69349531935 ath=69349531935 tx24=4963 src=watch_refresh","ts":1795585441.8390903}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795585446.5208142}
