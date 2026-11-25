@@ -2668,3 +2668,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795644955.1289713}
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-25T22:02:29Z","ts":1795645000.1521904}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795645005.1466727}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 194, \"pools_seen\": 84, \"run_log\": 6, \"watch_closed\": 21, \"watch_snapshots\": 3} pools_total=127019","ts":1795645035.3798661}
+{"level":"INFO","msg":"CANDIDATE MONEY / SOL 25fmtXVbmkmgyhHrHF6PZ1dtychfujRz64ZGCbM1XZLi age=0.70h mc=1529225 ath=1529225 tx24=6095 src=trending_5m","ts":1795645040.4084542}
+{"level":"INFO","msg":"CANDIDATE NORFEATH / SOL FUzScAtZzSt9rzMtt2pCDLPpJ1ikYC5LgDNjYtfWyqdj age=1.19h mc=532218 ath=532218 tx24=25853 src=trending_5m","ts":1795645040.409629}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795645050.3982418}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795645095.4159048}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795645135.4347408}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795645185.4654427}
