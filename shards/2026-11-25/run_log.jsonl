@@ -151,3 +151,8 @@
 {"level":"INFO","msg":"CANDIDATE KYM / SOL CcejyLNuP79uhzyMt6bur3CfcFPJjV6DjsWUhVhNds7U age=1.28h mc=29024310828 ath=29024310828 tx24=24392 src=trending_5m","ts":1795569453.8939643}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795569468.8778052}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795569518.9181933}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 0, \"pools_seen\": 93, \"run_log\": 8, \"watch_closed\": 15, \"watch_snapshots\": 29} pools_total=99489","ts":1795569549.2004495}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795569564.247406}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795569609.2952085}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795569659.3513513}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795569714.3985717}
