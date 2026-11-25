@@ -2134,3 +2134,8 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-25T17:51:25Z","ts":1795629277.3079522}
 {"level":"INFO","msg":"CANDIDATE MONEY / SOL 66PoEKfMNhZLVLb3APCAbyYg6kzmKRCra5pJyyow24Zq age=0.56h mc=733642 ath=733642 tx24=15513 src=trending_5m","ts":1795629287.3016531}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795629297.2991908}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 3, \"ohlcv\": 0, \"pools_seen\": 119, \"run_log\": 9, \"watch_closed\": 11, \"watch_snapshots\": 13} pools_total=121007","ts":1795629327.576401}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795629347.6044674}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795629397.6332877}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795629442.6682036}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795629487.7017443}
