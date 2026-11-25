@@ -1000,3 +1000,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795595114.634036}
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-25T08:23:26Z","ts":1795595149.6581502}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795595164.6547763}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 236, \"pools_seen\": 92, \"run_log\": 6, \"watch_closed\": 15, \"watch_snapshots\": 18} pools_total=108909","ts":1795595195.0219114}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795595220.0408442}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T08:25:34Z","ts":1795595255.0700645}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795595275.062758}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795595325.0799723}
+{"level":"INFO","msg":"CANDIDATE JaoJiu / SOL BXeF83rs2RhmUnaRvAAS4XwRcwFV4iwM2oz4bGZfNZsc age=0.52h mc=418364 ath=1264353 tx24=7316 src=trending_1h","ts":1795595365.1149955}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795595370.099325}
