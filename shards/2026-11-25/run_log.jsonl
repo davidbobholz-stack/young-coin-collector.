@@ -226,3 +226,10 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795571751.2250772}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-25T01:54:43Z","ts":1795571791.2804658}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795571796.2687733}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 62, \"pools_seen\": 147, \"run_log\": 8, \"watch_closed\": 17, \"watch_snapshots\": 11} pools_total=100620","ts":1795571826.5543091}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795571846.5962594}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795571891.6373367}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-25T01:56:58Z","ts":1795571931.6911206}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795571936.6784017}
+{"level":"INFO","msg":"CANDIDATE DongCoin / SOL 8AP6mz83wVWZC31hAQ7mxm7eB7wNE2wEnYYEmztzLti4 age=0.55h mc=381306 ath=621952 tx24=5200 src=trending_5m","ts":1795571981.8000417}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795571986.7758071}
