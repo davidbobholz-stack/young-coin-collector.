@@ -917,3 +917,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795592639.6412709}
 {"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-25T07:41:55Z","ts":1795592679.6657147}
 {"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795592694.6625757}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pools_seen\": 76, \"run_log\": 6, \"watch_closed\": 8, \"watch_snapshots\": 59} pools_total=108021","ts":1795592724.9660997}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795592744.985777}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795592790.0040603}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-25T07:45:06Z","ts":1795592825.030702}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795592835.021441}
+{"level":"INFO","msg":"CANDIDATE CHUCK / SOL 3SqFnBAmr3ZU1ZrKwHYSM5FPQa51XPhH4L8HBzRYWCvN age=2.96h mc=460850 ath=460850 tx24=51038 src=trending_5m","ts":1795592865.102963}
+{"level":"INFO","msg":"CANDIDATE JaoJiu / SOL EWHCt3B5mim6JmghcjoV7rU1FBfwmafP2eQ3njMnBSqU age=0.51h mc=853021243 ath=853021243 tx24=3400 src=trending_5m","ts":1795592870.0490985}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795592875.0396364}
