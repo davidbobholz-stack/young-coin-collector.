@@ -44,6 +44,9 @@ jobs:
       # explicitly. permissions.actions: write on this job is what lets that
       # token create the next workflow_dispatch.
       GH_TOKEN: ${{ github.token }}
+      # JSON array of wallet addresses. Unset means the wallet logger does nothing.
+      # The list is not stored in this repository.
+      TRACKED_WALLETS: ${{ secrets.TRACKED_WALLETS }}
       # Push and schedule have no inputs. Only a workflow_dispatch value is used;
       # anything else (including a missing input) is the 4 hour default.
       # The successor is dispatched with no inputs, so it always collects for 4 hours.

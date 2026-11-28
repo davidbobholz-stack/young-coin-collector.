@@ -22,6 +22,13 @@ GZIP_AFTER_DAYS = 2
 POOLS_COLUMNS = ["pool", "token", "quote", "name", "dex", "created_at", "first_seen",
                  "first_source", "first_fdv", "first_reserve", "first_age_h"]
 OHLCV_COLUMNS = ["pool", "tf", "ts", "o", "h", "l", "c", "v"]
+WALLET_COLUMNS = ["signature", "wallet", "kind", "mint", "token_amount", "sol_amount", "sender", "receiver",
+                  "slot", "block_time", "observed_ts", "ts", "pool", "venue", "fee_bps", "reserve_usd",
+                  "reading_age_s", "distinct_tokens_24h", "note"]
+PUMP_EVENT_COLUMNS = ["ts", "observed_ts", "block_time", "kind", "mint", "symbol", "pool", "venue", "fee_bps",
+                      "reserve_usd", "reading_age_s", "swap_signature", "swap_is_first", "slot", "note"]
+POOL_SWAP_COLUMNS = ["signature", "pool", "mint", "venue", "block_time", "observed_ts", "ts", "slot", "price",
+                     "sol_amount", "token_amount", "reserve_quote", "reserve_usd", "note"]
 WATCH_COLUMNS = ["pool", "token", "created_at", "next_check", "last_check", "last_fdv",
                  "ath_mc_obs", "ath_mc_ohlcv", "ath_checked", "status", "misses", "is_candidate"]
 FOLLOWUP_COLUMNS = ["pool", "label", "due_ts", "kind", "state", "attempts", "next_try", "done_ts"]
@@ -30,10 +37,10 @@ CANDIDATE_COLUMNS = ["pool", "token", "name", "dex", "first_for_token", "event_t
                      "vol_h24", "tx_h1", "tx_h24", "ath_proxy", "ath_source", "source", "raw"]
 SNAPSHOT_COLUMNS = ["ts", "pool", "source", "age_h", "price", "fdv", "mc", "reserve", "vol_m5",
                     "vol_h1", "vol_h6", "vol_h24", "tx_h1", "tx_h24", "ath_proxy", "passes",
-                    "fail_reasons", "status"]
+                    "fail_reasons", "status", "venue"]
 RESULT_COLUMNS = ["pool", "label", "due_ts", "ts", "late", "late_min", "attempts", "status",
                   "price", "fdv", "mc", "reserve", "vol_m5", "vol_h1", "vol_h24", "tx_h1",
-                  "tx_h24", "note"]
+                  "tx_h24", "note", "venue"]
 
 _index = None
 _known_pools = set()
@@ -71,6 +78,10 @@ def meta_get(db, k):
 
 def meta_set(db, k, v):
     db.execute("INSERT INTO meta(k,v) VALUES(?,?) ON CONFLICT(k) DO UPDATE SET v=excluded.v", (k, str(v)))
+
+
+def utcnow():
+    return dt.datetime.now(dt.timezone.utc)
 
 
 def day_of(ts):
@@ -167,46 +178,59 @@ def iter_jsonl(path):
             except Exception: continue
 
 
-def _current_part(day_dir, stem):
+def _part_map(day_dir, stem):
+    """Index of shard parts, including gzipped ones. n=0 is the unsuffixed file."""
     root_name, ext = os.path.splitext(stem)
-    best = None
-    best_n = -1
+    found = {}
     if not os.path.isdir(day_dir):
-        return None, 0
+        return found
     for fn in os.listdir(day_dir):
-        if fn.endswith(".gz"): continue
-        if fn == stem:
+        gz = fn.endswith(".gz")
+        name = fn[:-3] if gz else fn
+        if name == stem:
             n = 0
-        elif fn.startswith(root_name + "-") and fn.endswith(ext):
-            mid = fn[len(root_name) + 1:-len(ext)]
-            if not mid.isdigit(): continue
+        elif name.endswith(ext) and name.startswith(root_name + "-"):
+            mid = name[len(root_name) + 1:-len(ext)]
+            if not mid.isdigit():
+                continue
             n = int(mid)
         else:
             continue
-        if n >= best_n:
-            best_n = n
-            best = os.path.join(day_dir, fn)
-    return best, best_n
+        slot = found.setdefault(n, {"plain": None, "gz": None})
+        slot["gz" if gz else "plain"] = os.path.join(day_dir, fn)
+    return found
+
+
+def _plain_name(day_dir, stem, n):
+    root_name, ext = os.path.splitext(stem)
+    fn = stem if n == 0 else f"{root_name}-{n}{ext}"
+    return os.path.join(day_dir, fn)
 
 
 def _append_bytes(data_dir, day, stem, header, payload):
-    """Append payload (str) to today's part, rotating at SHARD_MAX_BYTES. Returns path."""
+    """Append payload to a plain part. Never open or replace a .gz.
+
+    If the highest existing part is gzip-only, start the next numbered plain
+    file (ohlcv-1.csv, ohlcv-2.csv, ...) instead of recreating ohlcv.csv.
+    """
     day_dir = os.path.join(data_dir, "shards", day)
     os.makedirs(day_dir, exist_ok=True)
-    path, n = _current_part(day_dir, stem)
-    root_name, ext = os.path.splitext(stem)
-    new_file = path is None
-    if path is not None and os.path.exists(path) and os.path.getsize(path) >= SHARD_MAX_BYTES:
-        n += 1
-        path = os.path.join(day_dir, f"{root_name}-{n}{ext}")
-        new_file = True
-    if path is None:
-        path = os.path.join(day_dir, stem)
-        new_file = True
-    # A gzipped-only day (late row): write a plain sidecar part instead of rewriting history.
-    if not new_file and path.endswith(".gz"):
-        path = os.path.join(day_dir, f"{root_name}-late{ext}")
-        new_file = not os.path.exists(path)
+    parts = _part_map(day_dir, stem)
+    new_file = True
+    if not parts:
+        path = _plain_name(day_dir, stem, 0)
+    else:
+        n = max(parts)
+        plain = parts[n]["plain"]
+        if plain and os.path.exists(plain) and os.path.getsize(plain) < SHARD_MAX_BYTES:
+            path = plain
+            new_file = os.path.getsize(plain) == 0
+        else:
+            n2 = n + 1
+            while n2 in parts:
+                n2 += 1
+            path = _plain_name(day_dir, stem, n2)
+            new_file = True
     with open(path, "a", newline="") as fh:
         if new_file or os.path.getsize(path) == 0:
             if header: fh.write(header)
@@ -243,7 +267,7 @@ def gzip_old_shards(data_dir, keep_days=GZIP_AFTER_DAYS):
     """
     root = os.path.join(data_dir, "shards")
     if not os.path.isdir(root): return 0
-    today = dt.datetime.now(dt.timezone.utc).date()
+    today = utcnow().date()
     n = 0
     for day in list(os.listdir(root)):
         dpath = os.path.join(root, day)
@@ -255,17 +279,36 @@ def gzip_old_shards(data_dir, keep_days=GZIP_AFTER_DAYS):
             if fn.endswith(".gz") or fn.endswith(".tmp"): continue
             src = os.path.join(dpath, fn)
             if not os.path.isfile(src): continue
-            dst = src + ".gz"
+            dst = _gzip_dest(dpath, src)
             tmp = dst + ".tmp"
             with open(src, "rb") as inp, gzip.open(tmp, "wb", compresslevel=9) as out:
                 while True:
                     chunk = inp.read(1024 * 1024)
                     if not chunk: break
                     out.write(chunk)
+            # Never replace a gzip that already holds history. Pick another name if it appeared.
+            if os.path.exists(dst):
+                dst = _gzip_dest(dpath, src)
             os.replace(tmp, dst)
-            os.remove(src)
+            if os.path.exists(src):
+                os.remove(src)
             n += 1
     return n
+
+
+def _gzip_dest(day_dir, src):
+    """Destination .gz path that does not already exist."""
+    direct = src + ".gz"
+    if not os.path.exists(direct):
+        return direct
+    root, ext = os.path.splitext(os.path.basename(src))
+    # src may be ohlcv.csv or ohlcv-3.csv. Numbered dest keeps the .csv.gz suffix.
+    n = 1
+    while True:
+        cand = os.path.join(day_dir, f"{root}-{n}{ext}.gz")
+        if not os.path.exists(cand):
+            return cand
+        n += 1
 
 
 def _ensure_files(data_dir):
@@ -355,6 +398,96 @@ def _insert_candidate(db, obj):
                      for c in CANDIDATE_COLUMNS))
 
 
+def _row_vals(columns, obj):
+    num = {"token_amount", "sol_amount", "block_time", "observed_ts", "ts", "fee_bps", "reserve_usd",
+           "reading_age_s", "price", "reserve_quote", "created_at", "first_seen", "graduated_at",
+           "trigger_observed_ts", "until_ts", "covered_until"}
+    integ = {"slot", "swap_is_first", "distinct_tokens_24h", "complete"}
+    vals = []
+    for c in columns:
+        v = obj.get(c)
+        if c in integ:
+            vals.append(_blank_int(v))
+        elif c in num:
+            vals.append(_blank_float(v))
+        else:
+            vals.append(v)
+    return vals
+
+
+def _hydrate_marked(db, data_dir, table, columns, stem, max_age_s):
+    try:
+        db.execute(f"SELECT 1 FROM {table} LIMIT 1")
+    except sqlite3.OperationalError:
+        return
+    cutoff = time.time() - max_age_s if max_age_s else None
+    colsql = ",".join(columns)
+    ph = ",".join("?" * len(columns))
+    for part in iter_part_files(data_dir, stem):
+        for obj in iter_jsonl(part):
+            if cutoff is not None:
+                try:
+                    if float(obj.get("ts") or 0) < cutoff:
+                        continue
+                except Exception:
+                    continue
+            cur = db.execute(f"INSERT OR IGNORE INTO {table}({colsql}) VALUES({ph})", _row_vals(columns, obj))
+            if cur.rowcount and cur.lastrowid:
+                db.execute("INSERT OR IGNORE INTO _exported(tbl,rid) VALUES(?,?)", (table, cur.lastrowid))
+
+
+def _hydrate_pump_coins(db, data_dir):
+    path = os.path.join(data_dir, "mutable", "pump_coins.jsonl")
+    if not os.path.exists(path):
+        return
+    try:
+        db.execute("SELECT 1 FROM pump_coins LIMIT 1")
+    except sqlite3.OperationalError:
+        return
+    cols = ["mint", "name", "symbol", "created_at", "bonding_curve", "complete", "pool", "venue", "first_seen", "graduated_at", "fee_bps", "reserve_usd"]
+    for obj in iter_jsonl(path):
+        if not obj.get("mint"):
+            continue
+        db.execute("INSERT OR REPLACE INTO pump_coins(" + ",".join(cols) + ") VALUES(" + ",".join("?" * len(cols)) + ")",
+                   _row_vals(cols, obj))
+
+
+def _rewrite_pump_coins(db, data_dir):
+    try:
+        rows = db.execute("SELECT mint,name,symbol,created_at,bonding_curve,complete,pool,venue,first_seen,graduated_at,fee_bps,reserve_usd FROM pump_coins ORDER BY mint").fetchall()
+    except sqlite3.OperationalError:
+        return
+    cols = ["mint", "name", "symbol", "created_at", "bonding_curve", "complete", "pool", "venue", "first_seen", "graduated_at", "fee_bps", "reserve_usd"]
+    lines = [json.dumps({c: row[i] for i, c in enumerate(cols)}, separators=(",", ":"), sort_keys=True, default=str) for row in rows]
+    atomic_write_if_changed(os.path.join(data_dir, "mutable", "pump_coins.jsonl"), ("\n".join(lines) + ("\n" if lines else "")))
+
+
+def _hydrate_pool_follows(db, data_dir):
+    path = os.path.join(data_dir, "mutable", "pool_follows.jsonl")
+    if not os.path.exists(path):
+        return
+    try:
+        db.execute("SELECT 1 FROM pool_follows LIMIT 1")
+    except sqlite3.OperationalError:
+        return
+    cols = ["pool", "mint", "venue", "trigger_observed_ts", "until_ts", "last_sig", "covered_until"]
+    for obj in iter_jsonl(path):
+        if not obj.get("pool"):
+            continue
+        db.execute("INSERT OR REPLACE INTO pool_follows(" + ",".join(cols) + ") VALUES(" + ",".join("?" * len(cols)) + ")",
+                   _row_vals(cols, obj))
+
+
+def _rewrite_pool_follows(db, data_dir):
+    try:
+        rows = db.execute("SELECT pool,mint,venue,trigger_observed_ts,until_ts,last_sig,covered_until FROM pool_follows ORDER BY pool").fetchall()
+    except sqlite3.OperationalError:
+        return
+    cols = ["pool", "mint", "venue", "trigger_observed_ts", "until_ts", "last_sig", "covered_until"]
+    lines = [json.dumps({c: row[i] for i, c in enumerate(cols)}, separators=(",", ":"), sort_keys=True, default=str) for row in rows]
+    atomic_write_if_changed(os.path.join(data_dir, "mutable", "pool_follows.jsonl"), ("\n".join(lines) + ("\n" if lines else "")))
+
+
 def hydrate(db, data_dir):
     """Load resume state into an empty SQLite. Append-only history stays in shards."""
     global _gzip_done
@@ -408,6 +541,11 @@ def hydrate(db, data_dir):
             db.execute("INSERT OR REPLACE INTO api_calls(day,endpoint,calls,n429,nerr) VALUES(?,?,?,?,?)",
                        (obj["day"], obj["endpoint"], _blank_int(obj.get("calls")) or 0,
                         _blank_int(obj.get("n429")) or 0, _blank_int(obj.get("nerr")) or 0))
+    _hydrate_pump_coins(db, data_dir)
+    _hydrate_marked(db, data_dir, "wallet_events", WALLET_COLUMNS, "wallet_events.jsonl", 48 * 3600)
+    _hydrate_marked(db, data_dir, "pump_events", PUMP_EVENT_COLUMNS, "pump_events.jsonl", None)
+    _hydrate_marked(db, data_dir, "pool_swaps", POOL_SWAP_COLUMNS, "pool_swaps.jsonl", 48 * 3600)
+    _hydrate_pool_follows(db, data_dir)
     db.commit()
     _clog(f"hydrate pools_in_db={db.execute('SELECT COUNT(*) FROM pools_seen').fetchone()[0]} "
           f"candidates={db.execute('SELECT COUNT(*) FROM candidates').fetchone()[0]} "
@@ -601,6 +739,11 @@ def checkpoint(db, data_dir):
             counts["watch_snapshots"] = _export_unexported(db, data_dir, "watch_snapshots", SNAPSHOT_COLUMNS, "watch_snapshots.jsonl", "ts", True)
             counts["followup_results"] = _export_unexported(db, data_dir, "followup_results", RESULT_COLUMNS, "followup_results.jsonl", "ts", True)
             counts["ohlcv"] = _export_unexported(db, data_dir, "ohlcv", OHLCV_COLUMNS, "ohlcv.csv", "ts", True)
+            counts["wallet_events"] = _export_unexported(db, data_dir, "wallet_events", WALLET_COLUMNS, "wallet_events.jsonl", "ts", False)
+            counts["pump_events"] = _export_unexported(db, data_dir, "pump_events", PUMP_EVENT_COLUMNS, "pump_events.jsonl", "ts", False)
+            counts["pool_swaps"] = _export_unexported(db, data_dir, "pool_swaps", POOL_SWAP_COLUMNS, "pool_swaps.jsonl", "ts", False)
+            _rewrite_pump_coins(db, data_dir)
+            _rewrite_pool_follows(db, data_dir)
             counts["downtime"] = _export_unexported(db, data_dir, "downtime", ["start_ts", "end_ts", "minutes", "kind"], "downtime.jsonl", "end_ts", False)
             counts["run_log"] = _export_unexported(db, data_dir, "run_log", ["ts", "level", "msg"], "run_log.jsonl", "ts", False)
             counts["watch_closed"] = _rewrite_watch(db, data_dir)

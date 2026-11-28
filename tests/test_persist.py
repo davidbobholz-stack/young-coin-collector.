@@ -176,6 +176,62 @@ class PersistTests(unittest.TestCase):
         collector.observe(oldp, "trending_5m", t)
         self.assertIsNone(self.db.execute("SELECT 1 FROM pools_seen WHERE pool='OldSeen'").fetchone())
 
+    def test_gzip_then_late_ohlcv_append_does_not_drop_history(self):
+        """Late candles for an already-gzipped day must not replace the .gz."""
+        import datetime as dt
+        old = dt.datetime(2026, 11, 21, 12, 0, tzinfo=dt.timezone.utc)
+        old_ts = int(old.timestamp())
+        for i in range(100):
+            self.db.execute("INSERT INTO ohlcv VALUES('HistPool','1m',?,1,1,1,1,1)", (old_ts + i * 60,))
+        self.db.commit()
+        persist.checkpoint(self.db, self.data)
+        real_now = persist.utcnow
+        try:
+            persist.utcnow = lambda: dt.datetime(2026, 11, 25, 1, 0, tzinfo=dt.timezone.utc)
+            persist._gzip_done = False
+            persist.gzip_old_shards(self.data)
+        finally:
+            persist.utcnow = real_now
+        before = []
+        for part in persist.iter_part_files(self.data, "ohlcv.csv"):
+            before.extend(list(persist.iter_csv(part)))
+        self.assertEqual(len(before), 100)
+        self.assertTrue(any(p.endswith(".gz") for p in persist.iter_part_files(self.data, "ohlcv.csv")))
+        self.db.execute("INSERT INTO ohlcv VALUES('HistPool','1m',?,2,2,2,2,2)", (old_ts + 100 * 60,))
+        self.db.commit()
+        persist.checkpoint(self.db, self.data)
+        try:
+            persist.utcnow = lambda: dt.datetime(2026, 11, 25, 5, 0, tzinfo=dt.timezone.utc)
+            persist._gzip_done = False
+            persist.gzip_old_shards(self.data)
+        finally:
+            persist.utcnow = real_now
+        after = []
+        for part in persist.iter_part_files(self.data, "ohlcv.csv"):
+            after.extend(list(persist.iter_csv(part)))
+        keys = {(r["pool"], r["tf"], str(r["ts"]).split(".")[0]) for r in after}
+        self.assertGreaterEqual(len(keys), 101, "gzip overwrite dropped historical candles")
+        self.assertIn(("HistPool", "1m", str(old_ts)), keys)
+        self.assertIn(("HistPool", "1m", str(old_ts + 100 * 60)), keys)
+        # the original gzip is still there and was not replaced by the late file
+        gz = [p for p in persist.iter_part_files(self.data, "ohlcv.csv") if p.endswith("ohlcv.csv.gz")]
+        self.assertTrue(gz)
+        import os
+        self.assertGreater(os.path.getsize(gz[0]), 200)
+
+    def test_reserve_floor_logs_instead_of_promoting(self):
+        t = time.time()
+        base = dict(pool="DustPool", token="MintDust11111111111111111111111111111111",
+                    quote="So11111111111111111111111111111111111111112", dex="meteora-damm-v2", venue="meteora-damm-v2",
+                    name="DUST", created_at=t - 2 * 3600, price=1.0, fdv=500_000, mc=500_000, reserve=0.5,
+                    vol_m5=1, vol_h1=1, vol_h6=1, vol_h24=1, tx_h1=10, tx_h24=1500)
+        collector.observe(dict(base), "new_pools", t)
+        self.assertIsNone(self.db.execute("SELECT 1 FROM candidates WHERE pool='DustPool'").fetchone())
+        reasons = self.db.execute("SELECT fail_reasons, venue FROM watch_snapshots WHERE pool='DustPool'").fetchone()
+        self.assertIn("reserve_below_20k", reasons[0])
+        self.assertEqual(reasons[1], "meteora-damm-v2")
+        self.assertIsNotNone(self.db.execute("SELECT 1 FROM pools_seen WHERE pool='DustPool'").fetchone())
+
 
 if __name__ == "__main__":
     unittest.main()

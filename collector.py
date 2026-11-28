@@ -16,6 +16,7 @@ UA = {"Accept": "application/json", "User-Agent": "young-coin-collector/1.0 (res
 AGE_MIN_H, AGE_MAX_H = 0.5, 20.0
 MC_MIN, ATH_MIN = 200_000, 400_000
 TX24_MIN = 1000            # proxy for "total fees >= 1 SOL"
+RESERVE_MIN = 20_000       # candidate floor; below this is logged, not promoted
 NEAR_MC = 50_000           # near-miss threshold stored in watchlist snapshots
 WATCH_MIN_FDV = 20_000     # pools below this (and not trending) are only recorded in pools_seen
 BONDING_DEXES = {"pump-fun", "meteora-dbc", "raydium-launchlab", "boop-fun", "moonshot"}
@@ -24,6 +25,7 @@ QUOTES = {"So11111111111111111111111111111111111111112", "EPjFWdd5AufqSSqeM2qN1x
 FOLLOWUPS = [("15m", 900), ("1h", 3600), ("4h", 14400), ("24h", 86400), ("48h", 172800)]
 MIN_SPACING = 5.0         # hard cap 12 calls/min
 NEW_POOLS_EVERY, TREND_EVERY, TREND_DEEP_EVERY = 150, 900, 3600
+NEW_POOLS_MAX_PAGES = 25
 LATE_S = 600
 
 db = None
@@ -109,7 +111,7 @@ CREATE TABLE IF NOT EXISTS watch_state(pool TEXT PRIMARY KEY, token TEXT, create
   is_candidate INTEGER DEFAULT 0);
 CREATE TABLE IF NOT EXISTS watch_snapshots(id INTEGER PRIMARY KEY, ts REAL, pool TEXT, source TEXT, age_h REAL,
   price REAL, fdv REAL, mc REAL, reserve REAL, vol_m5 REAL, vol_h1 REAL, vol_h6 REAL, vol_h24 REAL,
-  tx_h1 INTEGER, tx_h24 INTEGER, ath_proxy REAL, passes INTEGER, fail_reasons TEXT, status TEXT);
+  tx_h1 INTEGER, tx_h24 INTEGER, ath_proxy REAL, passes INTEGER, fail_reasons TEXT, status TEXT, venue TEXT);
 CREATE TABLE IF NOT EXISTS candidates(id INTEGER PRIMARY KEY, pool TEXT UNIQUE, token TEXT, name TEXT, dex TEXT,
   first_for_token INTEGER, event_ts REAL, created_at REAL, age_h REAL, price REAL, fdv REAL, mc REAL, reserve REAL,
   vol_m5 REAL, vol_h1 REAL, vol_h6 REAL, vol_h24 REAL, tx_h1 INTEGER, tx_h24 INTEGER, ath_proxy REAL, ath_source TEXT,
@@ -118,7 +120,23 @@ CREATE TABLE IF NOT EXISTS followups(id INTEGER PRIMARY KEY, pool TEXT, label TE
   state TEXT DEFAULT 'pending', attempts INTEGER DEFAULT 0, next_try REAL, done_ts REAL, UNIQUE(pool,label));
 CREATE TABLE IF NOT EXISTS followup_results(id INTEGER PRIMARY KEY, followup_id INTEGER, pool TEXT, label TEXT,
   due_ts REAL, ts REAL, late INTEGER, late_min REAL, attempts INTEGER, status TEXT, price REAL, fdv REAL, mc REAL,
-  reserve REAL, vol_m5 REAL, vol_h1 REAL, vol_h24 REAL, tx_h1 INTEGER, tx_h24 INTEGER, note TEXT);
+  reserve REAL, vol_m5 REAL, vol_h1 REAL, vol_h24 REAL, tx_h1 INTEGER, tx_h24 INTEGER, note TEXT, venue TEXT);
+CREATE TABLE IF NOT EXISTS wallet_events(id INTEGER PRIMARY KEY, signature TEXT, wallet TEXT, kind TEXT, mint TEXT,
+  token_amount REAL, sol_amount REAL, sender TEXT, receiver TEXT, slot INTEGER, block_time REAL, observed_ts REAL,
+  ts REAL, pool TEXT, venue TEXT, fee_bps REAL, reserve_usd REAL, reading_age_s REAL, distinct_tokens_24h INTEGER,
+  note TEXT, UNIQUE(signature, wallet, kind, mint));
+CREATE TABLE IF NOT EXISTS wallet_cursor(wallet TEXT PRIMARY KEY, last_sig TEXT);
+CREATE TABLE IF NOT EXISTS pump_coins(mint TEXT PRIMARY KEY, name TEXT, symbol TEXT, created_at REAL,
+  bonding_curve TEXT, complete INTEGER, pool TEXT, venue TEXT, first_seen REAL, graduated_at REAL,
+  fee_bps REAL, reserve_usd REAL);
+CREATE TABLE IF NOT EXISTS pump_events(id INTEGER PRIMARY KEY, ts REAL, observed_ts REAL, block_time REAL, kind TEXT,
+  mint TEXT, symbol TEXT, pool TEXT, venue TEXT, fee_bps REAL, reserve_usd REAL, reading_age_s REAL,
+  swap_signature TEXT, swap_is_first INTEGER, slot INTEGER, note TEXT, UNIQUE(kind, mint, pool));
+CREATE TABLE IF NOT EXISTS pool_swaps(id INTEGER PRIMARY KEY, signature TEXT, pool TEXT, mint TEXT, venue TEXT,
+  block_time REAL, observed_ts REAL, ts REAL, slot INTEGER, price REAL, sol_amount REAL, token_amount REAL,
+  reserve_quote REAL, reserve_usd REAL, note TEXT, UNIQUE(signature, pool));
+CREATE TABLE IF NOT EXISTS pool_follows(pool TEXT PRIMARY KEY, mint TEXT, venue TEXT, trigger_observed_ts REAL,
+  until_ts REAL, last_sig TEXT, covered_until REAL);
 CREATE TABLE IF NOT EXISTS ohlcv(pool TEXT, tf TEXT, ts INTEGER, o REAL, h REAL, l REAL, c REAL, v REAL, PRIMARY KEY(pool,tf,ts));
 CREATE TABLE IF NOT EXISTS api_calls(day TEXT, endpoint TEXT, calls INTEGER, n429 INTEGER, nerr INTEGER, PRIMARY KEY(day,endpoint));
 CREATE TABLE IF NOT EXISTS run_log(id INTEGER PRIMARY KEY, ts REAL, level TEXT, msg TEXT);
@@ -177,7 +195,7 @@ def parse_pool(d):
     tx = a.get("transactions") or {}; vol = a.get("volume_usd") or {}
     def txn(k): t = tx.get(k) or {}; return (t.get("buys") or 0) + (t.get("sells") or 0)
     fdv, mc = f(a.get("fdv_usd")), f(a.get("market_cap_usd"))
-    return dict(pool=a["address"], token=tok, quote=quo, dex=dex, name=a.get("name"),
+    return dict(pool=a["address"], token=tok, quote=quo, dex=dex, venue=dex, name=a.get("name"),
                 created_at=ptime(a.get("pool_created_at") or ""), price=f(a.get("base_token_price_usd")),
                 fdv=fdv, mc=mc if mc else fdv, reserve=f(a.get("reserve_in_usd")),
                 vol_m5=f(vol.get("m5")), vol_h1=f(vol.get("h1")), vol_h6=f(vol.get("h6")), vol_h24=f(vol.get("h24")),
@@ -193,6 +211,7 @@ def evaluate(p, ath, t):
     if (ath or 0) < ATH_MIN: fails.append("ath")
     if (p["tx_h24"] or 0) < TX24_MIN: fails.append("tx24_fee_proxy")
     if not p["reserve"] or p["reserve"] <= 0: fails.append("no_liquidity")
+    elif p["reserve"] < RESERVE_MIN: fails.append("reserve_below_20k")
     if p["token"] in QUOTES: fails.append("base_is_quote")
     return age, fails
 
@@ -247,11 +266,17 @@ def observe(p, source, t):
     age, fails = evaluate(p, ath, t)
     passes = 0 if fails else 1
     status = "ok" if (p["reserve"] or 0) > 0 else "zero_liquidity"
-    if (p["mc"] or 0) >= NEAR_MC or passes:
+    venue = p.get("venue") or p.get("dex")
+    if (p["mc"] or 0) >= NEAR_MC or passes or "reserve_below_20k" in fails:
         db.execute("INSERT INTO watch_snapshots(ts,pool,source,age_h,price,fdv,mc,reserve,vol_m5,vol_h1,vol_h6,vol_h24,tx_h1,tx_h24,"
-                   "ath_proxy,passes,fail_reasons,status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                   "ath_proxy,passes,fail_reasons,status,venue) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                    (t, p["pool"], source, age, p["price"], p["fdv"], p["mc"], p["reserve"], p["vol_m5"], p["vol_h1"], p["vol_h6"],
-                    p["vol_h24"], p["tx_h1"], p["tx_h24"], ath, passes, ",".join(fails), status))
+                    p["vol_h24"], p["tx_h1"], p["tx_h24"], ath, passes, ",".join(fails), status, venue))
+    if fails == ["reserve_below_20k"]:
+        seen_flag = db.execute("SELECT 1 FROM meta WHERE k=?", ("floor:" + p["pool"],)).fetchone()
+        if not seen_flag:
+            db.execute("INSERT INTO meta(k,v) VALUES(?,?)", ("floor:" + p["pool"], "1"))
+            log(f"LOGGED reserve_below_20k {p.get('name')} {p['pool']} venue={venue} mc={p.get('mc')} reserve={p.get('reserve')}")
     db.execute("UPDATE watch_state SET ath_mc_obs=?, ath_mc_ohlcv=?, ath_checked=?, last_check=?, last_fdv=?, misses=0,"
                "next_check=? WHERE pool=?", (ath_obs, ath_o, ath_chk, t, p["fdv"], t + next_interval(p["fdv"]), p["pool"]))
     if passes:
@@ -266,7 +291,7 @@ def observe(p, source, t):
                 db.execute("INSERT OR IGNORE INTO followups(pool,label,due_ts,kind,next_try) VALUES(?,?,?,'snapshot',?)", (p["pool"], lab, t + off, t + off))
             db.execute("INSERT OR IGNORE INTO followups(pool,label,due_ts,kind,next_try) VALUES(?,?,?,'ohlcv',?)", (p["pool"], "ohlcv24", t + 86400 + 300, t + 86400 + 300))
             db.execute("INSERT OR IGNORE INTO followups(pool,label,due_ts,kind,next_try) VALUES(?,?,?,'ohlcv',?)", (p["pool"], "ohlcv48", t + 172800 + 300, t + 172800 + 300))
-            log(f"CANDIDATE {p['name']} {p['pool']} age={age:.2f}h mc={p['mc']:.0f} ath={ath:.0f} tx24={p['tx_h24']} src={source}")
+            log(f"CANDIDATE {p['name']} {p['pool']} venue={p.get('venue') or p.get('dex')} age={age:.2f}h mc={p['mc']:.0f} ath={ath:.0f} tx24={p['tx_h24']} reserve={p.get('reserve')} src={source}")
 
 def poll_list(path, source, endpoint):
     code, js = api(path, endpoint)
@@ -280,8 +305,13 @@ def poll_list(path, source, endpoint):
     db.commit(); return out
 
 def do_new_pools(state):
+    """Page newest-first until the previous poll's watermark, up to NEW_POOLS_MAX_PAGES.
+
+    The old cap of 10 pages overflowed during launch bursts (logged as np_gaps).
+    Extra pages still share the 5s GeckoTerminal spacing.
+    """
     last_newest = state.get("np_newest", 0); newest = last_newest; reached = False; pages = 0
-    for page in range(1, 11):
+    for page in range(1, NEW_POOLS_MAX_PAGES + 1):
         if should_stop(): break
         ps = poll_list(f"/new_pools?page={page}", "new_pools", "new_pools"); pages += 1
         if not ps: break
@@ -289,7 +319,7 @@ def do_new_pools(state):
         if cts: newest = max(newest, max(cts))
         if cts and min(cts) <= last_newest: reached = True; break
     if last_newest and not reached and not should_stop():
-        log(f"new_pools coverage gap: 10 pages did not reach last newest ({iso(last_newest)})", "WARN")
+        log(f"new_pools coverage gap: {pages} pages did not reach last newest ({iso(last_newest)})", "WARN")
         db.execute("INSERT INTO meta VALUES('np_gaps', '1') ON CONFLICT(k) DO UPDATE SET v=CAST(v AS INTEGER)+1")
     state["np_newest"] = newest
     log(f"new_pools pages={pages} reached_prev={int(reached)} newest={iso(newest) if newest else '-'}")
@@ -299,6 +329,13 @@ def do_trending(pages):
         for page in pages:
             if should_stop(): return
             poll_list(f"/trending_pools?duration={dur}&page={page}", f"trending_{dur}", "trending")
+
+def venue_of(pool):
+    for sql in ("SELECT dex FROM candidates WHERE pool=?", "SELECT dex FROM pools_seen WHERE pool=?"):
+        row = db.execute(sql, (pool,)).fetchone()
+        if row and row[0]:
+            return row[0]
+    return None
 
 def snapshot_status(p, ev):
     if not p: return "missing"
@@ -334,9 +371,9 @@ def do_snapshots(rows, t):
         if late: note = (note + ";" if note else "") + "late: exact-time price derivable from stored 1m/5m OHLCV"
         g = p or {}
         db.execute("INSERT INTO followup_results(followup_id,pool,label,due_ts,ts,late,late_min,attempts,status,price,fdv,mc,reserve,"
-                   "vol_m5,vol_h1,vol_h24,tx_h1,tx_h24,note) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                   "vol_m5,vol_h1,vol_h24,tx_h1,tx_h24,note,venue) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                    (fid, pool, label, due, t, late, late_min, attempts, st, g.get("price"), g.get("fdv"), g.get("mc"), g.get("reserve"),
-                    g.get("vol_m5"), g.get("vol_h1"), g.get("vol_h24"), g.get("tx_h1"), g.get("tx_h24"), note))
+                    g.get("vol_m5"), g.get("vol_h1"), g.get("vol_h24"), g.get("tx_h1"), g.get("tx_h24"), note, g.get("venue") or venue_of(pool)))
         db.execute("UPDATE followups SET state='done', attempts=?, done_ts=? WHERE id=?", (attempts, t, fid))
     db.commit()
 
@@ -367,8 +404,8 @@ def do_ohlcv(row, t):
     elif "error" in statuses: st = "partial_error"
     else: st = "ok"
     late = 1 if t - due > LATE_S else 0
-    db.execute("INSERT INTO followup_results(followup_id,pool,label,due_ts,ts,late,late_min,attempts,status,note) VALUES(?,?,?,?,?,?,?,?,?,?)",
-               (fid, pool, label, due, t, late, max(0, (t - due) / 60), attempts + 1, st, ";".join(notes)))
+    db.execute("INSERT INTO followup_results(followup_id,pool,label,due_ts,ts,late,late_min,attempts,status,note,venue) VALUES(?,?,?,?,?,?,?,?,?,?,?)",
+               (fid, pool, label, due, t, late, max(0, (t - due) / 60), attempts + 1, st, ";".join(notes), venue_of(pool)))
     db.execute("UPDATE followups SET state='done', attempts=attempts+1, done_ts=? WHERE id=?", (t, fid)); db.commit()
 
 def do_watch(rows, t):
@@ -462,6 +499,12 @@ def main():
                         if w: do_watch(w, t)
                         elif not sleep_q(3): break
                 if should_stop(): break
+                try:
+                    import pump_feed, wallet_log
+                    pump_feed.poll(db)
+                    wallet_log.poll(db)
+                except Exception as e:
+                    log("aux feed error: " + "".join(traceback.format_exception_only(type(e), e)).strip(), "ERROR")
                 state["backlog_watch"] = db.execute("SELECT COUNT(*) FROM watch_state WHERE status='watch' AND next_check<=?", (now(),)).fetchone()[0]
                 db.execute("INSERT INTO meta VALUES('state',?) ON CONFLICT(k) DO UPDATE SET v=excluded.v", (json.dumps(state),)); db.commit()
                 heartbeat(state, started)
