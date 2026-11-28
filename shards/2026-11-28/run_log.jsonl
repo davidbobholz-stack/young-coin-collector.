@@ -191,3 +191,8 @@
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T04:44:17Z","ts":1795841200.1678877}
 {"level":"INFO","msg":"LOGGED reserve_below_20k DrillCat / SOL 6HYJoqWiEmmhJhiuBBpeMgVQCe6TXVbwupEwW95bSzQL venue=meteora-damm-v2 mc=529786.8035 reserve=10027.2059","ts":1795841235.528981}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795841240.5227263}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 48, \"pool_swaps\": 5, \"pools_seen\": 39, \"pump_events\": 44, \"run_log\": 6, \"wallet_events\": 1, \"watch_closed\": 0, \"watch_snapshots\": 39} pools_total=130050","ts":1795841270.6566832}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795841280.6758096}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795841335.7095928}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795841385.7282386}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795841430.7540119}
