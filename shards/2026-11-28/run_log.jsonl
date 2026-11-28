@@ -1023,3 +1023,14 @@
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 77, \"pool_swaps\": 7, \"pools_seen\": 18, \"pump_events\": 48, \"run_log\": 3, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 1} pools_total=140359","ts":1795874902.2481096}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-28T14:07:24Z","ts":1795874912.284398}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875070.6204982}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 9, \"ohlcv\": 751, \"pool_swaps\": 0, \"pools_seen\": 106, \"pump_events\": 83, \"run_log\": 3, \"wallet_events\": 1, \"watch_closed\": 0, \"watch_snapshots\": 17} pools_total=140465","ts":1795875101.0308087}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T14:10:03Z","ts":1795875106.084865}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795875116.0616033}
+{"level":"INFO","msg":"CANDIDATE PCB / SOL BCUYj725n7Yxzu15pGu61N9awTrp6fHwP4ygUg92GkRf venue=pumpswap age=10.98h mc=125080125 ath=125080125 tx24=2165 reserve=786189.1736 src=watch_refresh","ts":1795875167.3211606}
+{"level":"INFO","msg":"CANDIDATE UOF / SOL 9TJR1kBw6MqpUN9U5bDwEeduXzaa4fZHD3Tz95eSXKMw venue=pumpswap age=10.51h mc=1564935 ath=1564935 tx24=1193 reserve=86830.2684 src=watch_refresh","ts":1795875193.6279576}
+{"level":"INFO","msg":"CANDIDATE GOTF / SOL HsfoSZzT4ZwLxwDDAru4KN1LPaovMira3SwbvjJ4jWiu venue=pumpswap age=10.44h mc=5041454 ath=5041454 tx24=1169 reserve=156391.3082 src=watch_refresh","ts":1795875193.6283123}
+{"level":"INFO","msg":"CANDIDATE U0DF / SOL Fe3BRsCYyJmxnQxChMtz352gq5DzcohwsswSPjCsMtZW venue=pumpswap age=10.33h mc=15793356 ath=15793356 tx24=1176 reserve=277839.7031 src=watch_refresh","ts":1795875193.628553}
+{"level":"INFO","msg":"CANDIDATE PCB / SOL HF9rf6ngVeREm96AREvzzqUpGf2byj6zYeWRtXaYexdB venue=pumpswap age=10.31h mc=1533113 ath=1533113 tx24=1180 reserve=85962.2343 src=watch_refresh","ts":1795875204.2733214}
+{"level":"INFO","msg":"LOGGED reserve_below_20k MP4 / SOL 9PNH727QXuAhdRPvwCHS8xCW4eKwUrRd878kT25voXvR venue=pumpswap mc=265826.5944 reserve=0.002138093735","ts":1795875209.0087132}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875219.7119904}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875264.741761}
