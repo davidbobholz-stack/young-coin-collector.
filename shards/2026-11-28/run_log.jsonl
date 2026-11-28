@@ -967,3 +967,10 @@
 {"level":"INFO","msg":"CANDIDATE WLFI / SOL 46973pyxHLtcjiZYtMZaQTYQji6yaxHTHqhqoc74VwCB venue=pumpswap age=8.83h mc=314827 ath=413616 tx24=60829 reserve=43127.4488 src=trending_24h","ts":1795872936.9332905}
 {"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 0, \"pump_events\": 0, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 44} pools_total=139541","ts":1795872937.0965383}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872956.796414}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 0, \"pump_events\": 56, \"run_log\": 2, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 8} pools_total=139541","ts":1795873121.4866836}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795873151.5146189}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795873196.5415623}
+{"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795873236.6190188}
+{"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-28T13:25:57Z)","ts":1795873236.6191037}
+{"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T13:37:52Z","ts":1795873236.619216}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795873288.0858853}
