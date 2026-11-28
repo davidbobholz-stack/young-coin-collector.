@@ -2,6 +2,13 @@
 
 Collection is stopped. Do NOT restart Collect until the OHLCV persistence bug in COLLECTOR_BUG.md is fixed and its regression test passes. Do NOT squash, force-push or rewrite the `data` branch: its history is the only in-repo copy of candles missing from the tip.
 
+Restart, only after that test is green on `main` and you are told to start:
+
+1. Check out `data` (do not squash or force-push). Leave `STOP` in place until the restore is committed.
+2. `python3 scripts/restore_ohlcv_tip.py --data <data checkout> --csv /path/to/ohlcv_recovered.csv`
+3. Confirm the printed readable key count is at least 182,911 and `stop_present` is true. Commit that tree as a normal append and push `HEAD:data`.
+4. Delete `STOP` in a second normal commit only when collection should actually start. Set the Actions secret `TRACKED_WALLETS` to a JSON array first if wallet logging is wanted. Then Actions → Collect → Run workflow. A missing secret skips the wallet logger; it does not skip the rest.
+
 Forward research data for young Solana memecoin pools. The collector polls the free public [GeckoTerminal](https://api.geckoterminal.com) API, records pools that pass a fixed filter, and schedules follow-up snapshots. It does not trade, it does not hold a wallet, and it does not use API keys, secrets, or paid services.
 
 The filter, the discovery cadence, and the follow-up schedule are the ones this collector was written with. GitHub Actions is only the process that keeps it running while the machine it was written on sleeps.

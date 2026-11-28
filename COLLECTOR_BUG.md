@@ -1,5 +1,7 @@
 # OHLCV persistence bug
 
+Code fix status: the never-overwrite gzip change, the regression test, the $20k candidate floor, venue tags, the pump.fun feed, and the wallet logger are in the campaign PR. The `data` tip has not been restored. `STOP` is still on `data`. Do not restart from this note.
+
 Collection is stopped. Do not restart it, and do not squash, force-push, or rewrite the `data` branch. The candles missing from the tip still exist in earlier commits on that branch. Those commits are the only in-repo copy.
 
 Counts below were checked against commit `442694be` (2026-11-25 22:23 UTC). The branch tip has since moved, by normal appends only, to `600a87f1` (the STOP checkpoint). The destroyed `ohlcv.csv.gz` files are the same blobs at both commits. `main` still has the bug; this note does not change code.

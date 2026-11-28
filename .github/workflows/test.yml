@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unit tests
-        run: python3 tests/test_persist.py
+        run: python3 tests/test_persist.py && python3 tests/test_wallet.py
