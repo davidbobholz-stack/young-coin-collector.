@@ -11,3 +11,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834532.4542627}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-28T02:53:29Z","ts":1795834567.4788651}
 {"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-28T02:55:00Z","ts":1795834644.723702}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 60, \"ohlcv\": 0, \"pool_swaps\": 5, \"pools_seen\": 164, \"pump_events\": 88, \"run_log\": 5, \"wallet_events\": 4, \"watch_closed\": 0, \"watch_snapshots\": 19} pools_total=127648","ts":1795834703.211208}
+{"level":"INFO","msg":"CANDIDATE MoonBoy / SPCX DkNJBoh2KngPNumX5BdEakmpX2fYPNu57xZFn6C2dRE1 venue=pumpswap age=6.32h mc=457517 ath=457517 tx24=71719 reserve=66195.4404 src=trending_5m","ts":1795834708.2482939}
+{"level":"INFO","msg":"CANDIDATE ZOTH / SOL DGaUyZMWBLVDscXQZRFkgp3rBk7BHefCDbcwnQ1MNrVH venue=pumpswap age=4.10h mc=516467 ath=516467 tx24=24621 reserve=131751.2099 src=trending_5m","ts":1795834708.2489142}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834723.2354293}
+{"level":"INFO","msg":"CANDIDATE Memeball / SOL Br6X4CcmyiJ3Sfi5p66Arx5P1euPQrG9wGt7RknjLq83 venue=pumpswap age=2.54h mc=779847 ath=779847 tx24=34211 reserve=63897.9702 src=trending_5m","ts":1795834763.4702759}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834768.2554395}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834813.2785087}
+{"level":"INFO","msg":"CANDIDATE Anthropic / SOL BA8FNtB2qEoYoiG2mdVsr43CTTrZ5LrygQ1gAAVLQs7P venue=pumpswap age=0.72h mc=5436099 ath=5436099 tx24=3442 reserve=28717.5219 src=trending_1h","ts":1795834853.3168185}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834858.309858}
