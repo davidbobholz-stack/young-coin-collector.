@@ -393,3 +393,8 @@
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795851428.8011148}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795851490.511313}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795851536.7179244}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 446, \"pool_swaps\": 3, \"pools_seen\": 67, \"pump_events\": 37, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 7} pools_total=133057","ts":1795851567.5017607}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T07:38:11Z","ts":1795851580.2332242}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795851596.6383522}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795851646.6770542}
+{"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795851698.1718335}
