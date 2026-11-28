@@ -1151,3 +1151,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795878654.6740584}
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-28T15:09:33Z","ts":1795878684.7407303}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795878704.7026503}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 83, \"pump_events\": 80, \"run_log\": 7, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 209} pools_total=141951","ts":1795878734.9681296}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795878759.4253638}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T15:09:56Z","ts":1795878789.4629757}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795878804.4548845}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795878851.8269908}
+{"level":"INFO","msg":"CANDIDATE John / SOL 8ciqmSz1nVij8egZc6YtXQ3RynXJGE4pDaR8mU2KkMV4 venue=pumpswap age=0.67h mc=584032 ath=584032 tx24=24892 reserve=50974.7132 src=trending_5m","ts":1795878881.8851624}
+{"level":"INFO","msg":"LOGGED reserve_below_20k GROKSIE / SOL 2EWRp2N5k2o3CnBMugEDXJRz24CPBaEjfHHFHM65PUSx venue=pumpswap mc=407179.33 reserve=0.001947345743","ts":1795878881.8854825}
+{"level":"INFO","msg":"LOGGED reserve_below_20k BNBunnies / SOL HiXepdNDFY9cTPwGhRzTVPWVpNKcSPRkjMRYZgEAshzB venue=pumpswap mc=396191.8077 reserve=0.000326885485","ts":1795878891.9658434}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795878896.857457}
