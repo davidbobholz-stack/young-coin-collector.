@@ -54,3 +54,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795835696.390122}
 {"level":"INFO","msg":"CANDIDATE GAIB / SOL HNph7RD7c8u9h6jzD2nhVawVYZGEi35csvRPGsQtWbUr venue=pumpswap age=13.36h mc=400372 ath=400372 tx24=108220 reserve=206569.1671 src=trending_1h","ts":1795835731.4298987}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795835746.4199553}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 60, \"ohlcv\": 0, \"pool_swaps\": 5, \"pools_seen\": 31, \"pump_events\": 56, \"run_log\": 5, \"wallet_events\": 2, \"watch_closed\": 0, \"watch_snapshots\": 61} pools_total=128010","ts":1795835824.0952759}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795835828.9659703}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795835879.0015385}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795835934.0272894}
+{"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795835964.1104982}
+{"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-28T03:11:26Z)","ts":1795835964.1106074}
+{"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T03:16:45Z","ts":1795835964.1106832}
