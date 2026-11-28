@@ -63,7 +63,27 @@ class ParseTests(unittest.TestCase):
     def test_unset_wallet_list_skips(self):
         os.environ.pop("TRACKED_WALLETS", None)
         wallet_log._skipped_logged[0] = False
-        self.assertEqual(wallet_log.load_wallets(), [])
+        self.assertEqual(wallet_log.load_wallets("/tmp/does-not-exist-tracked-wallets.json"), [])
+
+    def test_file_fallback_when_secret_unset(self):
+        import json, tempfile
+        os.environ.pop("TRACKED_WALLETS", None)
+        wallet_log._loaded_logged[0] = False
+        with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
+            json.dump(["AddrOne", "AddrTwo"], fh)
+            path = fh.name
+        try:
+            self.assertEqual(wallet_log.load_wallets(path), ["AddrOne", "AddrTwo"])
+        finally:
+            os.remove(path)
+
+    def test_secret_overrides_file(self):
+        os.environ["TRACKED_WALLETS"] = '["FromSecret"]'
+        wallet_log._loaded_logged[0] = False
+        try:
+            self.assertEqual(wallet_log.load_wallets("/tmp/does-not-exist-tracked-wallets.json"), ["FromSecret"])
+        finally:
+            os.environ.pop("TRACKED_WALLETS", None)
 
 
 if __name__ == "__main__":

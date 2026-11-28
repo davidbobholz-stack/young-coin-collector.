@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Tracked-wallet buys, sells, and SOL transfers. Free public RPC only.
 
-TRACKED_WALLETS is a JSON array in the environment (a GitHub Actions secret).
-When it is unset or invalid, poll() does nothing. The list is never written
-to the repo. Venue is recorded and never used to drop an event.
+The wallet list is the TRACKED_WALLETS environment variable when that is a
+JSON array (the Actions secret). Otherwise it is config/tracked_wallets.json.
+If neither is present, poll() does nothing. Venue is never a reason to drop
+an event.
 """
 import json, os, time, urllib.request
 import collector
@@ -17,24 +18,44 @@ WSOL = "So11111111111111111111111111111111111111112"
 _last = [0.0]
 _idx = [0]
 _skipped_logged = [False]
+_loaded_logged = [False]
+_DEFAULT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config", "tracked_wallets.json")
 
 
-def load_wallets():
-    raw = os.environ.get("TRACKED_WALLETS", "").strip()
-    if not raw:
-        if not _skipped_logged[0]:
-            collector.log("TRACKED_WALLETS unset; wallet logger skipped")
-            _skipped_logged[0] = True
-        return []
+def _parse_wallet_list(raw, source):
     try:
         data = json.loads(raw)
     except Exception:
-        collector.log("TRACKED_WALLETS is not a JSON array; wallet logger skipped", "WARN")
+        collector.log(f"{source} is not valid JSON; wallet logger skipped", "WARN")
         return []
     if not isinstance(data, list):
-        collector.log("TRACKED_WALLETS is not a JSON array; wallet logger skipped", "WARN")
+        collector.log(f"{source} is not a JSON array; wallet logger skipped", "WARN")
         return []
-    return [str(x) for x in data if isinstance(x, str) and x]
+    wallets = [str(x) for x in data if isinstance(x, str) and x]
+    if wallets and not _loaded_logged[0]:
+        collector.log(f"loaded {len(wallets)} tracked wallets from {source}")
+        _loaded_logged[0] = True
+    return wallets
+
+
+def load_wallets(path=None):
+    """Secret first, then config/tracked_wallets.json, then an empty skip."""
+    raw = os.environ.get("TRACKED_WALLETS", "").strip()
+    if raw:
+        return _parse_wallet_list(raw, "TRACKED_WALLETS")
+    path = path if path is not None else _DEFAULT_PATH
+    if os.path.isfile(path):
+        try:
+            with open(path) as fh:
+                text = fh.read()
+        except OSError as e:
+            collector.log(f"could not read {path}: {e}; wallet logger skipped", "WARN")
+            return []
+        return _parse_wallet_list(text, path)
+    if not _skipped_logged[0]:
+        collector.log("TRACKED_WALLETS unset and config/tracked_wallets.json missing; wallet logger skipped")
+        _skipped_logged[0] = True
+    return []
 
 
 def rpc(method, params):
