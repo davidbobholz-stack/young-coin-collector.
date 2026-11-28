@@ -1040,3 +1040,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795875370.692374}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795875415.7271159}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795875465.7646575}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 65, \"pump_events\": 44, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 64} pools_total=140606","ts":1795875495.9492078}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875519.5489132}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875564.580238}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875609.61702}
+{"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-28T14:17:13Z","ts":1795875649.6719491}
+{"level":"INFO","msg":"CANDIDATE USAR / SOL 9BcskdVHM7GpaXYZQJXyAkrBhRf1PLYZF9Uc2LxypbwC venue=pumpswap age=9.98h mc=1588765 ath=1588765 tx24=1216 reserve=87153.9901 src=watch_refresh","ts":1795875655.009881}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795875659.6490557}

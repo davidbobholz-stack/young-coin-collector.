@@ -1,20 +1,20 @@
 {
-  "candidates_total": 679,
+  "candidates_total": 680,
   "counts": {
-    "candidates": 0,
+    "candidates": 1,
     "downtime": 0,
     "followup_results": 0,
     "ohlcv": 0,
-    "pool_swaps": 0,
-    "pools_seen": 65,
-    "pump_events": 44,
-    "run_log": 6,
+    "pool_swaps": 1,
+    "pools_seen": 113,
+    "pump_events": 101,
+    "run_log": 7,
     "wallet_events": 0,
     "watch_closed": 0,
-    "watch_snapshots": 64
+    "watch_snapshots": 53
   },
-  "followups_pending": 103,
-  "iso": "2026-11-28T14:18:15Z",
-  "pools_total": 140606,
-  "ts": 1795875495.9469328
+  "followups_pending": 110,
+  "iso": "2026-11-28T14:21:29Z",
+  "pools_total": 140719,
+  "ts": 1795875689.8959422
 }
