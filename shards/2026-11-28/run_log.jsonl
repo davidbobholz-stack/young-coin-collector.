@@ -1494,3 +1494,13 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795888436.8385637}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795888486.8655274}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795888536.893347}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 100, \"pump_events\": 50, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 74} pools_total=146173","ts":1795888567.1997948}
+{"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795888577.2997766}
+{"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-28T17:50:07Z)","ts":1795888577.2998965}
+{"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T17:53:36Z","ts":1795888577.299995}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795888583.4025483}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795888628.427074}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T17:55:11Z","ts":1795888673.458645}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795888679.3734095}
+{"level":"INFO","msg":"CANDIDATE Artcoin / SOL 9WfmV3iJGQRCm7cPGqC4dqvBTEqyydqy7SFKpKakkDNv venue=pumpswap age=3.44h mc=403670 ath=403670 tx24=56787 reserve=49844.4071 src=trending_5m","ts":1795888716.8275094}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795888736.7854893}
