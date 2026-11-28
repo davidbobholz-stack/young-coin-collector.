@@ -948,3 +948,9 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-28T13:22:24Z","ts":1795872333.360234}
 {"level":"INFO","msg":"STOP clean","ts":1795872374.8146884}
 {"level":"INFO","msg":"START pid=2187 pending_followups=99 overdue=36 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795872393.7330174}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 0, \"pump_events\": 0, \"run_log\": 1, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 0} pools_total=139444","ts":1795872393.8673875}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795872418.8963993}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-28T13:25:57Z","ts":1795872453.954602}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872476.196748}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872526.2309725}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795872576.2627184}
