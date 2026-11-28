@@ -20,3 +20,13 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834813.2785087}
 {"level":"INFO","msg":"CANDIDATE Anthropic / SOL BA8FNtB2qEoYoiG2mdVsr43CTTrZ5LrygQ1gAAVLQs7P venue=pumpswap age=0.72h mc=5436099 ath=5436099 tx24=3442 reserve=28717.5219 src=trending_1h","ts":1795834853.3168185}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834858.309858}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 4, \"downtime\": 0, \"followup_results\": 30, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 58, \"pump_events\": 0, \"run_log\": 9, \"wallet_events\": 0, \"watch_closed\": 1, \"watch_snapshots\": 94} pools_total=127706","ts":1795834888.4285266}
+{"level":"INFO","msg":"CANDIDATE Fireball / SOL Dnxt5J7R1ATKnh23rSbwYuuc9NeixsXBgfRLbMBNmkS2 venue=pumpswap age=12.87h mc=531177 ath=531177 tx24=49460 reserve=53203.8917 src=trending_1h","ts":1795834898.4620907}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795834908.4583123}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Crema / SOL CkK2MNh7APNHpFQUkcemSSEFMZnLGpZfSbpZQzBwLa13 venue=pumpswap mc=246175.8294 reserve=0.00246280702743793","ts":1795834938.6761277}
+{"level":"INFO","msg":"CANDIDATE baton / SOL CYcdkL1GfFMHLEJhBnZJdLgbne1WKsUyrj9vJvF84jPG venue=raydium-clmm age=18.51h mc=303316 ath=412780 tx24=19976 reserve=39577.4734 src=trending_1h","ts":1795834943.6032994}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795834958.4844322}
+{"level":"INFO","msg":"CANDIDATE OTC / SOL FaoCiXhFQu5Nd1hLVn2Hk56TM6QcyH48NqWWp2kmcusn venue=raydium-clmm age=18.42h mc=205477 ath=547595 tx24=19951 reserve=31174.3108 src=trending_1h","ts":1795834993.7303438}
+{"level":"INFO","msg":"LOGGED reserve_below_20k STEADY / SOL 2uPyTvtZqWb6BhRx2nmGnAfNSHgPdP1jFQMJGvT8J1BG venue=pumpswap mc=528220.028255335 reserve=3.532406398e-05","ts":1795834993.7337706}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795835003.5205271}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795835048.5451317}
