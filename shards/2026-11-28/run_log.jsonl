@@ -1562,3 +1562,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795890419.2053437}
 {"level":"INFO","msg":"LOGGED reserve_below_20k MoonBoy / SOL 124gZ5zfn7QAkJkMsnrBNrrjQtuBcuEvHujWUtDUWs57 venue=meteora mc=1122788.00946576 reserve=530.0649","ts":1795890454.5984254}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795890474.2333193}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 136, \"pump_events\": 77, \"run_log\": 8, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 106} pools_total=147187","ts":1795890504.612946}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-28T18:27:05Z","ts":1795890519.6445146}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795890536.1110146}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795890586.1354177}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Artcoin / SOL FBoD4eWKZHuGqMwFpP6B2LPVqUoWXw7rfuJRxis1UWmu venue=meteora-dlmm-pro mc=506291.432146299 reserve=1845.5167","ts":1795890627.1544597}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795890636.1617892}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795890681.1887107}
