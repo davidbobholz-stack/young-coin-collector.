@@ -544,3 +544,4 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795857855.187524}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795857938.212905}
 {"level":"INFO","msg":"STOP clean","ts":1795857963.2162235}
+{"level":"INFO","msg":"START pid=2449 pending_followups=324 overdue=267 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795857984.475911}
