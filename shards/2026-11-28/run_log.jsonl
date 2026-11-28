@@ -357,3 +357,9 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795849812.410676}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795849857.4500532}
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T07:10:01Z","ts":1795849956.788248}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 2318, \"pool_swaps\": 1, \"pools_seen\": 20, \"pump_events\": 59, \"run_log\": 4, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 4} pools_total=132562","ts":1795850055.9977682}
+{"level":"INFO","msg":"CANDIDATE ZOTH / SOL 2uUiVADNG9SfdDSmff1E5637LQDf29GpH3fUT71Atcve venue=pumpswap age=1.27h mc=398417 ath=402896 tx24=7545 reserve=133455.0558 src=trending_5m","ts":1795850061.2939887}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795850081.0384746}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795850121.0790496}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795850171.120004}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795850216.1729126}
