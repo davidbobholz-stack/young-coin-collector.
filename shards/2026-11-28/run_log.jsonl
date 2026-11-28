@@ -954,3 +954,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872476.196748}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872526.2309725}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795872576.2627184}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 92, \"pump_events\": 46, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 74} pools_total=139536","ts":1795872576.5537584}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Snowball / SOL 94C3mHaqURwyL63xBPV8GcnQCTJGHvdMKRfZSR3VtRBe venue=meteora-damm-v2 mc=331126.679469147 reserve=5933.6891","ts":1795872606.7470129}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872621.587473}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872666.616939}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872716.6433089}
