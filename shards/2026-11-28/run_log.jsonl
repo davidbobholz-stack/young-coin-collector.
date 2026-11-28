@@ -1047,3 +1047,11 @@
 {"level":"INFO","msg":"new_pools pages=10 reached_prev=1 newest=2026-11-28T14:17:13Z","ts":1795875649.6719491}
 {"level":"INFO","msg":"CANDIDATE USAR / SOL 9BcskdVHM7GpaXYZQJXyAkrBhRf1PLYZF9Uc2LxypbwC venue=pumpswap age=9.98h mc=1588765 ath=1588765 tx24=1216 reserve=87153.9901 src=watch_refresh","ts":1795875655.009881}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795875659.6490557}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 113, \"pump_events\": 101, \"run_log\": 7, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 53} pools_total=140719","ts":1795875689.8987775}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875714.9351375}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T14:19:54Z","ts":1795875744.9873483}
+{"level":"INFO","msg":"CANDIDATE ATX / SOL FCbatRVFdU3hRAhp6N9Gevjp3kwy3e3VSsQdTsavVkue venue=pumpswap age=9.33h mc=66240284 ath=66706218 tx24=1790 reserve=572477.9637 src=watch_refresh","ts":1795875755.3153865}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795875768.9024289}
+{"level":"INFO","msg":"LOGGED reserve_below_20k TREMP / SOL AjtoXRaVi2wxoPJs9EAs4zC984GiKhQG6wPDgnHXZi53 venue=pumpswap mc=98198404037.6 reserve=0.0007076933669","ts":1795875814.463336}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795875818.9402063}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795875863.9765098}
