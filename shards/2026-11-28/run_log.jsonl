@@ -856,3 +856,9 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795869007.4407816}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795869067.953043}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795869132.8974323}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 7, \"ohlcv\": 500, \"pool_swaps\": 2, \"pools_seen\": 85, \"pump_events\": 54, \"run_log\": 5, \"wallet_events\": 7, \"watch_closed\": 0, \"watch_snapshots\": 46} pools_total=138243","ts":1795869163.3944652}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795869178.4093273}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795869228.4250214}
+{"level":"INFO","msg":"CANDIDATE Xbot / SOL GhtHgjc17TeQpJFMcKrEnbBWJDYeW7t6jMAcgMBGVaaV venue=pumpswap age=0.52h mc=347836 ath=485811 tx24=10405 reserve=43080.1015 src=trending_1h","ts":1795869268.6084619}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795869278.4411716}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795869323.455129}
