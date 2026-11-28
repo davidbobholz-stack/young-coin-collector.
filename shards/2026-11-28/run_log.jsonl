@@ -489,3 +489,5 @@
 {"level":"ERROR","msg":"aux feed error: AttributeError: 'NoneType' object has no attribute 'execute'","ts":1795855171.9368908}
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 1356, \"pool_swaps\": 5, \"pools_seen\": 86, \"pump_events\": 71, \"run_log\": 5, \"wallet_events\": 3, \"watch_closed\": 0, \"watch_snapshots\": 3} pools_total=134152","ts":1795855173.4452026}
 {"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-28T08:38:50Z","ts":1795855232.8709586}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 387, \"pool_swaps\": 1, \"pools_seen\": 19, \"pump_events\": 38, \"run_log\": 2, \"wallet_events\": 1, \"watch_closed\": 0, \"watch_snapshots\": 1} pools_total=134171","ts":1795855364.5677922}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T08:42:13Z","ts":1795855446.3125708}
