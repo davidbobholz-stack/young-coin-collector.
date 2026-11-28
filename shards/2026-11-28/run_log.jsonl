@@ -482,3 +482,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795854839.0974658}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795854913.9799137}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795854959.018243}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 73, \"pump_events\": 52, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 39} pools_total=134066","ts":1795854989.2453964}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-28T08:33:50Z","ts":1795854999.3109593}
+{"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T08:37:38Z","ts":1795855081.157449}
+{"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795855131.8245206}
+{"level":"ERROR","msg":"aux feed error: AttributeError: 'NoneType' object has no attribute 'execute'","ts":1795855171.9368908}
