@@ -1069,3 +1069,8 @@
 {"level":"INFO","msg":"CANDIDATE MANIFEST / SOL PniHAEAHUU55MQDSoc87FNTR2j5cTdEGMbAMjVJ3ULG venue=raydium-clmm age=1.69h mc=569948 ath=569948 tx24=1699 reserve=53157.8532 src=trending_5m","ts":1795876235.7073665}
 {"level":"INFO","msg":"CANDIDATE ALTSZN / SOL 7XSn3d5fQpHR3vjTBHzPhsneNWQAExSnQSZF7RXPvTiT venue=raydium-clmm age=1.50h mc=539588 ath=539588 tx24=1512 reserve=51672.2674 src=trending_5m","ts":1795876240.769972}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876254.823167}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 2, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 15, \"pump_events\": 51, \"run_log\": 8, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 76} pools_total=140955","ts":1795876285.000549}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795876305.0389001}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876350.067594}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876395.0993326}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876435.1307209}
