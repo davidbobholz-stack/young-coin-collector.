@@ -6,3 +6,8 @@
 {"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795834398.5917356}
 {"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-25T22:15:04Z)","ts":1795834398.591859}
 {"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T02:48:10Z","ts":1795834398.5920005}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 30, \"ohlcv\": 0, \"pool_swaps\": 5, \"pools_seen\": 111, \"pump_events\": 71, \"run_log\": 7, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 18} pools_total=127484","ts":1795834462.4095364}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834487.432456}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834532.4542627}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-28T02:53:29Z","ts":1795834567.4788651}
+{"level":"INFO","msg":"new_pools pages=3 reached_prev=1 newest=2026-11-28T02:55:00Z","ts":1795834644.723702}
