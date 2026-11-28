@@ -1537,3 +1537,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795889661.0691757}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795889706.0949183}
 {"level":"INFO","msg":"CANDIDATE Artcoin / SOL EoieRrSzacpbfKPgmhywKjxFFGky8rQUpJxb1qfwTwdf venue=pumpswap age=0.72h mc=212111 ath=433284 tx24=10977 reserve=45033.5141 src=trending_1h","ts":1795889736.2836416}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 6, \"ohlcv\": 0, \"pool_swaps\": 3, \"pools_seen\": 112, \"pump_events\": 54, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 51} pools_total=146789","ts":1795889746.4494967}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795889756.1196551}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795889827.5602334}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795889877.588571}
+{"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-28T18:16:15Z","ts":1795889917.6195157}
