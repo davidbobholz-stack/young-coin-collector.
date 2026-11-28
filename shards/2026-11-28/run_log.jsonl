@@ -1554,3 +1554,11 @@
 {"level":"INFO","msg":"LOGGED reserve_below_20k Artcoin / SOL xJqkobew74ahWRzsCMB5dzeMdM8zYH1nHd5SMF46y1a venue=meteora mc=427746.097113922 reserve=10501.162","ts":1795890241.3230393}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795890247.4180212}
 {"level":"INFO","msg":"CANDIDATE Artcoin / SOL BSxog1zRgvJveAS6dCRctfErtnWZkhFRR2USJ7sgDuMF venue=meteora age=2.60h mc=504603 ath=504603 tx24=2211 reserve=26700.1506 src=watch_refresh","ts":1795890277.8799691}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 68, \"pump_events\": 103, \"run_log\": 7, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 153} pools_total=147051","ts":1795890305.9310164}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795890310.9579184}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795890360.9824688}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-28T18:24:20Z","ts":1795890396.0133495}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Artcoin / SOL 67jvx3RK5bKj1gBkXukYQgKtdAYAsvJsPVps1vwoaeMh venue=meteora-dlmm-pro mc=475565.490744983 reserve=366.86","ts":1795890409.6682076}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795890419.2053437}
+{"level":"INFO","msg":"LOGGED reserve_below_20k MoonBoy / SOL 124gZ5zfn7QAkJkMsnrBNrrjQtuBcuEvHujWUtDUWs57 venue=meteora mc=1122788.00946576 reserve=530.0649","ts":1795890454.5984254}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795890474.2333193}
