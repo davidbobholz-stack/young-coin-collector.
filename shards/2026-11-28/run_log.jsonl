@@ -1061,3 +1061,11 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795875959.3345513}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795876014.364667}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795876064.3986664}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 114, \"pump_events\": 74, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 137} pools_total=140940","ts":1795876094.645889}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-28T14:26:18Z","ts":1795876099.7419622}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876109.7138875}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876154.7487187}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876199.7842357}
+{"level":"INFO","msg":"CANDIDATE MANIFEST / SOL PniHAEAHUU55MQDSoc87FNTR2j5cTdEGMbAMjVJ3ULG venue=raydium-clmm age=1.69h mc=569948 ath=569948 tx24=1699 reserve=53157.8532 src=trending_5m","ts":1795876235.7073665}
+{"level":"INFO","msg":"CANDIDATE ALTSZN / SOL 7XSn3d5fQpHR3vjTBHzPhsneNWQAExSnQSZF7RXPvTiT venue=raydium-clmm age=1.50h mc=539588 ath=539588 tx24=1512 reserve=51672.2674 src=trending_5m","ts":1795876240.769972}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876254.823167}
