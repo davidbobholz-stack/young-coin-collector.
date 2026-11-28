@@ -1160,3 +1160,8 @@
 {"level":"INFO","msg":"LOGGED reserve_below_20k GROKSIE / SOL 2EWRp2N5k2o3CnBMugEDXJRz24CPBaEjfHHFHM65PUSx venue=pumpswap mc=407179.33 reserve=0.001947345743","ts":1795878881.8854825}
 {"level":"INFO","msg":"LOGGED reserve_below_20k BNBunnies / SOL HiXepdNDFY9cTPwGhRzTVPWVpNKcSPRkjMRYZgEAshzB venue=pumpswap mc=396191.8077 reserve=0.000326885485","ts":1795878891.9658434}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795878896.857457}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 0, \"pool_swaps\": 4, \"pools_seen\": 25, \"pump_events\": 70, \"run_log\": 9, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 125} pools_total=141976","ts":1795878927.0955493}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795878947.1295135}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795878997.162252}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879049.020751}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879094.0546868}
