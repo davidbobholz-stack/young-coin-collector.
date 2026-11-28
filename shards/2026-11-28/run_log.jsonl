@@ -1264,3 +1264,10 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795881851.2930691}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795881896.3295116}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795881946.3629086}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 62, \"pump_events\": 84, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 64} pools_total=143233","ts":1795881986.6182923}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795881996.4012334}
+{"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-28T16:05:10Z","ts":1795882036.4535646}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795882041.7714846}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Optimus / SOL AgkSxqpE39346KnJN5f2fhLY45SgTFVBGkEgSaeanGeN venue=pumpswap mc=652358165.7 reserve=0.2828","ts":1795882072.3106668}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795882086.8009377}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795882147.0698068}
