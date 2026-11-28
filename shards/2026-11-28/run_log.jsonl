@@ -80,3 +80,6 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795836894.5042417}
 {"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-28T03:33:32Z","ts":1795836934.5447936}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795836956.837185}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 84, \"pool_swaps\": 9, \"pools_seen\": 54, \"pump_events\": 74, \"run_log\": 4, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 10} pools_total=128497","ts":1795837247.7564192}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795837277.777805}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-28T03:39:01Z","ts":1795837312.8151984}
