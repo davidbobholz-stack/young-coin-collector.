@@ -622,3 +622,10 @@
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795860700.9605594}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795860746.5605683}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795860791.575154}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 1663, \"pool_swaps\": 5, \"pools_seen\": 33, \"pump_events\": 50, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 5} pools_total=135701","ts":1795860849.5533335}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795860852.3783925}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795860897.3938992}
+{"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-28T10:13:33Z","ts":1795860927.4134333}
+{"level":"INFO","msg":"LOGGED reserve_below_20k 1 / SOL EqBbntnuXWwn7r84dM7DaHEC5C5STJVMUroemLnXhUJT venue=pumpswap mc=1545828.638 reserve=0.000346569281111941","ts":1795860932.4154544}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795860947.4140234}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795860997.4291162}
