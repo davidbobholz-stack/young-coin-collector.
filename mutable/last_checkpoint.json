@@ -3,18 +3,18 @@
   "counts": {
     "candidates": 0,
     "downtime": 0,
-    "followup_results": 0,
+    "followup_results": 7,
     "ohlcv": 0,
     "pool_swaps": 0,
-    "pools_seen": 0,
-    "pump_events": 0,
-    "run_log": 6,
-    "wallet_events": 0,
+    "pools_seen": 21,
+    "pump_events": 51,
+    "run_log": 5,
+    "wallet_events": 4,
     "watch_closed": 0,
-    "watch_snapshots": 70
+    "watch_snapshots": 28
   },
-  "followups_pending": 400,
-  "iso": "2026-11-28T07:03:52Z",
-  "pools_total": 132356,
-  "ts": 1795849432.5964866
+  "followups_pending": 393,
+  "iso": "2026-11-28T07:07:09Z",
+  "pools_total": 132377,
+  "ts": 1795849629.7709684
 }
