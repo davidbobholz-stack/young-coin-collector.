@@ -1113,3 +1113,10 @@
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T14:49:59Z","ts":1795877525.5223427}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795877535.5157902}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795877575.5523908}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 36, \"pump_events\": 52, \"run_log\": 6, \"wallet_events\": 1, \"watch_closed\": 0, \"watch_snapshots\": 217} pools_total=141418","ts":1795877575.7884486}
+{"level":"INFO","msg":"LOGGED reserve_below_20k FLIP / SOL 57CAQwJpy8g71VYenEMXJ6hyXL2e1PwveceifLjhTm6b venue=pumpswap mc=277155.508677155 reserve=0.4024","ts":1795877610.9247649}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795877625.824951}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795877670.8662224}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T14:53:03Z","ts":1795877710.9241147}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795877715.900969}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795877755.932283}
