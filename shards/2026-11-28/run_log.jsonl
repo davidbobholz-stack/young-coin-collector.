@@ -914,3 +914,8 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795870987.2458014}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795871037.265422}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795871107.2055767}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 157, \"pool_swaps\": 0, \"pools_seen\": 31, \"pump_events\": 45, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 61} pools_total=138883","ts":1795871137.586116}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795871157.6030493}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-28T13:03:52Z","ts":1795871187.6241875}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795871260.6540833}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795871305.6687605}
