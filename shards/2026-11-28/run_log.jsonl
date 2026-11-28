@@ -265,3 +265,8 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795845103.6777368}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795845143.722044}
 {"level":"INFO","msg":"new_pools pages=9 reached_prev=1 newest=2026-11-28T05:50:01Z","ts":1795845178.8123639}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 2, \"pools_seen\": 117, \"pump_events\": 53, \"run_log\": 4, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 12} pools_total=131266","ts":1795845331.067402}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T05:55:00Z","ts":1795845351.1567602}
+{"level":"INFO","msg":"CANDIDATE BITCOINU / SOL G57CFXEDFWpUSMyURZZsjYCKZykXrmU6CSxFZaoJGoT7 venue=pumpswap age=1.16h mc=1321553 ath=1899356 tx24=19926 reserve=81546.0001 src=trending_5m","ts":1795845429.3677638}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795845449.2053714}
+{"level":"WARN","msg":"429 on trending; backoff 60s","ts":1795845479.2441208}
