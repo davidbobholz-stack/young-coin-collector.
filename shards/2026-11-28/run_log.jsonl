@@ -422,3 +422,9 @@
 {"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 5, \"ohlcv\": 3361, \"pool_swaps\": 4, \"pools_seen\": 29, \"pump_events\": 62, \"run_log\": 4, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 7} pools_total=133335","ts":1795852521.0334637}
 {"level":"INFO","msg":"new_pools pages=4 reached_prev=1 newest=2026-11-28T07:55:03Z","ts":1795852604.9311671}
 {"level":"WARN","msg":"429 on ohlcv_1m; backoff 30s","ts":1795852617.7508843}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 2, \"ohlcv\": 80, \"pool_swaps\": 6, \"pools_seen\": 74, \"pump_events\": 71, \"run_log\": 3, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 42} pools_total=133409","ts":1795852705.7151546}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795852709.7057297}
+{"level":"INFO","msg":"CANDIDATE Claude / SOL 2q8LH13JmRLysiq8W8BmvQbVthZDYWqDPnShABXkrhvx venue=pumpswap age=0.64h mc=2359224 ath=2359224 tx24=2688 reserve=107642.4674 src=trending_5m","ts":1795852744.9680824}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795852749.7429097}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795852799.7819543}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795852854.830501}
