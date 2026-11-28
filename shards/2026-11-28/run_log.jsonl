@@ -1173,3 +1173,11 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879208.2302692}
 {"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T15:19:33Z","ts":1795879248.2844071}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795879258.7255967}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 1, \"ohlcv\": 0, \"pool_swaps\": 11, \"pools_seen\": 155, \"pump_events\": 105, \"run_log\": 8, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 130} pools_total=142184","ts":1795879305.5997999}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795879308.7566345}
+{"level":"INFO","msg":"LOGGED reserve_below_20k Snowgent / SOL Adwh2a3Bqu3g6iruUmX5zQec7JctooscDXnj2DM9E51Y venue=pumpswap mc=1646911920.8 reserve=0.0071","ts":1795879339.1394498}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879358.788154}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879403.818601}
+{"level":"INFO","msg":"new_pools pages=5 reached_prev=1 newest=2026-11-28T15:21:27Z","ts":1795879433.8733132}
+{"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795879448.8579707}
+{"level":"INFO","msg":"CANDIDATE PAID / SOL CUExLKH2quFHHmJfRWWXgJaZicbJ7nhdAKhYGoDBwdQ6 venue=raydium-clmm age=2.54h mc=425346 ath=507660 tx24=2595 reserve=45607.9184 src=watch_refresh","ts":1795879484.243013}
