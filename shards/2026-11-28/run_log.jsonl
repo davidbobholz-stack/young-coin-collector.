@@ -1681,3 +1681,12 @@
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795894047.1389523}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795894092.1634831}
 {"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795894137.189539}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 112, \"pump_events\": 51, \"run_log\": 8, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 13} pools_total=148930","ts":1795894167.5297616}
+{"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795894182.6335166}
+{"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-28T19:23:45Z)","ts":1795894182.6336565}
+{"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T19:26:59Z","ts":1795894182.6338048}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795894194.2767045}
+{"level":"INFO","msg":"LOGGED reserve_below_20k RI / SOL H3qQVbdkGh6Xnmuojr3bQDgK9NA1DDtbj4jLBVQHhK6u venue=pumpswap mc=259981.9162 reserve=0.0005674087038","ts":1795894229.4383833}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795894244.300086}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795894289.3242702}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795894334.350147}
