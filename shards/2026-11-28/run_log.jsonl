@@ -1,1 +1,8 @@
 {"level":"INFO","msg":"START pid=2195 pending_followups=843 overdue=843 run_seconds=14400.0 data=/home/runner/work/young-coin-collector./young-coin-collector./data-wt (overdue ones run now, flagged late)","ts":1795834250.3767025}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 1, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 0, \"pump_events\": 0, \"run_log\": 1, \"wallet_events\": 0, \"watch_closed\": 6502, \"watch_snapshots\": 0} pools_total=127373","ts":1795834253.443889}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834283.479541}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834318.5057235}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795834368.5244944}
+{"level":"WARN","msg":"new_pools /new_pools?page=11 -> 401","ts":1795834398.5917356}
+{"level":"WARN","msg":"new_pools coverage gap: 11 pages did not reach last newest (2026-11-25T22:15:04Z)","ts":1795834398.591859}
+{"level":"INFO","msg":"new_pools pages=11 reached_prev=0 newest=2026-11-28T02:48:10Z","ts":1795834398.5920005}
