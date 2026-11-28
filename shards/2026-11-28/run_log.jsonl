@@ -1189,3 +1189,11 @@
 {"level":"INFO","msg":"new_pools pages=6 reached_prev=1 newest=2026-11-28T15:24:33Z","ts":1795879589.0877857}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795879600.923171}
 {"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795879645.9544551}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 60, \"pump_events\": 69, \"run_log\": 8, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 196} pools_total=142312","ts":1795879676.2058187}
+{"level":"INFO","msg":"LOGGED reserve_below_20k WLFI / SOL 59d9pqqhRr8UiZRsAfFadbhz6fPNYfQw4Jvn5y2NYYpP venue=meteora-dlmm-pro mc=219752.757200635 reserve=193.8177","ts":1795879681.4117928}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879691.2367651}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795879736.2740574}
+{"level":"INFO","msg":"new_pools pages=8 reached_prev=1 newest=2026-11-28T15:27:43Z","ts":1795879781.339251}
+{"level":"WARN","msg":"429 on multi_followup; backoff 30s","ts":1795879786.30733}
+{"level":"INFO","msg":"CANDIDATE Bedlington / SOL Fgx98VfaxnAKUKx7KavNaZVmVQFihRNYBt1c6YDHjoQ8 venue=pumpswap age=0.56h mc=681859 ath=779519 tx24=8944 reserve=59382.8351 src=trending_5m","ts":1795879821.363277}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795879836.340185}
