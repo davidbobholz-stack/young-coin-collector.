@@ -1379,3 +1379,10 @@
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795885146.865269}
 {"level":"WARN","msg":"429 on multi_watch; backoff 30s","ts":1795885196.9060912}
 {"level":"ERROR","msg":"aux feed error: AttributeError: 'NoneType' object has no attribute 'execute'","ts":1795885234.418707}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 1, \"pools_seen\": 109, \"pump_events\": 76, \"run_log\": 7, \"wallet_events\": 3, \"watch_closed\": 0, \"watch_snapshots\": 152} pools_total=144543","ts":1795885234.7226408}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795885244.7591746}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795885289.7942407}
+{"level":"INFO","msg":"new_pools pages=7 reached_prev=1 newest=2026-11-28T16:59:39Z","ts":1795885324.8531642}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795885360.1906056}
+{"level":"INFO","msg":"CANDIDATE Artcoin / SOL Fbn6RdQZ9mXHrfbz7eXMGdo1FkWd2gPQvaz2XPrZPtMr venue=pumpswap age=1.63h mc=446651 ath=446651 tx24=38881 reserve=47524.4822 src=trending_1h","ts":1795885400.2497993}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795885405.2277372}
