@@ -959,3 +959,9 @@
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872621.587473}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872666.616939}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872716.6433089}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 5, \"pump_events\": 0, \"run_log\": 5, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 68} pools_total=139541","ts":1795872756.9267118}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872766.6719058}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872816.703052}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795872861.7329292}
+{"level":"WARN","msg":"429 on ohlcv_ath; backoff 30s","ts":1795872906.7643437}
+{"level":"INFO","msg":"CANDIDATE WLFI / SOL 46973pyxHLtcjiZYtMZaQTYQji6yaxHTHqhqoc74VwCB venue=pumpswap age=8.83h mc=314827 ath=413616 tx24=60829 reserve=43127.4488 src=trending_24h","ts":1795872936.9332905}
