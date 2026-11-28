@@ -1080,3 +1080,8 @@
 {"level":"INFO","msg":"LOGGED reserve_below_20k USD2 / SOL 6jbEBJKXnGq7fA9uKn4dE3Bp2DXzAAn9kqwJAVHvR3Cj venue=pumpswap mc=2868706.893 reserve=0.0706","ts":1795876560.6420288}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876575.363864}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876615.3947628}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 0, \"pump_events\": 0, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 42} pools_total=140955","ts":1795876645.526186}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795876665.5553515}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795876731.0386815}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795876776.0718508}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795876826.1069024}
