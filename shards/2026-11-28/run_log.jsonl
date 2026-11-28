@@ -487,3 +487,5 @@
 {"level":"INFO","msg":"new_pools pages=2 reached_prev=1 newest=2026-11-28T08:37:38Z","ts":1795855081.157449}
 {"level":"WARN","msg":"429 on ohlcv_5m; backoff 30s","ts":1795855131.8245206}
 {"level":"ERROR","msg":"aux feed error: AttributeError: 'NoneType' object has no attribute 'execute'","ts":1795855171.9368908}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 0, \"downtime\": 0, \"followup_results\": 4, \"ohlcv\": 1356, \"pool_swaps\": 5, \"pools_seen\": 86, \"pump_events\": 71, \"run_log\": 5, \"wallet_events\": 3, \"watch_closed\": 0, \"watch_snapshots\": 3} pools_total=134152","ts":1795855173.4452026}
+{"level":"INFO","msg":"new_pools pages=1 reached_prev=1 newest=2026-11-28T08:38:50Z","ts":1795855232.8709586}
