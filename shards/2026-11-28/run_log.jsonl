@@ -1334,3 +1334,8 @@
 {"level":"INFO","msg":"CANDIDATE \ucf54\ub2ec / SOL 7fdAiwp7NA6gGn4GnSvtKKuEaxAYjFkQWroiiKf1GNrn venue=pumpswap age=0.97h mc=443233 ath=443233 tx24=34489 reserve=43413.2185 src=trending_6h","ts":1795883806.6366155}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795883816.4230247}
 {"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795883866.4591677}
+{"level":"INFO","msg":"checkpoint {\"candidates\": 1, \"downtime\": 0, \"followup_results\": 0, \"ohlcv\": 0, \"pool_swaps\": 0, \"pools_seen\": 0, \"pump_events\": 0, \"run_log\": 6, \"wallet_events\": 0, \"watch_closed\": 0, \"watch_snapshots\": 60} pools_total=143884","ts":1795883896.6319506}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795883916.6650097}
+{"level":"WARN","msg":"429 on trending; backoff 30s","ts":1795883961.6976655}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795884009.291464}
+{"level":"WARN","msg":"429 on new_pools; backoff 30s","ts":1795884059.323088}
